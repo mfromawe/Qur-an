@@ -1,0 +1,112 @@
+{
+  "title": "Hurûf-ı Mukatta'a Tefekkür & Murakabe Atlası",
+  "description": "29 Sure başındaki mukattaa harflerinin zâhirî tefsirleri, bâtınî işârî manaları, ebced şifreleri ve tasavvufi murakabe vecdi.",
+  "sources": [
+    "Fahreddîn er-Râzî - Mefâtîhu'l-Gayb (Tefsîr-i Kebîr)",
+    "İmâm et-Taberî - Câmi'u'l-Beyân",
+    "İbn Kesîr - Tefsîru'l-Kur'âni'l-Azîm",
+    "Bedîüzzaman Said Nursî - İşârâtü'l-İ'câz (Hurûf-u Mukattaa Bahsi)",
+    "İbnü'l-Arabî - el-Fütûhâtü'l-Mekkiyye"
+  ],
+  "surahs": [
+    {
+      "surah_id": 2,
+      "surah_name": "el-Bakara",
+      "letters_uthmani": "الم",
+      "letters_clean": "الم",
+      "abjad_total": 71,
+      "is_prime": true,
+      "tefsir_ozeti": "Elif-Lâm-Mîm: 'Elif' Cenâb-ı Hakk'ın Zât-ı Ehadini ve ezeliyetini, 'Lâm' vahiy elçisi Cebrâil'i (a.s.), 'Mîm' ise beşeriyetin efendisi Seyyidinâ Muhammed'i (s.a.v.) remzeder. İlahi vahyin menbaı, vasıtası ve muhatabı tek bir şifrede cem edilmiştir.",
+      "murakabe_boyutu": "Salik bu üç harfi murakabe ederken nefsin kesretinden sıyrılır. Ezelî ilmin kalbe vahyolunması için Lâm gibi mutî, Mîm gibi edebli, Elif gibi dosdoğru olma şuuru kazanır.",
+      "kitap_referansi": "İşârâtü'l-İ'câz s. 34; Mefâtîhu'l-Gayb c. 2, s. 12"
+    },
+    {
+      "surah_id": 3,
+      "surah_name": "Âl-i İmrân",
+      "letters_uthmani": "الم",
+      "letters_clean": "الم",
+      "abjad_total": 71,
+      "is_prime": true,
+      "tefsir_ozeti": "Tevhid akidesinin Hıristiyan teslis (üçleme) inancına karşı mutlak zaferidir. Elif Zât-ı Vâcibü'l-Vücûd, Mîm risâlet-i Ahmediyye, Lâm ise aradaki ilahi feyiz irtibatıdır.",
+      "murakabe_boyutu": "Kalbi şüphelerden ve şirk lekelerinden arındırarak mutlak Tevhid nuruna (El-Hayy ve El-Kayyûm) gark olma murakabesidir.",
+      "kitap_referansi": "Tefsîr-i İbn Kesîr c. 1, s. 340"
+    },
+    {
+      "surah_id": 7,
+      "surah_name": "el-A'râf",
+      "letters_uthmani": "المص",
+      "letters_clean": "المص",
+      "abjad_total": 161,
+      "is_prime": false,
+      "tefsir_ozeti": "Elif-Lâm-Mîm-Sâd: Elif-Lam-Mim hakikatine Sâd (Sıdk ve Sabır) eklenmiştir. Peygamberliğin doğruluğunu ve ümmetin çetin imtihanlarda sıdk üzere sebatını tescil eder.",
+      "murakabe_boyutu": "Göğsün daralmaması için ('Felâ yekün fî sadrıke haracün minh') kalbe inşirah veren sabır ve sıdk rabıtası.",
+      "kitap_referansi": "Fütûhât-ı Mekkiyye Bâb 198"
+    },
+    {
+      "surah_id": 10,
+      "surah_name": "Yûnus",
+      "letters_uthmani": "الر",
+      "letters_clean": "الر",
+      "abjad_total": 231,
+      "is_prime": false,
+      "tefsir_ozeti": "Elif-Lâm-Râ: Ene'llâhü Erâ (Ben Allah'ım, her şeyi görürüm). Râ harfi ilahi basîreti ve rahmet-i vasiayı temsil eder.",
+      "murakabe_boyutu": "Karanlık balığın karnında dahi kulunu terk etmeyen Rabbin rahmet nazarına sığınma vecdi.",
+      "kitap_referansi": "et-Taberî c. 11, s. 6"
+    },
+    {
+      "surah_id": 19,
+      "surah_name": "Meryem",
+      "letters_uthmani": "كهيعص",
+      "letters_clean": "كهيعص",
+      "abjad_total": 195,
+      "is_prime": false,
+      "tefsir_ozeti": "Kâf-Hâ-Yâ-Ayn-Sâd: En uzun mukattaa terkibidir. Kâf (Kâfî), Hâ (Hâdî), Yâ (Yümn/Emin), Ayn (Alîm), Sâd (Sâdık) esmalarına işaret sayılmıştır.",
+      "murakabe_boyutu": "Hz. Zekeriya'nın samimi gizli yakarışı (Nidâen hafiyyâ) gibi, beş harfin feyziyle kalbin en derin sırrında (Ahfâ) icabet arama hali.",
+      "kitap_referansi": "Rûhu'l-Meânî c. 16, s. 58"
+    },
+    {
+      "surah_id": 20,
+      "surah_name": "Tâhâ",
+      "letters_uthmani": "طه",
+      "letters_clean": "طه",
+      "abjad_total": 14,
+      "is_prime": false,
+      "tefsir_ozeti": "Tâ-Hâ: 'Yâ Tâhir, Yâ Hâdî' (Ey tertemiz kılınan ve ey hidayet rehberi olan). Resûlullah'ın (s.a.v.) mübarek isimlerindendir.",
+      "murakabe_boyutu": "Gece ayakları şişene kadar ibadet eden Habîbullah'a 'Kur'an'ı sana güçlük olsun diye indirmedik' hitabındaki sonsuz şefkati hissetme murakabesi.",
+      "kitap_referansi": "Şifâ-i Şerîf c. 1, s. 210"
+    },
+    {
+      "surah_id": 36,
+      "surah_name": "Yâsîn",
+      "letters_uthmani": "يس",
+      "letters_clean": "يس",
+      "abjad_total": 70,
+      "is_prime": false,
+      "tefsir_ozeti": "Yâ-Sîn: Kur'an'ın kalbidir. 'Yâ İnsân-ı Kâmil' veya 'Yâ Seyyid' demektir. Bütün varlık mertebelerini kendinde toplayan Hakîkat-i Muhammediyye'ye hitaptır.",
+      "murakabe_boyutu": "Yâ (10) ve Sîn (60) toplamı 70'tir. Yetmiş bin perdeyi aralayan nebevi nur ile kalbin dirilişi murakabe edilir.",
+      "kitap_referansi": "İşârâtü'l-İ'câz s. 98; Mefâtîh c. 26, s. 40"
+    },
+    {
+      "surah_id": 42,
+      "surah_name": "eş-Şûrâ",
+      "letters_uthmani": "حم عسق",
+      "letters_clean": "حم عسق",
+      "abjad_total": 246,
+      "is_prime": false,
+      "tefsir_ozeti": "Hâ-Mîm, Ayn-Sîn-Kâf: Beş harfli çift mukattaa. Ayn (İlim), Sîn (Selamet), Kâf (Kudret). Vahyin ve meşveretin metafizik temelidir.",
+      "murakabe_boyutu": "Arş'tan yeryüzüne inen ilahi takdir ve vahiy dalgalarının kalbe akışı; şifa ve manevi zırh murakabesi.",
+      "kitap_referansi": "Fütûhât Bâb 16"
+    },
+    {
+      "surah_id": 68,
+      "surah_name": "el-Kalem",
+      "letters_uthmani": "ن",
+      "letters_clean": "ن",
+      "abjad_total": 50,
+      "is_prime": false,
+      "tefsir_ozeti": "Nûn: 'Nûn ve'l-kalemi ve mâ yesturûn.' Kalem ve Levh-i Mahfuz'un ilahi mürekkep hokkasıdır. Balık (Yunus a.s.) ve nûr sırrıdır.",
+      "murakabe_boyutu": "Kader levhasına teslimiyet, kalemi tutan kudret elini müşahede ve nefis karanlığından nur deryasına çıkış murakabesi.",
+      "kitap_referansi": "et-Taberî c. 29, s. 12"
+    }
+  ]
+}

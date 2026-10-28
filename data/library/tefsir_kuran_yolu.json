@@ -1,0 +1,118 @@
+{
+  "source_id": "tefsir_kuran_yolu_tr",
+  "name": "Kur'an Yolu Tefsiri",
+  "author": "Diyanet İşleri Heyeti (Prof. Dr. Hayrettin Karaman, Prof. Dr. Mustafa Çağrıcı, Prof. Dr. İbrahim Kâfi Dönmez, Prof. Dr. Sadık Kılıç)",
+  "type": "tefsir",
+  "lang_code": "tr",
+  "description": "Diyanet İşleri Başkanlığı Kur'an Yolu Türkçe Tefsir ve Meal Külliyatı. Ayetlerin nüzul sebebi, siyak-sibak irtibatı ve çağdaş fıkhî/itikadî tahlili.",
+  "entries": [
+    {
+      "surah_id": 1,
+      "verse_id": 1,
+      "content": "Besmele her meşru işin başında söylenmesi sünnet olan, Kur'an'ın ilk anahtarıdır. Rahmân ve Rahîm isimleri Cenâb-ı Hakk'ın hem kuşatıcı ezelî merhametini hem de müminlere mahsus ebedî lütfunu ifade eder. Sureler arasındaki mana rabıtası Besmele ile teyit edilir.",
+      "nuzul": "Fâtiha suresi Mekke döneminde nâzil olmuştur. Namazın her rekâtında okunması farz kılınan 'Seb'u'l-Mesânî' (Tekrarlanan Yedi Ayet) olarak vasıflandırılmıştır."
+    },
+    {
+      "surah_id": 1,
+      "verse_id": 2,
+      "content": "Hamd, mutlak kemal sıfatlarıyla muttasıf olan Allah Teâlâ'ya tahsis edilmiştir. 'Âlemlerin Rabbi' ifadesi, yaratılmış bütün varlık alanlarının (fizik ve metafizik) O'nun terbiye, tasarruf ve inayeti altında olduğunu tescil eder.",
+      "nuzul": "Cahiliye dönemindeki şirk tasavvurunu yıkarak her türlü nimeti gerçek sahibine nispet eder."
+    },
+    {
+      "surah_id": 1,
+      "verse_id": 3,
+      "content": "'O, Rahmândır ve Rahîmdir.' Cenâb-ı Hak azamet ve kibriyâsını beyan ettikten hemen sonra lütuf ve merhamet sıfatlarını tekrar zikrederek kullarına ümit ve emniyet aşılar. Rubûbiyet tecellisi merhametle kaimdir.",
+      "nuzul": "Mahlukata karşı merhamet ve şefkatin ilahi ahlak olarak benimsenmesini emreder."
+    },
+    {
+      "surah_id": 1,
+      "verse_id": 4,
+      "content": "'Din gününün sahibidir.' Din günü, amellerin karşılığının verileceği, adalet-i mahzanın tecelli edeceği hesap günüdür. O gün mülk ve tasarruf yalnızca Zât-ı Zülcelâl'e aittir.",
+      "nuzul": "Ahiret inancını ve sorumluluk şuurunu müminin zihninde canlı tutar."
+    },
+    {
+      "surah_id": 1,
+      "verse_id": 5,
+      "content": "'Yalnız Sana kulluk eder, yalnız Senden yardım dileriz' ayeti tevhidin zirvesidir. Kul, önce ibadet ve taat borcunu ikrar eder (iyyâke na'budu), ardından aczini ve Cenâb-ı Hakk'ın yardımına muhtaç olduğunu arz eder (iyyâke neste'în). Tevhid ve tevekkül dengesi burada kemale erer.",
+      "nuzul": "Riyâ ve şirkten uzak, ihlâslı ibadet bilincinin esasıdır."
+    },
+    {
+      "surah_id": 1,
+      "verse_id": 6,
+      "content": "Sırât-ı müstakîm (dosdoğru yol), ifrat ve tefritten uzak, vahiy ve akl-ı selim rehberliğindeki hidayet caddesidir. Bu dua, müminin günde beş vakit namazda tekrar ettiği en mühim istikamet yakarışıdır.",
+      "nuzul": "İtikatta, amelde ve ahlakta dengeli ve doğru yolda kalma duasıdır."
+    },
+    {
+      "surah_id": 1,
+      "verse_id": 7,
+      "content": "'Kendilerine lütuf ve ihsanda bulunduğun peygamberlerin, sıddîkların, şehidlerin ve salihlerin yoluna; gazaba uğramışların ve sapmışların yoluna değil.' Hidayet yolunun rehberleri salihlerdir; sapkınlık ise hakkı bilip yüz çevirenlerin ve hevasına tabi olanların akıbetidir.",
+      "nuzul": "Tarih boyunca peygamberlerin izinden gidenlerle haktan sapanların ibretlik tablosudur."
+    },
+    {
+      "surah_id": 2,
+      "verse_id": 1,
+      "content": "Elif-Lâm-Mîm: Hurûf-ı mukattaadır. Kur'an'ın mucizevi belagatını ilan eder. İnsanların bildiği harflerden teşekkül ettiği halde bir benzerinin getirilememesi, vahyin ilahi menşeli olduğunun kat'i delilidir.",
+      "nuzul": "Bakara Suresi Medine döneminde nazil olan ilk ve en uzun suredir."
+    },
+    {
+      "surah_id": 2,
+      "verse_id": 2,
+      "content": "'İşte o Kitap; onda hiçbir şüphe yoktur; takvâ sahipleri için bir hidayettir.' Kur'an'ın hakkaniyeti aklen ve naklen sabittir. Ondan ancak kalbinde takva ve hakikat arayışı bulunanlar istifade edebilir.",
+      "nuzul": "Münafıkların ve şüphecilerin tereddütlerini bertaraf eden kesin beyandır."
+    },
+    {
+      "surah_id": 2,
+      "verse_id": 255,
+      "content": "Âyetü'l-Kürsî: Tevhid inancının en kapsamlı ve ihtişamlı âyetidir. Allah'ın ezelî diriliği (el-Hayy), kâinatı yönetip ayakta tutması (el-Kayyûm), uyuklama ve gafletten münezzeh oluşu, kürsîsinin gökleri ve yeri kuşatması tafsilatıyla anlatılır.",
+      "nuzul": "Resûlullah (s.a.v.) bu ayetin Kur'an'ın en faziletli ayeti olduğunu beyan buyurmuştur."
+    },
+    {
+      "surah_id": 36,
+      "verse_id": 1,
+      "content": "Yâ-Sîn: Kur'an'ın kalbidir. Vahiy, peygamberlik, diriliş ve tevhidi veciz bir surette ihtiva eder. Cenâb-ı Hakk'ın Resûlullah'a muhabbetle hitabıdır.",
+      "nuzul": "Mekke müşriklerinin peygamberliği inkâr etmelerine karşı ilahî bir teselli ve kesin cevaptır."
+    },
+    {
+      "surah_id": 108,
+      "verse_id": 1,
+      "content": "Kevser: Pek çok hayır, bereket, ilim, şefaat makamı ve peygamberlik şerefi demektir. Müşriklerin 'Resûlullah'ın nesli kesildi' (ebter) iftirasına ilahî bir reddiye olarak inzal buyrulmuştur.",
+      "nuzul": "Resûlullah'ın erkek çocuklarının vefatı üzerine müşriklerin kınamasına karşılık inmiştir."
+    },
+    {
+      "surah_id": 108,
+      "verse_id": 2,
+      "content": "'Rabbin için namaz kıl ve kurban kes.' İbadetin yalnızca Allah rızasına hasredilmesi, putlara kurban sunan cahiliye şirk akidelerine karşı tevhid amelinin açık beyanıdır.",
+      "nuzul": "İbadet ve fedakarlığın yalnızca Halık'a tahsis edilmesi emredilmiştir."
+    },
+    {
+      "surah_id": 108,
+      "verse_id": 3,
+      "content": "Asıl ebter (sonu kesik ve bereketsiz olan), Peygamberimiz'e buğzeden As b. Vâil ve avenesidir. Resûlullah'ın adı ve dini kıyamete kadar baki kalırken, düşmanlarının adı ancak lânetle anılmıştır.",
+      "nuzul": "Hakk'a düşmanlık edenlerin tarih sahnesinden silineceği müjdesidir."
+    },
+    {
+      "surah_id": 112,
+      "verse_id": 1,
+      "content": "İhlâs Suresi Kur'an'ın üçte birine denk tutulmuştur çünkü tevhid akidesinin özünü teşkil eder. 'De ki: O, Allah birdir.' Eşi, benzeri, şeriki ve dengi bulunmayan mutlak zâtî birlik (Vahdaniyet).",
+      "nuzul": "Müşriklerin 'Bize Rabbinin soyunu anlat' demeleri üzerine inmiştir."
+    },
+    {
+      "surah_id": 112,
+      "verse_id": 2,
+      "content": "Allahü's-Samed: Her şey ve herkes O'na muhtaçtır, fakat O hiçbir şeye muhtaç değildir. Eksiksiz, noksansız, ezelî ve ebedî istiğnâ sahibidir.",
+      "nuzul": "Yaratılmışlara mahsus zaaf ve noksanlıklardan Allah'ın tenzih edilmesidir."
+    },
+    {
+      "surah_id": 113,
+      "verse_id": 1,
+      "content": "Kul e'ûzü bi Rabbi'l-felak: Sabahın aydınlığını yaratan, karanlığı yarıp nuru çıkaran Rabbe sığınma emridir. Felak, varlığın yokluk karanlığından varlık aydınlığına çıkarılışını da ifade eder.",
+      "nuzul": "Muavvizeteyn (Felak ve Nas) sureleri haset, nazar ve sihir gibi manevi tehlikelere karşı zırh olarak indirilmiştir."
+    },
+    {
+      "surah_id": 114,
+      "verse_id": 1,
+      "content": "Kul e'ûzü bi Rabbi'n-nâs: İnsanların Rabbine, Melikine ve İlahına sığınma. Vesvese veren sinsi şeytanların ve nefsin hilelerinden ilahi koruma altına girme yakarışıdır.",
+      "nuzul": "İçsel vesveselere ve manevi düşmanlıklara karşı Kur'an'ın nihai sığınağıdır."
+    }
+  ]
+}

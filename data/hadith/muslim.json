@@ -1,0 +1,77 @@
+{
+  "collection": "muslim",
+  "name": "Sahîh-i Müslim (الجامع الصحيح)",
+  "author": "Ebû'l-Hüseyn Müslim b. el-Haccâc el-Kuşeyrî en-Nîsâbûrî (r.a.)",
+  "hadiths": [
+    {
+      "collection": "muslim",
+      "book_number": 1,
+      "book_name_tr": "Kitâbü'l-Îmân (Cibrîl Hadisi)",
+      "book_name_ar": "كتاب الإيمان",
+      "hadith_number": 8,
+      "narrator": "Hz. Ömer b. el-Hattâb (r.a.)",
+      "arabic_text": "قَالَ: فَأَخْبِرْنِي عَنِ الإِحْسَانِ؟ قَالَ: أَنْ تَعْبُدَ اللَّهَ كَأَنَّكَ تَرَاهُ، فَإِنْ لَمْ تَكُنْ تَرَاهُ فَإِنَّهُ يَرَاكَ. قَالَ: فَأَخْبِرْنِي عَنِ السَّاعَةِ؟ قَالَ: مَا الْمَسْئُولُ عَنْهَا بِأَعْلَمَ مِنَ السَّائِلِ...",
+      "translation_tr": "(Cebrail a.s.) 'Bana ihsandan haber ver' dedi. Resûlullah: 'İhsan, Allah'ı görüyormuşsun gibi O'na kulluk etmendir. Çünkü sen O'nu görmüyor olsan da O seni muhakkak görmektedir' buyurdu.",
+      "translation_en": "(Gabriel said): Inform me about Ihsan (perfection). He (the Prophet) said: That you should worship Allah as if you see Him, for if you do not see Him, He surely sees you.",
+      "related_surahs": [1, 2, 57],
+      "related_verses": ["1:5", "2:112", "57:4"],
+      "keywords": ["cibril hadisi", "ihsan", "murakabe", "görüyormuş gibi ibadet", "basiret"]
+    },
+    {
+      "collection": "muslim",
+      "book_number": 4,
+      "book_name_tr": "Kitâbü's-Salât (Fâtiha Sırrı / Hadis-i Kudsî)",
+      "book_name_ar": "كتاب الصلاة",
+      "hadith_number": 395,
+      "narrator": "Ebû Hüreyre (r.a.)",
+      "arabic_text": "قَسَمْتُ الصَّلاَةَ بَيْنِي وَبَيْنَ عَبْدِي نِصْفَيْنِ وَلِعَبْدِي مَا سَأَلَ، فَإِذَا قَالَ الْعَبْدُ: {الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ}، قَالَ اللَّهُ تَعَالَى: حَمِدَنِي عَبْدِي، وَإِذَا قَالَ: {الرَّحْمَنِ الرَّحِيمِ}، قَالَ اللَّهُ تَعَالَى: أَثْنَى عَلَىَّ عَبْدِي...",
+      "translation_tr": "Allah Teâlâ buyurdu ki: 'Namazı (Fâtiha'yı) Kendim ile kulum arasında iki yarıya böldüm. Kuluma istediği verilecektir. Kul 'Hamd âlemlerin Rabbi olan Allah'a mahsustur' dediğinde, Allah 'Kulum Bana hamdetti' buyurur... Kul 'Yalnız Sana kulluk eder, yalnız Senden yardım dileriz' dediğinde, Allah 'Bu Benimle kulum arasındadır' buyurur.'",
+      "translation_en": "Allah, the Exalted, said: I have divided the prayer into two halves between Myself and My servant, and My servant will receive what he asks for. When the servant says: Praise be to Allah, Lord of the Universe, Allah says: My servant has praised Me.",
+      "related_surahs": [1],
+      "related_verses": ["1:1", "1:2", "1:3", "1:4", "1:5", "1:6", "1:7"],
+      "keywords": ["fatiha", "hadisi kudsi", "namazı ikiye böldüm", "hamd", "iyyake nabudu"]
+    },
+    {
+      "collection": "muslim",
+      "book_number": 6,
+      "book_name_tr": "Kitâbü Salâti'l-Müsâfirîn (Âyetü'l-Kürsî)",
+      "book_name_ar": "كتاب صلاة المسافرين",
+      "hadith_number": 810,
+      "narrator": "Ubeyy b. Ka'b (r.a.)",
+      "arabic_text": "يَا أَبَا الْمُنْذِرِ أَتَدْرِي أَىَّ آيَةٍ مِنْ كِتَابِ اللَّهِ مَعَكَ أَعْظَمُ؟ قَالَ قُلْتُ: اللَّهُ لاَ إِلَهَ إِلاَّ هُوَ الْحَىُّ الْقَيُّومُ. قَالَ فَضَرَبَ فِي صَدْرِي وَقَالَ: وَاللَّهِ لِيَهْنِكَ الْعِلْمُ أَبَا الْمُنْذِرِ.",
+      "translation_tr": "Resûlullah (s.a.v.) sordu: 'Ey Eba'l-Münzir! Yanındaki Allah'ın Kitabı'ndan hangi ayet en büyüktür bilir misin?' Ben: 'Allâhü lâ ilâhe illâ Hüve'l-Hayyü'l-Kayyûm (Âyetü'l-Kürsî)' dedim. Bunun üzerine göğsüme vurup: 'Vallahi ilim sana mübarek olsun ey Eba'l-Münzir!' buyurdu.",
+      "translation_en": "The Messenger of Allah said: Abu'l-Mundhir, which verse of Allah's Book is greatest? I replied: Allah, there is no god but He, the Living, the Eternal. Thereupon he struck me on the breast and said: May knowledge be pleasant for you, O Abu'l-Mundhir!",
+      "related_surahs": [2],
+      "related_verses": ["2:255"],
+      "keywords": ["ayetel kursi", "en büyük ayet", "ubeyy bin kab", "ilim mübarek olsun"]
+    },
+    {
+      "collection": "muslim",
+      "book_number": 6,
+      "book_name_tr": "Kitâbü Salâti'l-Müsâfirîn (Bakara Son İki Âyet)",
+      "book_name_ar": "كتاب صلاة المسافرين",
+      "hadith_number": 808,
+      "narrator": "Ebû Mes'ûd el-Bedrî (r.a.)",
+      "arabic_text": "مَنْ قَرَأَ بِالآيَتَيْنِ مِنْ آخِرِ سُورَةِ الْبَقَرَةِ فِي لَيْلَةٍ كَفَتَاهُ.",
+      "translation_tr": "Kim geceleyin Bakara Suresi'nin sonundaki iki âyeti (Âmene'r-Resûlü) okursa, o iki âyet o gece ona kâfi gelir (her türlü şerden korur).",
+      "translation_en": "If anyone recites the last two verses of Surah al-Baqarah at night, they will be sufficient for him.",
+      "related_surahs": [2],
+      "related_verses": ["2:285", "2:286"],
+      "keywords": ["amenerresulu", "bakaranın son iki ayeti", "gece okuma", "kifayet"]
+    },
+    {
+      "collection": "muslim",
+      "book_number": 48,
+      "book_name_tr": "Kitâbü'z-Zikr ve'd-Duâ (Zikrin Fazileti)",
+      "book_name_ar": "كتاب الذكر والدعاء",
+      "hadith_number": 2691,
+      "narrator": "Ebû Hüreyre (r.a.)",
+      "arabic_text": "سَبَقَ الْمُفَرِّدُونَ! قَالُوا: وَمَا الْمُفَرِّدُونَ يَا رَسُولَ اللَّهِ؟ قَالَ: الذَّاكِرُونَ اللَّهَ كَثِيرًا وَالذَّاكِرَاتُ.",
+      "translation_tr": "Resûlullah (s.a.v.) 'Müferridûn (yalnız kalanlar / öne geçenler) yarışı kazandı!' buyurdu. Sahabeler: 'Müferridûn kimlerdir yâ Resûlallah?' diye sordular. 'Allah'ı çokça zikreden erkekler ve kadınlardır' buyurdu.",
+      "translation_en": "The Messenger of Allah said: The Mufarridun have gone ahead. They said: Who are the Mufarridun? He said: Men and women who remember Allah much.",
+      "related_surahs": [33, 2],
+      "related_verses": ["33:35", "2:152"],
+      "keywords": ["muferridun", "zikir", "fazilet", "yakanlar", "hafız"]
+    }
+  ]
+}

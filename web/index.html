@@ -1,0 +1,2627 @@
+<!DOCTYPE html>
+<html lang="tr" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kur'ân-ı Kerîm | Metin, Mealler, Mucizeler, Örüntüler & Ebced Platformu</title>
+  <meta name="description" content="Kur'an-ı Kerim metinleri, mealleri, harf harf sure analizleri, asal sayı örüntüleri, merkez simetrileri ve ebced hesaplama platformu.">
+  
+  <!-- Modern Typography: Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Amiri:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+  
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23f59e0b'><path d='M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z'/><path d='M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z'/></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="theme-parchment">
+
+  <!-- ================= TOP HEADER ================= -->
+  <header class="app-header">
+    <div class="header-inner">
+      <div class="brand-section">
+        <div class="brand-emblem" title="Kur'ân-ı Kerîm Mushaf-ı Şerîf">
+          <svg viewBox="0 0 44 44" class="emblem-svg" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#fde68a" />
+                <stop offset="50%" stop-color="#f59e0b" />
+                <stop offset="100%" stop-color="#b45309" />
+              </linearGradient>
+              <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#6ee7b7" />
+                <stop offset="100%" stop-color="#059669" />
+              </linearGradient>
+              <filter id="glowBook" x="-20%" y="-20%" width="140%" height="140%">
+                <feGaussianBlur stdDeviation="1.2" result="blur" />
+                <feComposite in="SourceGraphic" in2="blur" operator="over" />
+              </filter>
+            </defs>
+            <!-- Outer halo ring -->
+            <circle cx="22" cy="22" r="20" stroke="url(#goldGrad)" stroke-width="1.2" stroke-dasharray="3 2" opacity="0.6"/>
+            <!-- Rahle (Stand X legs) -->
+            <path d="M12 36 L22 25 L32 36" stroke="url(#goldGrad)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+            <path d="M14 38 L30 38" stroke="url(#goldGrad)" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+            <!-- Open Book Pages (Left & Right) with curved spine -->
+            <path d="M22 25 C18 22 13 22 7 24 C6.5 24.2 6 23.8 6 23.2 L6 11.5 C6 10.9 6.5 10.4 7.1 10.2 C13 8.8 18 9.5 22 12.5 Z" 
+                  fill="rgba(16, 185, 129, 0.22)" stroke="url(#emeraldGrad)" stroke-width="1.4" stroke-linejoin="round"/>
+            <path d="M22 25 C26 22 31 22 37 24 C37.5 24.2 38 23.8 38 23.2 L38 11.5 C38 10.9 37.5 10.4 36.9 10.2 C31 8.8 26 9.5 22 12.5 Z" 
+                  fill="rgba(245, 158, 11, 0.22)" stroke="url(#goldGrad)" stroke-width="1.4" stroke-linejoin="round"/>
+            <!-- Spine center line -->
+            <line x1="22" y1="12.5" x2="22" y2="25" stroke="url(#goldGrad)" stroke-width="1.8" stroke-linecap="round"/>
+            <!-- Page script calligraphy lines -->
+            <path d="M10 14.5 C13 14 16 14.5 18 15.5 M10 18 C13 17.5 16 18 18 19 M10 21.5 C13 21 16 21.5 18 22.5" 
+                  stroke="rgba(110, 231, 183, 0.75)" stroke-width="1" stroke-linecap="round"/>
+            <path d="M26 15.5 C28 14.5 31 14 34 14.5 M26 19 C28 18 31 17.5 34 18 M26 22.5 C28 21.5 31 21 34 21.5" 
+                  stroke="rgba(251, 191, 36, 0.75)" stroke-width="1" stroke-linecap="round"/>
+            <!-- Divine Nuqta (Dot of Noor) floating above book -->
+            <circle cx="22" cy="7" r="1.8" fill="url(#goldGrad)" filter="url(#glowBook)"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <h1 class="brand-title">KUR'ÂN-I KERÎM</h1>
+          <span class="brand-subtitle">İlim, Örüntüler & Mucizeler Laboratuvarı</span>
+        </div>
+      </div>
+
+      <!-- Main Navigation Tabs (Horizontally Scrollable, Non-Wrapping) -->
+      <div class="nav-tabs-wrapper">
+        <nav class="nav-tabs" role="tablist">
+          <button class="nav-tab active" data-tab="reader" id="tab-btn-reader" role="tab" aria-selected="true">
+            <svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            <span data-i18n="tabReader">Mushaf & Mealler</span>
+          </button>
+          <button class="nav-tab" data-tab="delail" id="tab-btn-delail" role="tab" aria-selected="false">
+            <svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <span data-i18n="tabDelail">Delâilü'l-Hayrât</span>
+            <span class="badge-mini">8 Hizib</span>
+          </button>
+          <button class="nav-tab" data-tab="hadith" id="tab-btn-hadith" role="tab" aria-selected="false">
+            <svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+            <span data-i18n="tabHadith">Hadis-i Şerif</span>
+            <span class="badge-mini">Sahihayn</span>
+          </button>
+          <button class="nav-tab" data-tab="patterns" id="tab-btn-patterns" role="tab" aria-selected="false">
+            <svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+            <span data-i18n="tabPatterns">Örüntüler & Simetri</span>
+            <span class="badge-mini">5 Ölçek</span>
+          </button>
+          <button class="nav-tab" data-tab="visualizer" id="tab-btn-visualizer" role="tab" aria-selected="false">
+            <svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 3v18"/><path d="M3 12h18"/><circle cx="12" cy="12" r="4"/></svg>
+            <span data-i18n="tabVisualizer">Görselleştirmeler</span>
+          </button>
+          <button class="nav-tab" data-tab="nurmuhammad" id="tab-btn-nurmuhammad" role="tab" aria-selected="false">
+            <svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="4" r="1.5"/><circle cx="12" cy="20" r="1.5"/><circle cx="4" cy="12" r="1.5"/><circle cx="20" cy="12" r="1.5"/><circle cx="6.34" cy="6.34" r="1.5"/><circle cx="17.66" cy="17.66" r="1.5"/></svg>
+            <span data-i18n="tabNurMuhammad">Esrâr-ı Hurûf</span>
+          </button>
+          <button class="nav-tab" data-tab="roots" id="tab-btn-roots" role="tab" aria-selected="false">
+            <svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+            <span data-i18n="tabRoots">Kökler Sözlüğü</span>
+            <span class="badge-mini">1,248 Kök</span>
+          </button>
+          <button class="nav-tab" data-tab="miracles" id="tab-btn-miracles" role="tab" aria-selected="false">
+            <svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m4.93 4.93 4.24 4.24"/><path d="m14.83 9.17 4.24-4.24"/><path d="m14.83 14.83 4.24 4.24"/></svg>
+            <span data-i18n="tabMiracles">Mucizeler & Kelimeler</span>
+          </button>
+          <button class="nav-tab" data-tab="abjad" id="tab-btn-abjad" role="tab" aria-selected="false">
+            <svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M7 8h10"/><path d="M7 12h10"/><path d="M7 16h10"/></svg>
+            <span data-i18n="tabAbjad">Ebced / Cifir</span>
+          </button>
+          <button class="nav-tab" data-tab="search" id="tab-btn-search" role="tab" aria-selected="false">
+            <svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            <span data-i18n="tabSearch">Arama</span>
+          </button>
+        </nav>
+      </div>
+
+      <!-- Header Compact Controls (No Wrapping at 100vw) -->
+      <div class="header-actions">
+        <!-- Compact Keşif Action Trigger -->
+        <button class="header-action-btn highlight" id="btn-header-explorer" title="Bağlamsal Kur'an Keşif & İşaret Motoru">
+          <span class="btn-icon">✨</span>
+          <span class="btn-label" data-i18n="tabExplorer">Keşif</span>
+        </button>
+
+        <!-- Compact Theme Selector Dropdown -->
+        <div class="header-select-wrap" title="Görünüm Teması">
+          <select id="header-theme-select" class="compact-header-select" aria-label="Görünüm Teması">
+            <option value="parchment">📜 Kağıt</option>
+            <option value="dark">🌌 Gece</option>
+            <option value="sepya">🕯️ Sepya</option>
+          </select>
+        </div>
+
+        <!-- Compact Language Selector Dropdown (Google Directory API BCP 47 Standards) -->
+        <div class="header-select-wrap" title="Dil Seçimi (BCP 47: tr, en, ar, de, fr, es, ru)">
+          <select id="header-lang-select" class="compact-header-select lang-select" aria-label="Dil Seçimi">
+            <option value="tr">🇹🇷 TR</option>
+            <option value="en">🇬🇧 EN</option>
+            <option value="ar">🇸🇦 AR</option>
+            <option value="de">🇩🇪 DE</option>
+            <option value="fr">🇫🇷 FR</option>
+            <option value="es">🇪🇸 ES</option>
+            <option value="ru">🇷🇺 RU</option>
+          </select>
+        </div>
+
+        <!-- Quick Verse Jump Trigger -->
+        <button class="header-icon-btn" id="btn-quick-verse" title="Ayet Hızlı Erişim & Outreach (Ctrl+J)">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><polyline points="13 2 13 9 20 9"/></svg>
+        </button>
+
+        <!-- Minimal Focus Toggle -->
+        <button class="header-icon-btn" id="btn-toggle-focus" title="Minimal Odak Modu (F)">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/></svg>
+        </button>
+
+        <!-- Quick Search Trigger (⌘K) -->
+        <button class="header-action-btn search-pill" id="btn-quick-search" title="Hızlı Arama (Ctrl+K)">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <span class="btn-kbd">⌘K</span>
+        </button>
+
+        <!-- Responsive Hamburger Trigger -->
+        <button class="btn-hamburger" id="btn-hamburger-menu" aria-label="Menüyü Aç" aria-expanded="false" title="Menü">
+          <div class="hamburger-icon-wrap">
+            <span class="hbar"></span>
+            <span class="hbar"></span>
+            <span class="hbar"></span>
+          </div>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Off-Canvas Mobile / Compact Navigation Drawer -->
+  <div class="nav-drawer-backdrop" id="nav-drawer-backdrop"></div>
+  <aside class="mobile-nav-drawer" id="mobile-nav-drawer" aria-hidden="true">
+    <div class="m-drawer-header">
+      <div class="m-drawer-brand">
+        <span class="m-brand-title">KUR'ÂN-I KERÎM</span>
+        <span class="m-brand-subtitle">İlim, Örüntüler & Mucizeler</span>
+      </div>
+      <button class="m-drawer-close" id="btn-close-nav-drawer" aria-label="Kapat">&times;</button>
+    </div>
+
+    <!-- Quick Verse Outreach in Drawer -->
+    <div class="m-drawer-section">
+      <div class="m-section-title">HIZLI AYET ERİŞİMİ & OUTREACH</div>
+      <div class="m-verse-jump-box">
+        <input type="text" id="m-verse-jump-input" placeholder="Sure : Ayet (Örn: 2:255)" autocomplete="off" />
+        <button id="btn-m-verse-jump-go">Git</button>
+      </div>
+      <div class="m-quick-verse-pills">
+        <button class="m-v-pill" data-surah="1" data-ayah="1">1:1 Fâtiha</button>
+        <button class="m-v-pill" data-surah="2" data-ayah="1">2:1 Elif-Lâm-Mîm</button>
+        <button class="m-v-pill" data-surah="2" data-ayah="255">2:255 Âyetü'l-Kürsî</button>
+        <button class="m-v-pill" data-surah="2" data-ayah="285">2:285 Âmenerresûlü</button>
+        <button class="m-v-pill" data-surah="36" data-ayah="1">36:1 Yâsîn</button>
+        <button class="m-v-pill" data-surah="55" data-ayah="1">55:1 Rahmân</button>
+        <button class="m-v-pill" data-surah="67" data-ayah="1">67:1 Mülk</button>
+        <button class="m-v-pill" data-surah="112" data-ayah="1">112:1 İhlâs</button>
+      </div>
+    </div>
+
+    <!-- Navigation Tabs in Drawer -->
+    <div class="m-drawer-section">
+      <div class="m-section-title">BÖLÜMLER & İLİMLER</div>
+      <nav class="m-nav-list">
+        <button class="m-nav-item active" data-tab="reader">
+          <span class="m-item-icon">📖</span>
+          <span class="m-item-text">Mushaf & Mealler</span>
+        </button>
+        <button class="m-nav-item" data-tab="delail">
+          <span class="m-item-icon">📿</span>
+          <span class="m-item-text">Delâilü'l-Hayrât</span>
+          <span class="m-item-badge">8 Hizib / 201 İsim</span>
+        </button>
+        <button class="m-nav-item" data-tab="hadith">
+          <span class="m-item-icon">📜</span>
+          <span class="m-item-text">Hadis-i Şerif (Sahihayn)</span>
+          <span class="m-item-badge">Buhârî & Müslim</span>
+        </button>
+        <button class="m-nav-item" data-tab="patterns">
+          <span class="m-item-icon">📐</span>
+          <span class="m-item-text">Örüntüler & Simetri</span>
+          <span class="m-item-badge">5 Ölçek</span>
+        </button>
+        <button class="m-nav-item" data-tab="visualizer">
+          <span class="m-item-icon">🌌</span>
+          <span class="m-item-text">Görselleştirmeler</span>
+          <span class="m-item-badge">Canvas & Dalga</span>
+        </button>
+        <button class="m-nav-item" data-tab="nurmuhammad">
+          <span class="m-item-icon">✨</span>
+          <span class="m-item-text">Esrâr-ı Hurûf (Nur Muhammad)</span>
+          <span class="m-item-badge">Naqshbandi / Şifa</span>
+        </button>
+        <button class="m-nav-item" data-tab="miracles">
+          <span class="m-item-icon">🔍</span>
+          <span class="m-item-text">Mucizeler & Kelimeler</span>
+        </button>
+        <button class="m-nav-item" data-tab="abjad">
+          <span class="m-item-icon">🔢</span>
+          <span class="m-item-text">Ebced / Cifir & Asal Sayılar</span>
+        </button>
+        <button class="m-nav-item" data-tab="search">
+          <span class="m-item-icon">🔎</span>
+          <span class="m-item-text">Kur'an Arama</span>
+        </button>
+      </nav>
+    </div>
+
+    <!-- Appearance & Preferences in Drawer -->
+    <div class="m-drawer-section">
+      <div class="m-section-title">GÖRÜNÜM & TEMALAR</div>
+      <div class="m-theme-selector">
+        <button class="m-theme-btn active" data-theme="parchment">📜 Kağıt</button>
+        <button class="m-theme-btn" data-theme="dark">🌌 Gece</button>
+        <button class="m-theme-btn" data-theme="sepya">🕯️ Sepya</button>
+      </div>
+      <div class="m-section-title" style="margin-top:0.85rem;">DİL SEÇİMİ</div>
+      <div class="m-lang-selector">
+        <button class="m-lang-btn active" data-lang="tr">🇹🇷 TR</button>
+        <button class="m-lang-btn" data-lang="en">🇬🇧 EN</button>
+        <button class="m-lang-btn" data-lang="ar">🇸🇦 AR</button>
+      </div>
+      <div style="margin-top: 1rem; display: flex; flex-direction: column; gap: 0.5rem;">
+        <button class="m-action-btn" id="btn-m-open-calc-prefs">
+          <span>⚙️ Matematik & Modül Tercihleri</span>
+        </button>
+        <button class="m-action-btn" id="btn-m-toggle-focus">
+          <span>🎯 Minimal Odak Modu (F)</span>
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ================= MAIN APP WRAPPER ================= -->
+  <main class="app-main">
+
+    <!-- ========== TAB 1: MUSHAF & MEALLER ========== -->
+    <section class="tab-pane active" id="pane-reader">
+      <div class="reader-container">
+        
+        <!-- Left Sidebar: Surah / Juz / Page Selector -->
+        <aside class="reader-sidebar" id="reader-sidebar">
+          <div class="sidebar-header">
+            <div class="sidebar-search-box">
+              <svg class="search-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+              <input type="text" id="surah-search-input" placeholder="Sure ara (ad veya no)..." autocomplete="off">
+              <button id="surah-search-clear" class="btn-clear hidden">&times;</button>
+            </div>
+            
+            <div class="sidebar-subtabs">
+              <button class="subtab-btn active" data-subtab="surahs">114 Sure</button>
+              <button class="subtab-btn" data-subtab="juz">30 Cüz</button>
+              <button class="subtab-btn" data-subtab="page">Sayfa</button>
+            </div>
+          </div>
+
+          <!-- Surah List Container -->
+          <div class="surah-list" id="surah-list">
+            <div class="loader-spinner"></div>
+          </div>
+
+          <!-- Juz List Container -->
+          <div class="juz-grid hidden" id="juz-grid"></div>
+
+          <!-- Page List Container -->
+          <div class="page-grid hidden" id="page-grid">
+            <div class="page-jump-input-wrap">
+              <input type="number" id="page-jump-input" min="1" max="604" placeholder="Sayfa No (1-604)">
+              <button id="btn-jump-page" class="btn-primary-mini">Git</button>
+            </div>
+            <div class="page-quick-chips" id="page-quick-chips"></div>
+          </div>
+        </aside>
+
+        <!-- Main Reading Stage -->
+        <div class="reader-stage">
+
+          <!-- Compact Modular Quran Workspace Toolbar Ribbon -->
+          <div class="quran-workspace-toolbar" id="quran-workspace-toolbar">
+            <!-- Surah Select Dropdown & Ayah Quick Jump -->
+            <div class="tb-group tb-surah-jump-group">
+              <select id="tb-surah-select" class="tb-select" title="Sure Seçin"></select>
+              <div class="tb-input-with-btn">
+                <input type="number" id="tb-verse-input" min="1" placeholder="Ayet No" class="tb-input-mini" title="Sure İçinde Ayet No" />
+                <button id="btn-tb-verse-go" class="tb-btn primary" title="Ayete Git" data-i18n="btn_quick_verse">Git</button>
+              </div>
+            </div>
+
+            <!-- Dynamic Library & Comparative Exegesis Selector -->
+            <div class="tb-group">
+              <button id="btn-tb-open-library" class="tb-btn secondary" title="Dinamik Kütüphane & Karşılaştırmalı Mealler">
+                <span class="tb-icon">📚</span>
+                <span class="tb-label" data-i18n="tabLibrary">Kütüphane</span>
+                <span class="tb-badge" id="tb-active-sources-count">3 Kaynak</span>
+              </button>
+            </div>
+
+            <!-- Reading Display Script Modes -->
+            <div class="tb-group">
+              <div class="tb-segmented" title="Yazı ve Hat Modu">
+                <button class="tb-seg-btn active" id="tb-mode-uthmani" data-mode="uthmani" title="Harekeli (Osmanî)" data-i18n="mode_vocalized">Harekeli</button>
+                <button class="tb-seg-btn" id="tb-mode-clean" data-mode="clean" title="Harekesiz (Yalın)" data-i18n="mode_unvocalized">Yalın</button>
+              </div>
+              <div class="tb-segmented" title="Sayfa Düzeni & Çalışma Metodu">
+                <button class="tb-seg-btn active" id="tb-layout-wbw" data-layout="wbw" title="Kelime Kelime Meal" data-i18n="mode_wbw">Kelime</button>
+                <button class="tb-seg-btn" id="tb-layout-root" data-layout="root" title="Sülâsî Kök Çalışma Metodu">Kök Modu</button>
+                <button class="tb-seg-btn" id="tb-layout-flowing" data-layout="flowing" title="Akıcı Mushaf" data-i18n="mode_flowing">Akıcı</button>
+              </div>
+            </div>
+
+            <!-- Font Scale -->
+            <div class="tb-group tb-font-scaler">
+              <button id="tb-btn-font-dec" class="tb-btn-icon" title="Yazıyı Küçült">A-</button>
+              <span id="tb-font-size-val" class="tb-font-indicator">32px</span>
+              <button id="tb-btn-font-inc" class="tb-btn-icon" title="Yazıyı Büyüt">A+</button>
+            </div>
+
+            <!-- Tilavet Audio Play/Pause -->
+            <div class="tb-group">
+              <button id="tb-btn-audio-play" class="tb-btn audio" title="Sure Tilavetini Çal / Durdur">
+                <span class="tb-icon" id="tb-audio-icon">▶</span>
+                <span class="tb-label">Tilavet</span>
+              </button>
+            </div>
+
+            <!-- Müfettiş & Keşif Actions -->
+            <div class="tb-group tb-end-group">
+              <button id="tb-btn-inspector-toggle" class="tb-btn inspector active" title="Müfettiş & Keşif Paneli (M)">
+                <span class="tb-icon">📐</span>
+                <span class="tb-label" data-i18n="inspector_short">Müfettiş</span>
+              </button>
+              <button id="tb-btn-explorer-toggle" class="tb-btn explore" title="Bağlamsal Siyaq & Sibak Keşif Motoru">
+                <span class="tb-icon">✨</span>
+                <span class="tb-label" data-i18n="tabExplorer">Keşif</span>
+              </button>
+            </div>
+          </div>
+          
+          <!-- Surah Hero Card -->
+          <div class="surah-hero-card" id="surah-hero-card">
+            <div class="hero-ornament-top"></div>
+            <div class="hero-content">
+              <div class="hero-header-row">
+                <span class="hero-badge" id="hero-city-badge">Mekke</span>
+                <span class="hero-badge-gold" id="hero-order-badge">İniş Sırası: 5</span>
+                <span class="hero-badge-emerald" id="hero-verse-count-badge">7 Ayet</span>
+              </div>
+              <h2 class="hero-arabic-title" id="hero-arabic-title">سُورَةُ ٱلْفَاتِحَةِ</h2>
+              <div class="hero-titles-row">
+                <h3 class="hero-tr-title" id="hero-tr-title">Fâtiha Suresi</h3>
+                <span class="hero-en-title" id="hero-en-title">(The Opening)</span>
+              </div>
+              
+              <!-- Stats Row -->
+              <div class="hero-stats-row">
+                <div class="hero-stat">
+                  <span class="stat-num" id="hero-words-count">29</span>
+                  <span class="stat-lbl">Kelime</span>
+                </div>
+                <div class="hero-stat-sep"></div>
+                <div class="hero-stat">
+                  <span class="stat-num" id="hero-letters-count">143</span>
+                  <span class="stat-lbl">Harf</span>
+                </div>
+                <div class="hero-stat-sep"></div>
+                <div class="hero-stat">
+                  <span class="stat-num" id="hero-abjad-count">...</span>
+                  <span class="stat-lbl">Sure Ebcedi</span>
+                </div>
+              </div>
+
+              <!-- Hero Actions Bar -->
+              <div class="hero-actions-row">
+                <button class="btn-hero-action primary" id="btn-play-surah">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                  <span>Sureyi Dinle (Tilavet)</span>
+                </button>
+                <button class="btn-hero-action secondary" id="btn-copy-surah">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
+                  <span>Metinleri Kopyala</span>
+                </button>
+                <button class="btn-hero-action secondary" id="btn-goto-patterns">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+                  <span>Bu Surenin Harf & Simetri Analizi</span>
+                </button>
+              </div>
+            </div>
+            
+            <!-- View Settings Toolbar (Dual-Row Mode Control) -->
+            <div class="view-settings-bar">
+              <!-- Primary Row: Reading & Layout Modes -->
+              <div class="settings-primary-row">
+                <!-- Hareke Seçimi: Harekeli vs Harekesiz -->
+                <div class="segmented-control" title="Arapça Hat Okuma Türü">
+                  <button class="seg-btn active" id="btn-mode-vocalized" data-mode="uthmani">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                    <span data-i18n="modeVocalized">Harekeli (Osmanî)</span>
+                  </button>
+                  <button class="seg-btn" id="btn-mode-unvocalized" data-mode="clean">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+                    <span data-i18n="modeUnvocalized">Harekesiz (Yalın)</span>
+                  </button>
+                </div>
+
+                <!-- Görünüm Seçimi: Kelime Kelime Meal vs Akıcı Mushaf -->
+                <div class="segmented-control" title="Sayfa Düzeni">
+                  <button class="seg-btn active" id="btn-layout-wbw" data-layout="wbw">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="9" rx="1"/><rect x="3" y="15" width="7" height="6" rx="1"/><rect x="14" y="15" width="7" height="6" rx="1"/></svg>
+                    <span data-i18n="modeWbw">Kelime Kelime Meal</span>
+                  </button>
+                  <button class="seg-btn" id="btn-layout-root" data-layout="root">
+                    <span style="font-size: 0.85rem;">🌱</span>
+                    <span>Sülâsî Kök Modu</span>
+                  </button>
+                  <button class="seg-btn" id="btn-layout-flowing" data-layout="flowing">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+                    <span data-i18n="modeFlowing">Akıcı Mushaf</span>
+                  </button>
+                </div>
+
+                <!-- Kelime Meali Dili: TR / EN -->
+                <div class="segmented-control" id="wbw-lang-control" title="Kelime Meali Dili">
+                  <button class="seg-btn active" id="btn-wbw-tr" data-wbw-lang="tr">🇹🇷 TR</button>
+                  <button class="seg-btn" id="btn-wbw-en" data-wbw-lang="en">🇬🇧 EN</button>
+                </div>
+
+                <!-- Font Scaler -->
+                <div class="font-scale-group">
+                  <button class="btn-scale" id="btn-font-dec" title="Yazıyı Küçült">A-</button>
+                  <span class="font-size-indicator" id="font-size-val">32px</span>
+                  <button class="btn-scale" id="btn-font-inc" title="Yazıyı Büyüt">A+</button>
+                </div>
+
+                <!-- Minimal Focus Mode Toggle -->
+                <button class="btn-focus-pill" id="btn-focus-pill" title="Minimal Odak Modunu Aç / Kapat (F)">
+                  <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/></svg>
+                  <span>🎯 Minimal Odak</span>
+                </button>
+              </div>
+
+              <!-- Secondary Row: Sentence Translations Chips, Foreign Languages & Calculation Prefs -->
+              <div class="settings-secondary-row">
+                <span class="settings-group-label" data-i18n="lblTranslations">Mealler:</span>
+                <label class="toggle-chip active"><input type="checkbox" id="chk-meal-diyanet" checked><span>Diyanet Meali</span></label>
+                <label class="toggle-chip active"><input type="checkbox" id="chk-meal-yazir" checked><span>Elmalılı Hamdi Yazır</span></label>
+                <label class="toggle-chip"><input type="checkbox" id="chk-meal-en"><span>İngilizce (Sahih)</span></label>
+                <label class="toggle-chip active"><input type="checkbox" id="chk-translit" checked><span>Okunuş</span></label>
+
+                <!-- Foreign Language Selector Dropdown -->
+                <div class="foreign-lang-picker" title="Yabancı Dil Meali Seçin">
+                  <span class="settings-group-label">🌐 Yabancı:</span>
+                  <select id="foreign-lang-select" class="lang-select-dropdown">
+                    <option value="none">Seçilmedi (Kapalı)</option>
+                    <option value="fra-muhammadhamidul">🇫🇷 Français (Hamidullah)</option>
+                    <option value="rus-elmirkuliev">🇷🇺 Русский (Кулиев)</option>
+                    <option value="urd-abulaalamaududi">🇵🇰 اردو (ابو الاعلی مودودی)</option>
+                    <option value="ara-jalaladdinalmah">🇸🇦 العربية (تفسير الجلالين)</option>
+                    <option value="tur-alibulac">🇹🇷 Türkçe (Ali Bulaç)</option>
+                  </select>
+                </div>
+
+                <!-- Calculation & Probability Preferences Trigger -->
+                <button class="btn-calc-prefs" id="btn-calc-prefs" title="Hesaplama ve Olasılık Tercihlerini Özelleştir">
+                  <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20v-6M6 20V10M18 20V4"/></svg>
+                  <span>⚙️ Hesaplama & Olasılık Tercihleri</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bismillah Header Decoration -->
+          <div class="bismillah-calligraphy-plate" id="bismillah-plate">
+            <span class="bismillah-text">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</span>
+          </div>
+
+          <!-- Reader Stage Content (Verses + Math Inspector Drawer) -->
+          <div class="reader-stage-content">
+            <!-- Verses Stream Container -->
+            <div class="verses-stream" id="verses-stream">
+              <div class="loader-spinner"></div>
+            </div>
+
+            <!-- Sticky Right Math Inspector Drawer -->
+            <aside class="math-inspector-drawer" id="math-inspector-drawer">
+              <div class="inspector-header">
+                <div class="inspector-title-wrap">
+                  <span class="inspector-badge-gold">CANLI MATEMATİK</span>
+                  <h3 class="inspector-title">Ayet & Kelime Müfettişi</h3>
+                </div>
+                <div class="inspector-actions">
+                  <button class="btn-inspector-action" id="btn-pin-inspector" title="Müfettişi Sabitle / Otomatik Gizle">
+                    <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v8"/><path d="m4.93 4.93 4.24 4.24"/><path d="M2 12h8"/><circle cx="12" cy="12" r="3"/></svg>
+                  </button>
+                  <button class="btn-inspector-action" id="btn-close-inspector" title="Kapat">
+                    &times;
+                  </button>
+                </div>
+              </div>
+
+              <!-- Inspector Sub-Tabs Navigation (Morfoloji, Diyanet Tefsiri, Hadisler, Tefekkür & Murakabe) -->
+              <div class="inspector-subtabs-nav" id="inspector-subtabs-nav">
+                <button class="insp-subtab-btn active" data-insp-tab="morphology" id="insp-btn-tab-morphology">
+                  <span data-i18n="insp_tab_morphology">Morfoloji & DNA</span>
+                </button>
+                <button class="insp-subtab-btn" data-insp-tab="tefsir" id="insp-btn-tab-tefsir">
+                  <span data-i18n="insp_tab_tefsir">Diyanet Tefsiri</span>
+                </button>
+                <button class="insp-subtab-btn" data-insp-tab="hadith" id="insp-btn-tab-hadith">
+                  <span data-i18n="insp_tab_hadith">İlgili Hadisler</span>
+                </button>
+                <button class="insp-subtab-btn" data-insp-tab="reflection" id="insp-btn-tab-reflection">
+                  <span data-i18n="insp_tab_reflection">Tefekkür & Murakabe</span>
+                </button>
+              </div>
+
+              <!-- Empty State placeholder -->
+              <div class="inspector-empty-state" id="inspector-empty-state">
+                <div class="empty-icon-ring">
+                  <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="var(--gold-primary)" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="m10 15 5-3-5-3v6z"/></svg>
+                </div>
+                <h4>Kelime veya Ayet Seçin</h4>
+                <p>Suredeki herhangi bir kelimenin üzerine gelin (hover) veya tıklayın; ya da farenizle metin seçin. Sayısal DNA ve simetri noktaları anında dökülür.</p>
+                <div class="inspector-hint-chips">
+                  <span class="hint-chip start">🟢 Başı</span>
+                  <span class="hint-chip center">🟡 Ortası (Vasat)</span>
+                  <span class="hint-chip end">🔴 Sonu</span>
+                </div>
+              </div>
+
+              <!-- Active Data Content -->
+              <div class="inspector-active-body hidden" id="inspector-active-body">
+                
+                <!-- Focus Lock Status Banner (Odak Kilidi) -->
+                <div class="insp-lock-banner" id="insp-lock-banner">
+                  <div class="insp-lock-info">
+                    <span class="insp-lock-icon">🔒</span>
+                    <div class="insp-lock-text-group">
+                      <strong id="insp-lock-title">Tıklanan Kelimede Sabitlendi</strong>
+                      <span class="insp-lock-sub">Fare hareketleri odağı bozmaz</span>
+                    </div>
+                  </div>
+                  <button class="btn-unlock-pill" id="btn-unlock-inspector" title="Kilidi kaldır ve serbest gezintiye dön">Kilidi Aç 🔓</button>
+                </div>
+
+                <!-- PANE 1: MORFOLOJİ, SÜLÂSÎ KÖK, HARF HARF AYRIŞTIRMA & MATEMATİKSEL DNA -->
+                <div class="insp-subtab-pane active" id="insp-pane-morphology">
+                  <!-- 4-Katmanlı Morfolojik Kart -->
+                  <div class="inspector-spotlight-card">
+                    <div class="spotlight-top-row">
+                      <span class="pos-indicator-badge" id="insp-word-pos-badge">Gövde Kelimesi</span>
+                      <span class="spotlight-idx-text" id="insp-word-idx-text">4. Kelime / Toplam 7</span>
+                    </div>
+
+                    <!-- 4 Katmanlı Gösterim Izgarası -->
+                    <div class="word-layers-box">
+                      <!-- Katman 1: Orijinal Harekeli -->
+                      <div class="word-layer-item vocalized">
+                        <span class="layer-tag" data-i18n="layer_vocalized">Orijinal (Harekeli)</span>
+                        <div class="layer-arabic-text" id="insp-word-ar">ٱلرَّحْمَٰنِ</div>
+                      </div>
+
+                      <!-- Katman 2: Harekesiz Sade İmla & Katman 3: Sülâsî Kök -->
+                      <div class="word-layer-row-dual">
+                        <div class="word-layer-item bare">
+                          <span class="layer-tag" data-i18n="layer_clean_bare">Harekesiz (Sade)</span>
+                          <div class="layer-clean-text" id="insp-word-clean">الرحمن</div>
+                        </div>
+                        <div class="word-layer-item root">
+                          <span class="layer-tag" data-i18n="layer_root">Sülâsî Kök</span>
+                          <div class="layer-root-badge clickable-root-badge" id="insp-word-root" title="Kök Detaylarını ve 9 Bâb Çekimini Aç">ر-ح-م</div>
+                        </div>
+                      </div>
+
+                      <!-- Katman 4: Harf Harf Ayrıştırma (Letter-by-Letter Breakout) -->
+                      <div class="word-layer-item breakout">
+                        <div class="breakout-header-row">
+                          <span class="layer-tag" data-i18n="layer_breakout">Harf Harf Ayrıştırma & Ebced</span>
+                          <span class="breakout-count-tag" id="insp-word-letters-count">6 Harf</span>
+                        </div>
+                        <div class="letters-breakout-grid" id="insp-word-breakout-grid">
+                          <!-- Populated dynamically with letter chips -->
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Ayrı Kutu 1: Kelime Kelime Meal & Anlam (Öne Çıkarılmış) -->
+                    <div class="spotlight-word-translation-box" id="spotlight-word-translation-box">
+                      <div class="trans-box-header">
+                        <span class="trans-box-badge">🇹🇷 KELİME KELİME MEAL</span>
+                        <span class="trans-box-pronunciation" id="insp-word-translit"></span>
+                      </div>
+                      <div class="trans-box-turkish-meaning" id="insp-word-tr"></div>
+                      <div class="trans-box-english-meaning" id="insp-word-en"></div>
+                    </div>
+
+                    <!-- Ayrı Kutu: Hareke & Morfoloji (Esre, Ötre, Fetha, Cezim, Şedde) Analizi -->
+                    <div class="spotlight-hareke-box" id="spotlight-hareke-box">
+                      <div class="trans-box-header">
+                        <span class="trans-box-badge">🎼 HAREKE & SARF ANALİZİ</span>
+                        <span class="trans-box-pronunciation" id="insp-hareke-type">Morfolojik Yapı</span>
+                      </div>
+                      <div class="insp-hareke-chips-row" id="insp-hareke-chips-row">
+                        <!-- Populated dynamically with Fetha, Esre, Ötre, Cezim, Şedde chips -->
+                      </div>
+                      <div class="insp-hareke-explanation" id="insp-hareke-explanation"></div>
+                    </div>
+
+                    <!-- Cümle / Kelime Öbeği Analiz Kartı (Çoklu Kelime Seçimi) -->
+                    <div class="spotlight-phrase-box hidden" id="spotlight-phrase-box">
+                      <div class="trans-box-header">
+                        <span class="trans-box-badge">✨ CÜMLE / KELİME ÖBEĞİ BİLEŞİMİ</span>
+                        <span class="trans-box-pronunciation" id="insp-phrase-count-badge">Kelime Öbeği</span>
+                      </div>
+                      <div class="phrase-full-meaning" id="insp-phrase-combined-meaning"></div>
+                      <div class="phrase-words-table-wrap">
+                        <table class="phrase-words-table">
+                          <thead>
+                            <tr>
+                              <th>#</th>
+                              <th>Kelime</th>
+                              <th>Kök</th>
+                              <th>Ayet Meali</th>
+                              <th>Ebced</th>
+                              <th>Hareke</th>
+                            </tr>
+                          </thead>
+                          <tbody id="insp-phrase-words-tbody"></tbody>
+                        </table>
+                      </div>
+                    </div>
+
+                    <!-- Ayrı Kutu 2: Sülâsî Kök Çalışma Metodu (Ayrı Çalışma Alanı) -->
+                    <div class="insp-root-dossier-card" id="insp-root-dossier-card" style="display:none;">
+                      <div class="dossier-card-head">
+                        <span class="dossier-card-title">🌱 SÜLÂSÎ KÖK ÇALIŞMA METODU</span>
+                        <span class="dossier-freq-tag" id="insp-root-freq">339 Geçiş</span>
+                      </div>
+                      <div class="dossier-reading-row">
+                        <strong class="dossier-reading" id="insp-root-reading">Ra-Ha-Mim</strong>
+                        <span class="dossier-meaning" id="insp-root-core-meaning">Merhamet etmek, şefkat</span>
+                      </div>
+                      <div class="dossier-mini-forms" id="insp-root-mini-forms"></div>
+                      <button class="btn-open-root-dossier" id="btn-open-root-dossier" type="button">
+                        <span>📖 Kök Sözlüğünü & 9 Bâb Çekimini Aç</span>
+                      </button>
+                    </div>
+                  </div>
+
+                <!-- Core Numerical KPIs (Configurable) -->
+                <div class="inspector-kpi-grid">
+                  <div class="insp-kpi-card gold" data-calc="ebcedKebir">
+                    <span class="insp-kpi-lbl">BÜYÜK EBCED</span>
+                    <span class="insp-kpi-val" id="insp-ebced-kebir">298</span>
+                    <span class="insp-kpi-sub" id="insp-kebir-prime-sub">Asal Değil</span>
+                  </div>
+                  <div class="insp-kpi-card emerald" data-calc="ebcedSagir">
+                    <span class="insp-kpi-lbl">KÜÇÜK EBCED</span>
+                    <span class="insp-kpi-val" id="insp-ebced-sagir">19</span>
+                    <span class="insp-kpi-sub">İndirgenmiş</span>
+                  </div>
+                  <div class="insp-kpi-card" data-calc="letterCount">
+                    <span class="insp-kpi-lbl">HARF SAYISI</span>
+                    <span class="insp-kpi-val" id="insp-letter-count">6</span>
+                    <span class="insp-kpi-sub" id="insp-letter-prime-sub">Çift Sayı</span>
+                  </div>
+                  <div class="insp-kpi-card" data-calc="code197">
+                    <span class="insp-kpi-lbl">19 / 7 KODU</span>
+                    <span class="insp-kpi-val" id="insp-code-check">-</span>
+                    <span class="insp-kpi-sub" id="insp-code-sub">Katı Değil</span>
+                  </div>
+                  <div class="insp-kpi-card" data-calc="ebcedBast" id="insp-card-bast">
+                    <span class="insp-kpi-lbl">BAST EBCEDİ (AÇILIM)</span>
+                    <span class="insp-kpi-val" id="insp-ebced-bast">412</span>
+                    <span class="insp-kpi-sub">Harf İsim Değerleri</span>
+                  </div>
+                  <div class="insp-kpi-card" data-calc="entropy" id="insp-card-entropy">
+                    <span class="insp-kpi-lbl">BİLGİ ENTROPİSİ</span>
+                    <span class="insp-kpi-val" id="insp-letter-entropy">2.18</span>
+                    <span class="insp-kpi-sub">Shannon Bit/Harf</span>
+                  </div>
+                </div>
+
+                <!-- Prime Factorization Box (Configurable) -->
+                <div class="insp-section-card" data-calc="primeFactors">
+                  <div class="insp-section-title">
+                    <span>Asal Çarpanlarına Ayrılışı</span>
+                    <span class="insp-badge-mini" id="insp-prime-flag">Bileşik Sayı</span>
+                  </div>
+                  <div class="insp-factors-formula" id="insp-factors-formula">
+                    298 = 2 × 149
+                  </div>
+                  <!-- Offline Canvas Prime Factor Tree -->
+                  <div class="insp-canvas-wrap" style="margin-top:0.6rem;">
+                    <canvas id="insp-canvas-factor-tree" width="340" height="120" style="width:100%; height:120px; display:block; border-radius:6px; background:rgba(0,0,0,0.25);"></canvas>
+                  </div>
+                </div>
+
+                <!-- Ayah Letter Frequency Spectrum (Configurable) -->
+                <div class="insp-section-card" data-calc="letterSpectrum" id="insp-card-letter-spectrum">
+                  <div class="insp-section-title">
+                    <span>Ayet Harf Dağılım Grafiği (Offline)</span>
+                    <span class="insp-badge-mini">Top 12 Harf</span>
+                  </div>
+                  <div class="insp-canvas-wrap" style="margin-top:0.4rem;">
+                    <canvas id="insp-canvas-letter-spectrum" width="340" height="170" style="width:100%; height:170px; display:block; border-radius:6px; background:rgba(0,0,0,0.25);"></canvas>
+                  </div>
+                </div>
+
+                <!-- Combinatorial Probability & Density Box (Configurable) -->
+                <div class="insp-section-card" data-calc="probability" id="insp-card-probability">
+                  <div class="insp-section-title">
+                    <span>Kombinatorik Olasılık & Dağılım</span>
+                    <span class="insp-badge-mini" id="insp-prob-badge">P(X) Analizi</span>
+                  </div>
+                  <div class="insp-prob-grid">
+                    <div class="insp-prob-item">
+                      <span class="prob-lbl">Sure Frekansı & Yoğunluk</span>
+                      <strong class="prob-val" id="insp-prob-surah-density">1 / 29 (%3.45)</strong>
+                    </div>
+                    <div class="insp-prob-item">
+                      <span class="prob-lbl">Kuran Geneli Dağılım</span>
+                      <strong class="prob-val" id="insp-prob-quran-freq">...</strong>
+                    </div>
+                  </div>
+                  <div class="insp-prob-formula" id="insp-prob-formula">
+                    P(X = k) = C(N, k) · p^k · (1-p)^(N-k)
+                  </div>
+                  <div class="insp-prob-sub" id="insp-prob-desc">
+                    Bu kelimenin rastgele seçilme olasılığı ve Poisson/Hipergeometrik sıklık indeksi.
+                  </div>
+                </div>
+
+                <!-- Word-Level Letter Symmetry: Baş, Merkez (Vasat), Hitam (Son) -->
+                <div class="insp-section-card" data-calc="letterSymmetry" id="insp-card-word-letter-symmetry">
+                  <div class="insp-section-title">
+                    <span>Kelimenin Harf Simetrisi</span>
+                    <span class="insp-badge-mini" id="insp-sym-badge">Baş • Vasat • Hitam</span>
+                  </div>
+                  <div class="word-letter-symmetry-grid" id="insp-word-sym-grid">
+                    <div class="word-letter-sym-item start">
+                      <span class="wls-tag">🟢 BAŞ HARFİ</span>
+                      <div class="wls-char" id="wls-start-char">-</div>
+                      <div class="wls-name" id="wls-start-name">-</div>
+                      <div class="wls-abjad" id="wls-start-abjad">-</div>
+                    </div>
+                    <div class="word-letter-sym-item middle">
+                      <span class="wls-tag">🟡 MERKEZ (VASAT)</span>
+                      <div class="wls-char" id="wls-mid-char">-</div>
+                      <div class="wls-name" id="wls-mid-name">-</div>
+                      <div class="wls-abjad" id="wls-mid-abjad">-</div>
+                    </div>
+                    <div class="word-letter-sym-item end">
+                      <span class="wls-tag">🔴 HİTAM (SON)</span>
+                      <div class="wls-char" id="wls-end-char">-</div>
+                      <div class="wls-name" id="wls-end-name">-</div>
+                      <div class="wls-abjad" id="wls-end-abjad">-</div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Letter Breakdown Table (Configurable) -->
+                <div class="insp-section-card" data-calc="letterTable">
+                  <div class="insp-section-title">
+                    <span>Harf Harf Döküm</span>
+                    <span class="insp-badge-mini" id="insp-letters-summary">6 Harf</span>
+                  </div>
+                  <div class="insp-letters-table-wrap">
+                    <table class="insp-letters-table">
+                      <thead>
+                        <tr>
+                          <th>Harf</th>
+                          <th>Konum</th>
+                          <th>Adı</th>
+                          <th>İzole</th>
+                          <th>Ebced</th>
+                          <th>Asallık</th>
+                        </tr>
+                      </thead>
+                      <tbody id="insp-letters-tbody">
+                        <!-- Populated dynamically -->
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+                <!-- Ayah Level Summary & Symmetry (Configurable) -->
+                <div class="insp-ayah-summary-card" data-calc="ayahMatrix">
+                  <div class="insp-section-title">
+                    <span>Bağlı Olduğu Ayet Matrisi</span>
+                    <span class="insp-badge-gold" id="insp-ayah-key">[1:1]</span>
+                  </div>
+                  <div class="insp-ayah-metrics-row">
+                    <div class="insp-am-item">
+                      <span class="am-lbl">Ayet Ebcedi</span>
+                      <strong class="am-val" id="insp-ayah-abjad">786</strong>
+                    </div>
+                    <div class="insp-am-item">
+                      <span class="am-lbl">Toplam Kelime</span>
+                      <strong class="am-val" id="insp-ayah-words">4</strong>
+                    </div>
+                    <div class="insp-am-item">
+                      <span class="am-lbl">Toplam Harf</span>
+                      <strong class="am-val" id="insp-ayah-letters">19</strong>
+                    </div>
+                  </div>
+                  <div class="insp-ayah-center-row">
+                    <span class="am-lbl">Ayetin Merkez Kelimesi:</span>
+                    <strong class="am-center-word" id="insp-ayah-center-word">ٱللَّهِ</strong>
+                  </div>
+                </div> <!-- End of insp-pane-morphology -->
+
+                <!-- PANE 2: DİYANET KUR'AN YOLU TEFSİRİ -->
+                <div class="insp-subtab-pane hidden" id="insp-pane-tefsir">
+                  <div class="insp-section-card tefsir-viewer-card">
+                    <div class="insp-section-title">
+                      <span id="insp-tefsir-title">Kur'an Yolu Tefsiri</span>
+                      <span class="insp-badge-mini" id="insp-tefsir-ayah-badge">[1:1]</span>
+                    </div>
+                    <div class="tefsir-meta-author" id="insp-tefsir-author">Diyanet İşleri Heyeti (Karaman, Çağrıcı, Dönmez, Kılıç)</div>
+                    
+                    <!-- Nüzul Sebebi & Bağlam -->
+                    <div class="tefsir-nuzul-box" id="insp-tefsir-nuzul-wrap">
+                      <div class="tefsir-sub-label">📜 NÜZUL SEBEBİ VE BAĞLAM:</div>
+                      <p class="tefsir-nuzul-text" id="insp-tefsir-nuzul">Ayetin nüzul ortamı yükleniyor...</p>
+                    </div>
+
+                    <!-- Tam Tefsir Metni -->
+                    <div class="tefsir-body-box">
+                      <div class="tefsir-sub-label">📖 İLİM VE İZAH:</div>
+                      <div class="tefsir-body-text" id="insp-tefsir-content">Tefsir metni yükleniyor...</div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- PANE 3: İLGİLİ SAHİH HADİSLER (SAHİHAYN) -->
+                <div class="insp-subtab-pane hidden" id="insp-pane-hadith">
+                  <div class="insp-section-card hadith-viewer-card">
+                    <div class="insp-section-title">
+                      <span>İlgili Sahih Hadisler</span>
+                      <span class="insp-badge-mini" id="insp-hadith-badge">Sahihayn</span>
+                    </div>
+                    <div class="insp-hadith-stream" id="insp-hadith-stream">
+                      <div class="hadith-empty-notice">Bu ayetle doğrudan eşleşen Sahih hadisler aranıyor...</div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- PANE 4: TEFEKKÜR, HARF SIRLARI & MURAKABE -->
+                <div class="insp-subtab-pane hidden" id="insp-pane-reflection">
+                  <!-- Harf Sırları -->
+                  <div class="insp-section-card reflection-card">
+                    <div class="insp-section-title">
+                      <span>Kelimenin Harf Sırları</span>
+                      <span class="insp-badge-gold">Esrâr-ı Hurûf</span>
+                    </div>
+                    <div class="insp-reflection-letters-grid" id="insp-reflection-letters-grid">
+                      <!-- Dynamically filled with letter contemplation cards -->
+                    </div>
+                  </div>
+
+                  <!-- Mukatta'a Contemplation (if applicable) -->
+                  <div class="insp-section-card mukattaa-card hidden" id="insp-mukattaa-card">
+                    <div class="insp-section-title">
+                      <span>Hurûf-ı Mukatta'a Tefekkürü</span>
+                      <span class="insp-badge-mini" id="insp-mukattaa-letters-badge">الم</span>
+                    </div>
+                    <p class="mukattaa-exegesis" id="insp-mukattaa-text"></p>
+                    <div class="mukattaa-murakabe-box" id="insp-mukattaa-murakabe"></div>
+                  </div>
+
+                  <!-- Sufi Murakabe Principles -->
+                  <div class="insp-section-card murakabe-card">
+                    <div class="insp-section-title">
+                      <span>Tasavvufî Murakabe & Letâif</span>
+                      <span class="insp-badge-mini">Kalp Huzuru</span>
+                    </div>
+                    <div class="murakabe-principles-list" id="insp-murakabe-principles-list">
+                      <!-- Principles populated dynamically -->
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Action Button -->
+                <div class="insp-actions-footer">
+                  <button class="btn-insp-send-abjad" id="btn-insp-send-abjad">
+                    <span>Ebced Laboratuvarında Aç</span>
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                  </button>
+                </div>
+
+              </div>
+            </aside>
+
+            <!-- Floating Side Inspector Trigger Pill (Sticky, always accessible across all 114 Surahs) -->
+            <button id="btn-floating-inspector-toggle" class="floating-inspector-pill" title="Matematik & Kelime Müfettişi (Kısayol: M)">
+              <span class="f-pill-icon">📐</span>
+              <span class="f-pill-text">Müfettiş</span>
+              <span class="f-pill-badge" id="f-pill-badge">Canlı</span>
+            </button>
+            <div id="inspector-backdrop" class="inspector-backdrop"></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TAB: DELÂİLÜ'L-HAYRÂT (دلائل الخيرات) ========== -->
+    <section class="tab-pane" id="pane-delail">
+      <div class="delail-container">
+        
+        <!-- Delail Hero Banner -->
+        <div class="delail-hero-banner">
+          <div class="delail-hero-badge">DELÂİLÜ'L-HAYRÂT VE ŞEVÂRİKU'L-ENVÂR</div>
+          <h2>دلائل الخيرات وشوارق الأنوار في ذكر الصلاة على النبي المختار</h2>
+          <p>
+            Seyyid İmam Ebû Abdillâh Muhammed b. Süleyman el-Cezûlî el-Hasenî (k.s.) hazretlerinin kâinata armağan ettiği en faziletli salavat mecmuası.
+            Günde bir hizib okunarak haftalık devredilen kutlu virdler, Efendimiz'in 201 mübarek ismi, Allah'ın 99 sıfatı ve entegre dijital zikirmatik.
+          </p>
+
+          <!-- Delail Subtabs Nav -->
+          <div class="delail-subtabs-nav">
+            <button class="delail-sub-btn active" data-delailsub="hizib">📖 Evrâd-ı Seb'a (8 Günlük Hizibler)</button>
+            <button class="delail-sub-btn" data-delailsub="asma_nabi">🌟 Esmâ-i Nebî (201 Mübarek İsim)</button>
+            <button class="delail-sub-btn" data-delailsub="asma_husna">💫 Esmâ-ül Hüsnâ (99 İsim ve Sıfat)</button>
+            <button class="delail-sub-btn" data-delailsub="fazilet">📜 Faziletler & Şerh</button>
+          </div>
+        </div>
+
+        <!-- SUBTAB 1: 8 GÜNLÜK HİZİBLER & DİJİTAL ZİKİRMATİK -->
+        <div class="delail-subview active" id="delailsub-hizib">
+          <!-- Day selector pills (Pazartesi 1 .. Pazar .. Hatm Duası) -->
+          <div class="delail-days-dock">
+            <button class="delail-day-btn active" data-day="1">Pazartesi (1. Hizib)</button>
+            <button class="delail-day-btn" data-day="2">Salı (2. Hizib)</button>
+            <button class="delail-day-btn" data-day="3">Çarşamba (3. Hizib)</button>
+            <button class="delail-day-btn" data-day="4">Perşembe (4. Hizib)</button>
+            <button class="delail-day-btn" data-day="5">Cuma (5. Hizib)</button>
+            <button class="delail-day-btn" data-day="6">Cumartesi (6. Hizib)</button>
+            <button class="delail-day-btn" data-day="7">Pazar (7. Hizib)</button>
+            <button class="delail-day-btn hatm" data-day="8">Hatm-i Delâil Duası</button>
+          </div>
+
+          <!-- Main Day Stage: Prayers + Sticky Tasbeeh Dock -->
+          <div class="delail-stage-grid">
+            <!-- Left/Center: Hizib Reading Stream -->
+            <div class="delail-reading-stream" id="delail-reading-stream">
+              <div class="loader-spinner"></div>
+            </div>
+
+            <!-- Right: Interactive Digital Tasbeeh Dock -->
+            <aside class="delail-tasbeeh-dock">
+              <div class="tasbeeh-card">
+                <div class="tasbeeh-header">
+                  <span class="badge-gold">CANLI TESBİHAT</span>
+                  <h4>Salavat Zikirmatiği</h4>
+                </div>
+                
+                <div class="tasbeeh-circle-btn" id="btn-tasbeeh-tap" title="Tıklayın veya Boşluk (Space) tuşuna basın">
+                  <div class="tasbeeh-count-big" id="tasbeeh-counter-val">0</div>
+                  <span class="tasbeeh-target-hint" id="tasbeeh-target-lbl">Hedef: 100</span>
+                  <div class="tasbeeh-ripple-ring"></div>
+                </div>
+
+                <div class="tasbeeh-presets-row">
+                  <button class="tasbeeh-preset-btn" data-target="33">33</button>
+                  <button class="tasbeeh-preset-btn" data-target="99">99</button>
+                  <button class="tasbeeh-preset-btn active" data-target="100">100</button>
+                  <button class="tasbeeh-preset-btn" data-target="313">313 (Bedir)</button>
+                  <button class="tasbeeh-preset-btn" data-target="1000">1000</button>
+                </div>
+
+                <div class="tasbeeh-actions-row">
+                  <button class="btn-tasbeeh-reset" id="btn-tasbeeh-reset">Sıfırla</button>
+                  <button class="btn-tasbeeh-audio" id="btn-tasbeeh-audio" title="Tıklama Sesi Aç/Kapat">🔔 Ses: Açık</button>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+
+        <!-- SUBTAB 2: ESMÂ-İ NEBÎ (201 İSİM) -->
+        <div class="delail-subview hidden" id="delailsub-asma_nabi">
+          <div class="asma-module-card">
+            <div class="asma-toolbar">
+              <div>
+                <span class="badge-gold">DELÂİL-İ HAYRÂT ŞERİFİ</span>
+                <h3>Peygamber Efendimiz'in (s.a.v.) 201 Mübarek İsmi</h3>
+              </div>
+              <input type="text" id="input-search-asma-nabi" placeholder="İsim veya anlam ara (Arapça / Türkçe / İngilizce)..." class="asma-input-filter">
+            </div>
+            <div class="asma-nabi-grid" id="asma-nabi-grid">
+              <div class="loader-spinner"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SUBTAB 3: ESMÂ-ÜL HÜSNÂ (99 İSİM) -->
+        <div class="delail-subview hidden" id="delailsub-asma_husna">
+          <div class="asma-module-card">
+            <div class="asma-toolbar">
+              <div>
+                <span class="badge-emerald">ZÂT-I ZÜLCELÂL SIFATLARI</span>
+                <h3>Cenâb-ı Hakk'ın 99 Sıfatı ve İsm-i Şerîfi</h3>
+              </div>
+              <input type="text" id="input-search-asma-husna" placeholder="Esmâ ara (Arapça / Türkçe / İngilizce)..." class="asma-input-filter">
+            </div>
+            <div class="asma-husna-grid" id="asma-husna-grid">
+              <div class="loader-spinner"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SUBTAB 4: FAZİLETLER -->
+        <div class="delail-subview hidden" id="delailsub-fazilet">
+          <div class="fazilet-card">
+            <h3>Delâilü'l-Hayrât'ın Fazileti ve Okuma Usulü</h3>
+            <p>
+              İmam el-Cezûlî hazretleri, bir kuyudan su çıkarmak için ip ve kova bulamadığı esnada, küçük bir kız çocuğunun kuyuya tükürerek suyun kuyu ağzına kadar taşmasına ve bundan abdest almasına şahit olmuş; kız çocuğuna bu kerametin sırrını sorduğunda ise:
+              <em>"Bu makam, Resûlullah (s.a.v.) Efendimiz'e kesintisiz ve aşk ile salât ü selâm getirmekle elde edilmiştir."</em> cevabını almıştır.
+            </p>
+            <p>
+              Bunun üzerine İmam Cezûlî, kütüphanesine çekilerek kâinattaki en faziletli salavatları, kudsî hadisleri ve Esmâ-i Şerîfeleri derleyip bu mukaddes eseri kaleme almıştır. Asırlar boyunca Osmanlı ordularında gaziler, dergâhlarda dervişler ve ulema bu virdi her gün bir hizib okuyarak haftada bir hatmetmiştir.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========== TAB: HADİS-İ ŞERİF (KÜTÜB-İ SİTTE / SAHİHAYN) ========== -->
+    <section class="tab-pane" id="pane-hadith">
+      <div class="hadith-workspace-container">
+        <!-- Hadith Hero Banner -->
+        <div class="hadith-hero-banner">
+          <div class="hadith-hero-badge">KÜTÜB-İ SİTTE & SAHİHAYN İLİM GEZGİNİ</div>
+          <h2>الجامع المسند الصحيح من سنن رسول الله صلى الله عليه وسلم وأيامه</h2>
+          <p>
+            Sahîh-i Buhârî ve Sahîh-i Müslim külliyatı; Arapça metin, râvi silsilesi (isnâd), Türkçe ve İngilizce tercümeler,
+            bâb hiyerarşisi ve Kur'an ayetleriyle bağlamsal çapraz referans motoru.
+          </p>
+
+          <!-- Collection Selector Pills & Search -->
+          <div class="hadith-toolbar-row">
+            <div class="hadith-collection-pills">
+              <button class="hadith-coll-btn active" data-coll="all" id="btn-hadith-coll-all">Tüm Koleksiyonlar</button>
+              <button class="hadith-coll-btn" data-coll="bukhari" id="btn-hadith-coll-bukhari">Sahîh-i Buhârî</button>
+              <button class="hadith-coll-btn" data-coll="muslim" id="btn-hadith-coll-muslim">Sahîh-i Müslim</button>
+              <button class="hadith-coll-btn" data-coll="abudawud" id="btn-hadith-coll-abudawud">Ebû Dâvûd</button>
+              <button class="hadith-coll-btn" data-coll="tirmidhi" id="btn-hadith-coll-tirmidhi">Tirmizî</button>
+              <button class="hadith-coll-btn" data-coll="nasai" id="btn-hadith-coll-nasai">Nesâî</button>
+              <button class="hadith-coll-btn" data-coll="ibnmajah" id="btn-hadith-coll-ibnmajah">İbn Mâce</button>
+              <button class="hadith-coll-btn" data-coll="nawawi40" id="btn-hadith-coll-nawawi">Kırk Hadis</button>
+            </div>
+
+            <div class="hadith-toolbar-actions">
+              <button class="btn-sunnah-api-settings" id="btn-open-sunnah-modal" onclick="openSunnahApiModal()" title="Sunnah.com API & Açık CDN Ayarları">
+                <span class="sunnah-status-dot" id="sunnah-status-dot"></span>
+                <span>⚡ Sunnah.com API & CDN</span>
+              </button>
+            </div>
+            
+            <div class="hadith-search-box">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+              <input type="text" id="hadith-search-input" placeholder="Hadis metni, râvi veya kavram ara (Örn: niyet, ihsan, kürsî, ilim)..." autocomplete="off" />
+              <button id="btn-hadith-search-submit">Ara</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hadith Reader Grid (Sidebar + Main Stream) -->
+        <div class="hadith-grid-layout">
+          <!-- Left: Book & Bab Navigation -->
+          <aside class="hadith-books-sidebar">
+            <div class="hadith-sidebar-header">
+              <h4>KİTAPLAR & BÂBLAR</h4>
+              <span class="badge-mini" id="hadith-total-badge">Sahihayn</span>
+            </div>
+            <div class="hadith-books-list" id="hadith-books-list">
+              <!-- Dynamically rendered book list -->
+            </div>
+          </aside>
+
+          <!-- Center/Right: Hadiths Stream -->
+          <main class="hadith-cards-stream" id="hadith-cards-stream">
+            <div class="loader-spinner"></div>
+          </main>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TAB 2: KUR'AN MUCİZELERİ & KELİME TARAYICI ========== -->
+    <section class="tab-pane" id="pane-miracles">
+      <div class="miracles-container">
+        
+        <!-- Miracles Hero -->
+        <div class="miracles-hero-banner">
+          <div class="miracles-hero-badge">MATEMATİKSEL & SEMANTİK SİMETRİLER</div>
+          <h2>Kur'an-ı Kerim Mucizeler & Kelime Frekansları</h2>
+          <p>
+            Kur'an metninde yer alan kelime frekans dengeleri, harf şifreleri, kozmolojik oranlar ve 19 sayısal kodunun
+            orijinal metin üzerinde canlı doğrulanması ve interaktif istatistik analiz motoru.
+          </p>
+        </div>
+
+        <!-- Curated Miracle Cards Grid -->
+        <div class="miracles-grid" id="miracles-grid"></div>
+
+        <!-- Live Custom Word Frequency & Root Scanner -->
+        <div class="custom-scanner-card">
+          <div class="scanner-header">
+            <div class="scanner-title-wrap">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/><path d="M11 8v6"/><path d="M8 11h6"/></svg>
+              <div>
+                <h3>Akıllı Kelime & Frekans Tarayıcı (Arapça & Türkçe Destekli)</h3>
+                <p>Arapça (harekeli/harekesiz) veya Türkçe bir kelime yazın (örn: <em>gün, deniz, melek, nur, adem, يوم, بحر, ملك</em>). Sistem kökleri, ön ekleri ve mealleri tarayarak eksiksiz sonuç üretir.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="scanner-input-row">
+            <div class="scanner-field">
+              <input type="text" id="scanner-word-input" placeholder="Arapça veya Türkçe kelime yazın (örn: gün, deniz, melek, nur, يوم, بحr)...">
+            </div>
+            <div class="scanner-options">
+              <label class="toggle-option" title="Tam kelime veya ekli/kök içinde geçenleri kapsayan geniş arama">
+                <input type="checkbox" id="scanner-exact-match" checked>
+                <span>Yalın / Ön Ekli (Tam Eşleşme)</span>
+              </label>
+              <button class="btn-primary" id="btn-scanner-submit">
+                <span>Canlı Tara</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Quick Template Chips -->
+          <div class="scanner-quick-chips">
+            <span class="chips-label">Hızlı Denemeler:</span>
+            <button class="chip-btn" data-word="gün">Gün (يوم - 365)</button>
+            <button class="chip-btn" data-word="ay">Ay (شهر - 12)</button>
+            <button class="chip-btn" data-word="dünya">Dünya (115)</button>
+            <button class="chip-btn" data-word="ahiret">Âhiret (115)</button>
+            <button class="chip-btn" data-word="deniz">Deniz (32)</button>
+            <button class="chip-btn" data-word="kara">Kara (13)</button>
+            <button class="chip-btn" data-word="isa">İsa (25)</button>
+            <button class="chip-btn" data-word="adem">Âdem (25)</button>
+            <button class="chip-btn" data-word="melek">Melek (88)</button>
+            <button class="chip-btn" data-word="şeytan">Şeytan (88)</button>
+            <button class="chip-btn" data-word="nur">Nur</button>
+            <button class="chip-btn" data-word="ilim">İlim</button>
+            <button class="chip-btn" data-word="sabır">Sabır</button>
+          </div>
+
+          <!-- Scanner Results Container -->
+          <div class="scanner-results-container hidden" id="scanner-results">
+            <div class="scanner-results-summary" id="scanner-summary"></div>
+            <div class="scanner-verses-list" id="scanner-verses-list"></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========== TAB: KUR'AN KÖKLER SÖZLÜĞÜ (1,248 SÜLÂSÎ KÖK) ========== -->
+    <section class="tab-pane" id="pane-roots">
+      <div class="roots-lexicon-container">
+        
+        <!-- Roots Hero Banner -->
+        <div class="roots-hero-banner">
+          <div class="roots-hero-badge">SÜLÂSÎ KÖK & SARF ATLASI</div>
+          <h2>Kur'an-ı Kerim Kökler Sözlüğü</h2>
+          <p>
+            Mübarek Kur'an-ı Kerim'de yer alan 1,248 sülâsî kök, 9 morfolojik çekim bâbı (Mazi, Muzari, Masdar, İsm-i Fâil, İsm-i Mef'ûl vb.)
+            ve ayet içi frekansları.
+          </p>
+          <div style="margin-top: 1rem;">
+            <button class="btn-return-reader-hero" id="btn-return-reader-hero" onclick="returnToLastReadingPosition()">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m15 18-6-6 6-6"/></svg>
+              <span>📖 Okuduğum Ayete / Mushaf'a Geri Dön</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- 28-Letter Arabic Alphabet Filter Bar -->
+        <div class="roots-alphabet-card">
+          <div class="alphabet-label-row">
+            <span class="alphabet-label">Arapça Harfe Göre Filtrele (28 Harf):</span>
+            <span class="roots-summary-badge" id="roots-summary-badge">Toplam 1,248 Kök</span>
+          </div>
+          <div class="roots-alphabet-chips" id="roots-alphabet-chips">
+            <!-- Populated dynamically -->
+          </div>
+        </div>
+
+        <!-- Search & Sort Controls Toolbar -->
+        <div class="roots-toolbar-card">
+          <div class="roots-search-field">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            <input type="text" id="roots-search-input" placeholder="Arapça kök (örn: رحم, ر-ح-م) veya Türkçe anlam ara (örn: merhamet, sabır, ilim)...">
+            <button class="roots-clear-search-btn" id="btn-roots-clear-search" style="display:none;" title="Temizle">&times;</button>
+          </div>
+          <div class="roots-sort-controls">
+            <span class="sort-lbl">Sıralama:</span>
+            <button class="sort-btn active" id="sort-roots-freq" data-sort="frequency">🔥 Frekansa Göre</button>
+            <button class="sort-btn" id="sort-roots-alpha" data-sort="alpha">🔤 Alfabetik</button>
+          </div>
+        </div>
+
+        <!-- Roots Cards Grid -->
+        <div class="roots-cards-grid" id="roots-cards-grid">
+          <!-- Populated dynamically -->
+        </div>
+
+        <!-- Loading / Empty State -->
+        <div class="roots-status-state" id="roots-status-state" style="display:none;">
+          <div class="status-spinner"></div>
+          <p class="status-msg">Kökler yükleniyor...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TAB 3: SAYISAL ÖRÜNTÜLER & SİMETRİ (NEW!) ========== -->
+    <section class="tab-pane" id="pane-patterns">
+      <div class="patterns-container">
+        
+        <div class="patterns-hero-banner">
+          <div class="patterns-hero-badge">MATEMATİKSEL MİMARİ & ASAL ÖRÜNTÜLER</div>
+          <h2>Kur'an-ı Kerim Sayısal Örüntüler & Simetri Motoru</h2>
+          <p>
+            Surelerin harf harf dağılım analizleri, 114 surenin 57/57 Tek-Çift simetri matrisi,
+            asal sayı ilişkileri ile Kur'an'ın, surelerin, ayetlerin ve cüzlerin baş, orta ve son simetri noktaları.
+          </p>
+
+          <!-- Pattern Subtabs -->
+          <div class="pattern-subtabs-nav">
+            <button class="pattern-nav-btn active" data-sub="letters">🔤 Harf Harf Sure Analizi</button>
+            <button class="pattern-nav-btn" data-sub="symmetry">⚖️ 114 Sure Simetri Matrisi (57/57 & Asallar)</button>
+            <button class="pattern-nav-btn" data-sub="positions">🎯 Merkez & Baş/Orta/Son Simetrileri</button>
+          </div>
+        </div>
+
+        <!-- Subview 1: Harf Harf Sure Analizi -->
+        <div class="pattern-subview active" id="subview-letters">
+          <div class="pattern-card">
+            <div class="subview-header-row">
+              <div>
+                <h3>Sure Düzeyinde 28 Harfin Frekans Analizi</h3>
+                <p>İstediğiniz sureyi seçerek içindeki tüm Arapça harflerin tekil adetlerini, yüzdelerini ve asal sayı durumlarını görün.</p>
+              </div>
+              <div class="surah-picker-wrap">
+                <label>Sure Seç:</label>
+                <select id="pattern-surah-select">
+                  <!-- Populated dynamically -->
+                </select>
+              </div>
+            </div>
+
+            <!-- Surah KPI summary -->
+            <div class="pattern-kpis-grid" id="pattern-surah-kpis">
+              <div class="kpi-mini-card">
+                <span class="kpi-lbl">Toplam Harf</span>
+                <span class="kpi-val" id="psk-letters">0</span>
+                <span class="kpi-prime-badge" id="psk-letters-prime">Asal</span>
+              </div>
+              <div class="kpi-mini-card">
+                <span class="kpi-lbl">Toplam Kelime</span>
+                <span class="kpi-val" id="psk-words">0</span>
+                <span class="kpi-prime-badge" id="psk-words-prime">Asal Değil</span>
+              </div>
+              <div class="kpi-mini-card">
+                <span class="kpi-lbl">Ayet Sayısı</span>
+                <span class="kpi-val" id="psk-verses">0</span>
+                <span class="kpi-prime-badge" id="psk-verses-prime">Asal</span>
+              </div>
+              <div class="kpi-mini-card">
+                <span class="kpi-lbl">Sure Ebcedi</span>
+                <span class="kpi-val" id="psk-abjad">0</span>
+                <span class="kpi-prime-badge" id="psk-abjad-prime">Asal Değil</span>
+              </div>
+            </div>
+
+            <!-- Mukattaa Box if exists -->
+            <div class="mukattaa-special-box hidden" id="mukattaa-special-box"></div>
+
+            <!-- 28 Letters Table & Visual Bar Chart -->
+            <div class="letters-table-wrap">
+              <table class="abjad-table" id="table-surah-letters">
+                <thead>
+                  <tr>
+                    <th>Harf</th>
+                    <th>Adı</th>
+                    <th>Ebced</th>
+                    <th>Sure İçi Adet</th>
+                    <th>Sure İçi Oran (%)</th>
+                    <th>Kur'an Geneli (%)</th>
+                    <th>Asal mı?</th>
+                    <th>Sure vs Kur'an Karşılaştırmalı Dağılım</th>
+                  </tr>
+                </thead>
+                <tbody id="tbody-surah-letters">
+                  <!-- Injected dynamically -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- Subview 2: 114 Sure Simetri Matrisi (57/57) -->
+        <div class="pattern-subview hidden" id="subview-symmetry">
+          <div class="pattern-card">
+            <div class="subview-header-row">
+              <div>
+                <h3>114 Sure Simetri Matrisi (Tek-Çift & Asallık Dengesi)</h3>
+                <p>
+                  Her surenin (Sure Numarası + Ayet Sayısı) toplamı hesaplandığında; toplamı <strong>ÇİFT olan 57 sure</strong>,
+                  <strong>TEK olan 57 sure</strong> çıkar. Çiftlerin toplamı <strong>6236 (toplam ayet sayısı)</strong>,
+                  teklerin toplamı ise <strong>6555 (1'den 114'e kadar sayıların toplamı)</strong> verir!
+                </p>
+              </div>
+              <div class="symmetry-filters">
+                <button class="sym-filter-btn active" data-filter="all">Tümü (114)</button>
+                <button class="sym-filter-btn" data-filter="even">Çiftler (57)</button>
+                <button class="sym-filter-btn" data-filter="odd">Tekler (57)</button>
+                <button class="sym-filter-btn" data-filter="primes">Asal Numaralı Sureler (30)</button>
+                <button class="sym-filter-btn" data-filter="prime_verses">Ayet Sayısı Asal Olanlar</button>
+                <button class="sym-filter-btn" data-filter="homogeneous">Homojen Sureler</button>
+              </div>
+            </div>
+
+            <!-- Symmetry Grand KPIs -->
+            <div class="symmetry-kpi-banner" id="symmetry-kpis">
+              <div class="sym-kpi-item">
+                <span class="sym-kpi-title">ÇİFT TOPLAMLAR</span>
+                <span class="sym-kpi-number" id="sym-even-count">57 Sure</span>
+                <span class="sym-kpi-detail">Toplamları: <strong id="sym-even-sum">6236</strong> (= Kur'an Toplam Ayeti)</span>
+              </div>
+              <div class="sym-kpi-sep"></div>
+              <div class="sym-kpi-item">
+                <span class="sym-kpi-title">TEK TOPLAMLAR</span>
+                <span class="sym-kpi-number" id="sym-odd-count">57 Sure</span>
+                <span class="sym-kpi-detail">Toplamları: <strong id="sym-odd-sum">6555</strong> (= 1..114 Toplamı)</span>
+              </div>
+              <div class="sym-kpi-sep"></div>
+              <div class="sym-kpi-item">
+                <span class="sym-kpi-title">ASAL SURE SAYISI</span>
+                <span class="sym-kpi-number" id="sym-prime-count">30 Sure</span>
+                <span class="sym-kpi-detail">Ayet Sayısı Asal: <strong id="sym-prime-verses">37 Sure</strong></span>
+              </div>
+            </div>
+
+            <!-- Symmetry Matrix Table -->
+            <div class="table-responsive">
+              <table class="abjad-table" id="symmetry-matrix-table">
+                <thead>
+                  <tr>
+                    <th>Sure No</th>
+                    <th>Sure Adı</th>
+                    <th>Ayet Sayısı</th>
+                    <th>Toplam (No + Ayet)</th>
+                    <th>Parite (Çift/Tek)</th>
+                    <th>Homojenlik</th>
+                    <th>Sure No Asal mı?</th>
+                    <th>Ayet Sayısı Asal mı?</th>
+                  </tr>
+                </thead>
+                <tbody id="symmetry-table-body">
+                  <!-- Injected dynamically -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- Subview 3: Merkez & Baş/Orta/Son Simetrileri -->
+        <div class="pattern-subview hidden" id="subview-positions">
+          <div class="pattern-card">
+            
+            <div class="subview-header-row">
+              <div>
+                <h3>Çok Ölçekli Simetri & Baş / Orta / Son Noktaları</h3>
+                <p>Kur'an'ın bütününde, cüzlerde, surelerde, ayetlerde veya kelimelerde ilahi dengeyi, başlangıç, merkez ve hitam noktalarını inceleyin.</p>
+              </div>
+            </div>
+
+            <!-- Multi-Scale Switcher -->
+            <div class="position-level-picker">
+              <span class="chips-label">Ölçek:</span>
+              <button class="pos-level-btn active" data-level="quran">🌌 Bütün Kur'an Ölçeği</button>
+              <button class="pos-level-btn" data-level="juz">📖 30 Cüz Ölçeği</button>
+              <button class="pos-level-btn" data-level="surah">📜 114 Sure Ölçeği</button>
+              <button class="pos-level-btn" data-level="verse">✨ Ayet Düzeyi</button>
+              <button class="pos-level-btn" data-level="word">🔤 Kelime & Harf</button>
+            </div>
+
+            <!-- Dynamic Scale Parameters Bar -->
+            <div class="scale-params-toolbar" id="scale-params-toolbar">
+              <!-- Juz Selector (shown for juz) -->
+              <div class="scale-param-group hidden" id="param-group-juz">
+                <label>Cüz No (1-30):</label>
+                <select id="scale-juz-select">
+                  <!-- Populated in JS 1 to 30 -->
+                </select>
+              </div>
+
+              <!-- Surah Selector (shown for surah & verse) -->
+              <div class="scale-param-group hidden" id="param-group-surah">
+                <label>Sure Seç:</label>
+                <select id="scale-surah-select">
+                  <!-- Populated in JS -->
+                </select>
+              </div>
+
+              <!-- Verse Selector (shown for verse & word) -->
+              <div class="scale-param-group hidden" id="param-group-verse">
+                <label>Ayet No:</label>
+                <input type="number" id="scale-verse-input" min="1" max="286" value="1">
+                <button class="btn-primary-mini" id="btn-scale-verse-load">Getir</button>
+              </div>
+
+              <!-- Translation / Meal Selector for Symmetry Analysis -->
+              <div class="scale-param-group" id="param-group-meal">
+                <label>📖 Meal Seçimi:</label>
+                <select id="scale-meal-select" class="scale-meal-select">
+                  <option value="diyanet">Diyanet İşleri Meali</option>
+                  <option value="yazir">Elmalılı Hamdi Yazır</option>
+                  <option value="yuksel">Edip Yüksel (Mesaj)</option>
+                  <option value="en">Sahih International (EN)</option>
+                  <option value="compare">⚡ Karşılaştırmalı (Tüm Mealler)</option>
+                </select>
+              </div>
+
+              <!-- Focus Filter Toggles -->
+              <div class="scale-filters-group">
+                <label class="toggle-option-mini" title="Yalnızca merkez ve vasat noktaları göster">
+                  <input type="checkbox" id="chk-filter-center-only">
+                  <span>Merkez Odaklı (Vasat)</span>
+                </label>
+                <label class="toggle-option-mini" title="Asal sayı olan noktaları vurgula">
+                  <input type="checkbox" id="chk-filter-primes" checked>
+                  <span>Asal Vurgusu</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Position Content Dynamic View -->
+            <div id="position-view-content" style="margin-top: 1.5rem;">
+              <div class="loader-spinner"></div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========== TAB: GÖRSELLEŞTİRMELER (CANVAS & KUTSAL GEOMETRİ) ========== -->
+    <section class="tab-pane" id="pane-visualizer">
+      <div class="visualizer-container">
+        
+        <div class="vis-hero-banner">
+          <div class="vis-hero-badge">KUTSAL GEOMETRİ & HARMONİK GRAFİKLER</div>
+          <h2>Kur'an Örüntüleri & Simetri Görselleştiricisi</h2>
+          <p>
+            114 surenin 57 çift ve 57 tek parite simetrisi, 28 harfin kozmik gezegen ve Ebced mandalası, 9 kalp noktası ve melekî şifa enerji hatları.
+          </p>
+
+          <div class="vis-subtabs-nav">
+            <button class="vis-sub-btn active" data-vissub="parity">📊 114 Sure Parite Dalgası (57/57)</button>
+            <button class="vis-sub-btn" data-vissub="letters">🌀 28 Harf Kozmik Geometri Çarkı</button>
+            <button class="vis-sub-btn" data-vissub="lataif">✨ 9 Kalp Noktası & Melekî Şifa Ağı</button>
+            <button class="vis-sub-btn" data-vissub="duality">⚖️ Kur'an Kelime Çiftleri Dengesi</button>
+          </div>
+        </div>
+
+        <!-- VIEW 1: PARITY WAVE -->
+        <div class="vis-subview active" id="vissub-parity">
+          <div class="vis-canvas-card">
+            <div class="vis-canvas-header">
+              <div>
+                <span class="badge-gold">57 ÇİFT & 57 TEK SİMETRİSİ</span>
+                <h4>114 Sure Parite ve Ayet Sayısı Harmonik Dalga Formu</h4>
+              </div>
+              <div class="vis-legend">
+                <span class="legend-item"><span class="legend-dot even"></span> Çift Sayılar (57 Sure, Toplam = 6236)</span>
+                <span class="legend-item"><span class="legend-dot odd"></span> Tek Sayılar (57 Sure, Toplam = 6555)</span>
+              </div>
+            </div>
+            <div class="vis-canvas-box">
+              <canvas id="canvas-parity-wave" width="1200" height="420"></canvas>
+            </div>
+            <div class="vis-card-footer-info">
+              💡 Fareyi grafik sütunları ve dalga düğümleri üzerinde gezdirerek sure numarası, ayet sayısı ve toplam simetri değerini canlı inceleyebilirsiniz.
+            </div>
+          </div>
+        </div>
+
+        <!-- VIEW 2: LETTERS MANDALA -->
+        <div class="vis-subview hidden" id="vissub-letters">
+          <div class="vis-canvas-card">
+            <div class="vis-canvas-header">
+              <div>
+                <span class="badge-emerald">KOZMİK ÇARK</span>
+                <h4>28 Kutsal Harfin 360° Geometri ve Ebced Mandalası</h4>
+              </div>
+              <span class="badge-gold-mini">Nuqta-i Bâ Merkezli</span>
+            </div>
+            <div class="vis-canvas-box canvas-square">
+              <canvas id="canvas-letters-wheel" width="800" height="800"></canvas>
+            </div>
+            <div class="vis-card-footer-info">
+              💡 28 harfin göksel yörüngeleri, gezegenleri ve Ebced değerleri 360 derecelik altın oran dairesinde dönmektedir.
+            </div>
+          </div>
+        </div>
+
+        <!-- VIEW 3: LATAIF & ANGELIC HEALING -->
+        <div class="vis-subview hidden" id="vissub-lataif">
+          <div class="vis-canvas-card">
+            <div class="vis-canvas-header">
+              <div>
+                <span class="badge-purple">ANGELIC HEALING & LATAIF</span>
+                <h4>9 Kalp Noktası (Enneagram) & 4 Büyük Melek Şifa Enerji Ağı</h4>
+              </div>
+              <span class="badge-emerald-mini">Letâif-i Hamse</span>
+            </div>
+            <div class="vis-canvas-box">
+              <canvas id="canvas-lataif-healing" width="950" height="650"></canvas>
+            </div>
+            <div class="vis-card-footer-info">
+              💡 Kalp (Sarı), Ruh (Kırmızı), Sır (Beyaz), Hafi (Yeşil), Ahfa (Siyah/Nûr) ve 4 Büyük Melek şifa boyutlarının etkileşim haritası.
+            </div>
+          </div>
+        </div>
+
+        <!-- VIEW 4: DUALITY BALANCE RADAR -->
+        <div class="vis-subview hidden" id="vissub-duality">
+          <div class="vis-canvas-card">
+            <div class="vis-canvas-header">
+              <div>
+                <span class="badge-cyan">SEMANİK DENGE</span>
+                <h4>Kur'an'daki Zıt Kelimelerin Birebir Sayısal Ayna Dengesi</h4>
+              </div>
+              <span class="badge-gold-mini">115-115 / 88-88 / 145-145</span>
+            </div>
+            <div class="vis-canvas-box">
+              <canvas id="canvas-duality-radar" width="1000" height="450"></canvas>
+            </div>
+            <div class="vis-card-footer-info">
+              💡 Dünya ve Ahiret (115-115), Melek ve Şeytan (88-88), Hayat ve Ölüm (145-145) kelimelerinin mükemmel sayısal eşitlik radarı.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========== TAB 4: EBCED / CİFİR HESAPLAYICI ========== -->
+    <section class="tab-pane" id="pane-abjad">
+      <div class="abjad-container">
+        
+        <div class="abjad-hero-banner">
+          <div class="abjad-hero-badge">EBCED-İ KEBÎR & EBCED-İ SAGÎR</div>
+          <h2>Gelişmiş Ebced / Cifir Sayısal Analiz Motoru</h2>
+          <p>
+            Tarih boyunca İslam alimleri, mimarları ve şairleri tarafından tarih düşürmede ve metin analizinde kullanılan
+            klasik Doğu (Maşrık) Ebced tablosuyla anlık harf dökümü ve sayısal değer hesabı.
+          </p>
+        </div>
+
+        <div class="abjad-workspace">
+          
+          <!-- Input Card -->
+          <div class="abjad-card input-card">
+            <div class="card-header-row">
+              <h3>Arapça Metin Girişi</h3>
+              <div class="abjad-toggles">
+                <label class="toggle-option-mini">
+                  <input type="checkbox" id="abjad-chk-dagger">
+                  <span>Elif-i Maksûre (ٰ) Katkısı (+1)</span>
+                </label>
+              </div>
+            </div>
+
+            <textarea id="abjad-text-input" dir="rtl" rows="4" placeholder="Hesaplanacak Arapça metni buraya yazın veya yapıştırın..."></textarea>
+
+            <!-- Quick Template Expressions -->
+            <div class="abjad-presets">
+              <span class="presets-label">Örnek Kalıplar:</span>
+              <button class="preset-btn" data-text="بسم الله الرحمن الرحيم">Besmele-i Şerif (786)</button>
+              <button class="preset-btn" data-text="الله">Lafzatullah (66)</button>
+              <button class="preset-btn" data-text="محمد">Muhammed (92)</button>
+              <button class="preset-btn" data-text="سلام">Selâm (131)</button>
+              <button class="preset-btn" data-text="نور">Nûr (256)</button>
+              <button class="preset-btn" data-text="الحمد لله رب العالمين">Fâtiha 2. Ayet</button>
+              <button class="preset-btn" data-text="قل هو الله احد">İhlâs Suresi 1</button>
+              <button class="preset-btn" data-text="لا اله الا الله">Kelime-i Tevhid</button>
+            </div>
+
+            <!-- Virtual Arabic Helper Keypad -->
+            <div class="arabic-keypad-accordion">
+              <button class="keypad-toggle-btn" id="btn-toggle-keypad">
+                <span>Sanal Arapça Klavye / Harfler</span>
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </button>
+              <div class="arabic-keys-grid hidden" id="arabic-keys-grid"></div>
+            </div>
+          </div>
+
+          <!-- Results Summary Dashboard -->
+          <div class="abjad-results-dashboard">
+            <div class="abjad-kpi-card gold-kpi">
+              <span class="kpi-label">BÜYÜK EBCED (Ebced-i Kebîr)</span>
+              <div class="kpi-value" id="kpi-kebir">0</div>
+              <span class="kpi-desc">Standart 1'den 1000'e Cifir Değeri</span>
+            </div>
+
+            <div class="abjad-kpi-card emerald-kpi">
+              <span class="kpi-label">KÜÇÜK EBCED (Ebced-i Sagîr)</span>
+              <div class="kpi-value" id="kpi-sagir">0</div>
+              <span class="kpi-desc">Basamak Mod / İndirgenmiş Değer</span>
+            </div>
+
+            <div class="abjad-kpi-card">
+              <span class="kpi-label">HARF SAYISI</span>
+              <div class="kpi-value" id="kpi-letters">0</div>
+              <span class="kpi-desc">Hesaba Katılan Harf Adedi</span>
+            </div>
+
+            <div class="abjad-kpi-card">
+              <span class="kpi-label">KELİME SAYISI</span>
+              <div class="kpi-value" id="kpi-words">0</div>
+              <span class="kpi-desc">Metindeki Kelime Adedi</span>
+            </div>
+          </div>
+
+          <!-- Letter Breakdown Table -->
+          <div class="abjad-card breakdown-card">
+            <h3>Harf Harf Ebced Tablosu</h3>
+            <div class="table-responsive">
+              <table class="abjad-table" id="abjad-breakdown-table">
+                <thead>
+                  <tr>
+                    <th>Harf</th>
+                    <th>Arapça Adı</th>
+                    <th>Tekil Değeri</th>
+                    <th>Metindeki Tekrarı</th>
+                    <th>Toplam Katkısı</th>
+                    <th>Oran (%)</th>
+                  </tr>
+                </thead>
+                <tbody id="abjad-table-body">
+                  <tr><td colspan="6" class="empty-cell">Lütfen yukarıdaki kutuya metin girin veya bir örnek seçin.</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TAB 5: ESRÂR-I HURÛF & NUR MUHAMMAD (NURMUHAMMAD.COM) ========== -->
+    <section class="tab-pane" id="pane-nurmuhammad">
+      <div class="nurmuhammad-container">
+        
+        <!-- Hero Banner with Sufi Calligraphic Aesthetics -->
+        <div class="nm-hero-banner">
+          <div class="nm-hero-badge">HAKÎKAT-I MUHAMMEDİYYE & ESRÂR-I HURÛF</div>
+          <h2>28 Harfin Manevi DNA'sı & Sırr-ı Nuqta</h2>
+          <p>
+            Mevlânâ Şeyh Nurjan Mirahmadi (<a href="https://nurmuhammad.com" target="_blank" rel="noopener">NurMuhammad.com</a>) ilimleri ışığında;
+            Bismillah'ın Bâ harfinin altındaki noktadan, 28 harfin felek ve beden letâiflerine, 9 kalp noktası ve Esma-ül Hüsna ile Esma-i Nebi ebced sırlarına uzanan derin ilimler hazinesi.
+          </p>
+
+          <!-- NurMuhammad Sub-navigation -->
+          <div class="nm-subtabs-nav">
+            <button class="nm-nav-btn active" data-nmsub="numbers">🔢 Sayıların Sırları (Secrets of Numbers)</button>
+            <button class="nm-nav-btn" data-nmsub="nuqta">⚫ Sırr-ı Nuqta (Bâ'nın Noktası)</button>
+            <button class="nm-nav-btn" data-nmsub="letters">🔤 28 Harfin İlahi DNA'sı</button>
+            <button class="nm-nav-btn" data-nmsub="principles">🕊️ 11 Naqshbandi İlkesi & Muraqaba</button>
+            <button class="nm-nav-btn" data-nmsub="angelic">👼 Melekî Şifa & 4 Büyük Melek</button>
+            <button class="nm-nav-btn" data-nmsub="nine">✨ 9 Nokta & Lataif-i Kalb</button>
+            <button class="nm-nav-btn" data-nmsub="asma">💫 Esma-ül Hüsna & Esma-i Nebi Matrisi</button>
+          </div>
+        </div>
+
+        <!-- SUBVIEW 0: SAYILARIN SIRLARI (SECRETS OF NUMBERS - NURMUHAMMAD.COM) -->
+        <div class="nm-subview active" id="nmsub-numbers">
+          <div class="nm-card numbers-workspace-card">
+            
+            <div class="nm-numbers-intro-bar">
+              <div class="nm-intro-text">
+                <h3>🔢 Sayıların Sırları & İlm-i Hurûf Çalışma Masası</h3>
+                <p>
+                  Mevlânâ Şeyh Nâzım el-Hakkânî ve Şeyh Nûrjan Mîrahmedî'nin 
+                  <a href="https://nurmuhammad.com/category/secrets-of-letters-numbers-ilm-huroof/secret-of-numbers/" target="_blank" rel="noopener">NurMuhammad.com</a> 
+                  makalelerinin <strong>birebir Türkçe tercümeleri</strong>, 9 Sultanü'l-Evliyâ makamı, ilahi geometri ve canlı matematiksel prosessör.
+                </p>
+              </div>
+              <div class="nm-number-custom-search">
+                <label for="nm-custom-number-input">Özel Sayı Keşfet:</label>
+                <div class="nm-search-input-group">
+                  <input type="number" id="nm-custom-number-input" placeholder="Örn: 19, 72, 114..." min="1" max="999999" />
+                  <button id="btn-nm-analyze-number" title="Sayıyı Analiz Et">Hesapla</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Numbers Quick Selector Bar -->
+            <div class="nm-numbers-pills-bar" id="nm-numbers-pills-bar">
+              <div class="loader-spinner"></div>
+            </div>
+
+            <!-- Active Number Details Banner -->
+            <div class="nm-number-hero-panel" id="nm-number-hero-panel">
+              <div class="nm-nh-badge-wrap">
+                <span class="nm-nh-big-num" id="nm-nh-num">1</span>
+                <span class="nm-nh-symbol" id="nm-nh-symbol">Nükleus</span>
+              </div>
+              <div class="nm-nh-info">
+                <div class="nm-nh-ar-title" id="nm-nh-ar-title">سِرّ الْوَاحِد وَالْأَحَد</div>
+                <h2 class="nm-nh-tr-title" id="nm-nh-tr-title">Sayı 1: Tevhid, Ahadiyyet & Çekirdek Hakikati</h2>
+                <div class="nm-nh-meta-row">
+                  <span class="nm-nh-pill" id="nm-nh-month">🌙 1. Muharrem</span>
+                  <span class="nm-nh-pill gold" id="nm-nh-asma-allah">✨ El-Ahad (الأحد)</span>
+                  <span class="nm-nh-pill rose" id="nm-nh-asma-nabi">🌹 Seyyidinâ Ahmed (ﷺ)</span>
+                  <span class="nm-nh-pill cyan" id="nm-nh-formula">📐 1</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tab Switcher: Secrets vs Understanding vs Live Math Processor -->
+            <div class="nm-num-tabs-row">
+              <button class="nm-num-tab-btn active" data-numtab="secrets" id="btn-num-tab-secrets">
+                <span>✨ Sırlar (Secrets)</span>
+              </button>
+              <button class="nm-num-tab-btn" data-numtab="understanding" id="btn-num-tab-understanding">
+                <span>📖 Kavramsal Anlayış (Understanding - Tam Tercüme)</span>
+              </button>
+              <button class="nm-num-tab-btn" data-numtab="math" id="btn-num-tab-math">
+                <span>🧮 Canlı Matematiksel Prosessör</span>
+              </button>
+            </div>
+
+            <!-- Tab Content 1: Sırlar (Secrets) -->
+            <div class="nm-num-content-pane active" id="pane-num-secrets">
+              <div class="nm-secrets-summary-box" id="nm-secrets-summary">
+                <!-- Summary content -->
+              </div>
+              <div class="nm-secrets-points-list" id="nm-secrets-points">
+                <!-- Points content -->
+              </div>
+              <div class="nm-secrets-verses-box" id="nm-secrets-verses">
+                <!-- Quran verses -->
+              </div>
+            </div>
+
+            <!-- Tab Content 2: Understanding (Birebir Tercüme) -->
+            <div class="nm-num-content-pane hidden" id="pane-num-understanding">
+              <div class="nm-understanding-article-card" id="nm-understanding-article">
+                <!-- Translation content -->
+              </div>
+            </div>
+
+            <!-- Tab Content 3: Canlı Matematiksel Prosessör -->
+            <div class="nm-num-content-pane hidden" id="pane-num-math">
+              <div class="nm-math-processor-grid" id="nm-math-processor-container">
+                <!-- Dynamic Math analysis cards -->
+              </div>
+            </div>
+
+            <!-- Bottom Section: 28 Harfin İlahi DNA'sı Özeti & Tezleri -->
+            <div class="nm-letters-theses-section">
+              <div class="nm-theses-header">
+                <h4>🧬 28 Harfin Sırrı & DNA'sı (Secrets of Arabic Letters)</h4>
+                <a href="https://nurmuhammad.com/secrets-arabic-letters-dna-all-knowledge/" target="_blank" rel="noopener" class="nm-external-source-link">NurMuhammad.com Orijinal Kaynak ↗</a>
+              </div>
+              <div class="nm-theses-grid" id="nm-letters-theses-grid">
+                <!-- Dynamic letter DNA theses -->
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- SUBVIEW 1: NUQTA-I BÂ (SIRR-I NOKTA) -->
+        <div class="nm-subview hidden" id="nmsub-nuqta">
+          <div class="nm-card nuqta-feature-card">
+            <div class="nuqta-calligraphy-display">
+              <div class="nuqta-large-ba">ب</div>
+              <div class="nuqta-pulse-dot"></div>
+              <span class="nuqta-arabic-quote">أَنَا النُّقْطَةُ الَّتِي تَحْتَ الْبَاءِ</span>
+            </div>
+
+            <div class="nuqta-content-text">
+              <div class="nuqta-quote-box">
+                <blockquote>
+                  "Semavi kitapların tüm ilmi Kur'ân'da; Kur'ân'ın ilmi Fâtiha'da; Fâtiha'nın ilmi Besmele'de; Besmele'nin ilmi Bâ (ب) harfinde; Bâ harfinin ilmi ise onun altındaki <strong>NOKTA</strong>'da toplanmıştır. <em>Ve ben o Bâ'nın altındaki noktayım.</em>"
+                </blockquote>
+                <cite>— Hz. Ali İbn Ebî Tâlib (k.v.) & Şeyh Nurjan Mirahmadi Şerhi</cite>
+              </div>
+
+              <div class="nuqta-pillars-grid">
+                <div class="pillar-card">
+                  <div class="pillar-icon">🌌</div>
+                  <h4>1. Ahadiyyetten Vahidiyyete</h4>
+                  <p>Nokta; boyutu ve yönü olmayan ama sonsuz boyutları ve tüm harfleri potansiyelinde barındıran mutlak sırdır. Nokta hareket ettiğinde 'Elif' ve diğer harfler zuhur eder.</p>
+                </div>
+
+                <div class="pillar-card">
+                  <div class="pillar-icon">✨</div>
+                  <h4>2. Nur-i Muhammedî (Aql al-Awwal)</h4>
+                  <p>Cenâb-ı Hakk'ın ilk yarattığı şey Nur-i Muhammedî'dir. Kâinatın yaratılış kodları, Kur'an'ın ilk harfi olan Besmele'nin Bâ'sının altındaki o mukaddes noktadan yayılmıştır.</p>
+                </div>
+
+                <div class="pillar-card">
+                  <div class="pillar-icon">🧬</div>
+                  <h4>3. 28 Harfin Kozmik DNA'sı</h4>
+                  <p>İnsan bedenindeki 28 omurga ve semadaki 28 menzil; Arap alfabesindeki 28 harfin ses ve frekans titreşimleridir. Her harf ilahi bir esmanın zuhurudur.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SUBVIEW 2: 28 LETTERS MANDALA & DETAIL -->
+        <div class="nm-subview hidden" id="nmsub-letters">
+          <div class="nm-card">
+            <div class="subview-header-row">
+              <div>
+                <h3>28 Harf-i Şerîf: Manevi Kodlar & Gezegen Eşleşmeleri</h3>
+                <p>Bir harfe tıklayarak onun Ebced değerini, kozmik feleğini (gezegensel menzilini), insan bedenindeki latife/organını ve NurMuhammad sırrını inceleyin.</p>
+              </div>
+              <div class="nm-letter-search-wrap">
+                <input type="text" id="nm-letter-filter-input" placeholder="Harf veya gezegen ara...">
+              </div>
+            </div>
+
+            <!-- 28 Letters Interactive Mandala Grid -->
+            <div class="nm-letters-mandala-grid" id="nm-letters-grid">
+              <div class="loader-spinner"></div>
+            </div>
+
+            <!-- Letter Detail Modal / Card Drawer -->
+            <div class="nm-letter-detail-card hidden" id="nm-letter-detail-card">
+              <div class="nld-header">
+                <div class="nld-big-arabic" id="nld-char">ب</div>
+                <div class="nld-info">
+                  <h4 id="nld-name">Bâ (ب)</h4>
+                  <div class="nld-badges">
+                    <span class="badge-gold">Ebced: <strong id="nld-abjad">2</strong></span>
+                    <span class="badge-emerald" id="nld-planet">Kozmik: Kamer (Ay)</span>
+                    <span class="badge-cyan" id="nld-organ">Organ: Sol Göz / Görme</span>
+                  </div>
+                </div>
+                <button class="nld-close-btn" id="btn-close-nld">&times;</button>
+              </div>
+              <div class="nld-body">
+                <div class="nld-row">
+                  <span class="nld-lbl">İlahi Esma-ül Hüsna:</span>
+                  <strong class="nld-val" id="nld-asma-allah">El-Bâkî (113)</strong>
+                </div>
+                <div class="nld-row">
+                  <span class="nld-lbl">Habîb-i Kibriyâ Esma-i Nebi:</span>
+                  <strong class="nld-val" id="nld-asma-nabi">Burhân (258)</strong>
+                </div>
+                <div class="nld-secrets-text" id="nld-secret">
+                  Besmele'nin başlangıç harfidir. Varlığın zuhur kapısı ve Nur-i Muhammedi'nin tecelligâhıdır.
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- SUBVIEW 3: 9 POINTS & LATAIF -->
+        <div class="nm-subview hidden" id="nmsub-nine">
+          <div class="nm-card">
+            <div class="subview-header-row">
+              <div>
+                <h3>9 Nokta, Kalp Letâifi & 9. Sure Tevbe Sırrı</h3>
+                <p>Mevlânâ Şeyh Nurjan Mirahmadi'nin Enneagram ve Letâif-i Tis'a öğretisi: Kalbin 9 tecellisi ve Tevbe ile Neml surelerindeki Besmele dengesi.</p>
+              </div>
+            </div>
+
+            <!-- Mystery of 9 Card -->
+            <div class="nm-nine-mystery-grid">
+              <div class="nine-mystery-card">
+                <div class="nmc-badge">SURE 9 SİRRİ</div>
+                <h4>Tevbe Suresi & Eksik Besmele</h4>
+                <p>9. Sure olan Tevbe suresinde Besmele bulunmaz. 9, nefsin kapısı ve teslimiyetin son makamıdır ($9 \times 1 = 9, 9 \times 2 = 18 \rightarrow 1+8=9$).</p>
+                <div class="nm-math-pill">9. Sure: Besmelesiz Başlar</div>
+              </div>
+
+              <div class="nine-mystery-card gold-border">
+                <div class="nmc-badge-gold">SURE 27 = 9 × 3</div>
+                <h4>Neml Suresi 27:30</h4>
+                <p>Eksik olan Besmele, tam 19 sure sonra, 27. Sure Neml 30. ayette tamamlanır: <em>"İnnehû min Süleymâne ve innehû Bismillâhirrahmânirrahîm"</em> ($27 = 9 \times 3$). Böylece Kur'an'daki 114 Besmele eksiksiz korunur!</p>
+                <div class="nm-math-pill gold">27. Sure 30. Ayet: Tamamlama</div>
+              </div>
+            </div>
+
+            <!-- 9 Lataif Grid -->
+            <h4 style="margin: 1.5rem 0 0.8rem; color:var(--gold-light);">Kalbin 9 Noktası ve Letâif Makamları</h4>
+            <div class="lataif-cards-grid" id="nm-lataif-grid">
+              <!-- Dynamically populated -->
+            </div>
+
+          </div>
+        </div>
+
+        <!-- SUBVIEW 4: ASMA-UL HUSNA & ASMA-I NABI MATRIX -->
+        <div class="nm-subview hidden" id="nmsub-asma">
+          <div class="nm-card">
+            <div class="subview-header-row">
+              <div>
+                <h3>Esma-ül Hüsna (99) & Esma-i Nebi Ebced Karşılaştırması</h3>
+                <p>Cenâb-ı Hakk'ın 99 ismi ile Fahr-i Âlem Efendimiz (s.a.v.)'in mukaddes isimleri arasındaki Ebced değerleri, asal sayı durumları ve sayısal uyumlar.</p>
+              </div>
+              <div class="asma-search-box">
+                <input type="text" id="asma-filter-input" placeholder="Esma ara (Arapça, Türkçe veya Ebced)...">
+              </div>
+            </div>
+
+            <div class="asma-tables-dual-grid">
+              <!-- Asma ul Husna Table -->
+              <div class="asma-col">
+                <div class="col-title-bar">
+                  <h4 id="title-asma-husna">Cenâb-ı Allah'ın 99 İsmi (Esma-ül Hüsna)</h4>
+                  <span class="badge-mini" id="badge-asma-husna">99 İsim</span>
+                </div>
+                <div class="table-responsive" style="max-height: 480px; overflow-y: auto;">
+                  <table class="abjad-table" id="table-asma-husna">
+                    <thead>
+                      <tr>
+                        <th>No</th>
+                        <th id="th-ah-ar">Arapça</th>
+                        <th id="th-ah-name">Adı</th>
+                        <th id="th-ah-meaning">Anlamı</th>
+                        <th id="th-ah-abjad">Ebced</th>
+                        <th id="th-ah-prime">Asallık</th>
+                      </tr>
+                    </thead>
+                    <tbody id="tbody-asma-husna">
+                      <!-- Populated dynamically -->
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <!-- Asma un Nabi Table -->
+              <div class="asma-col">
+                <div class="col-title-bar gold-bar">
+                  <h4 id="title-asma-nabi">Resûlullah (s.a.v.)'in 201 Mübarek İsmi (Esma-i Nebi)</h4>
+                  <span class="badge-gold-mini" id="badge-asma-nabi">201 İsim (Delâil-i Hayrât)</span>
+                </div>
+                <div class="table-responsive" style="max-height: 480px; overflow-y: auto;">
+                  <table class="abjad-table" id="table-asma-nabi">
+                    <thead>
+                      <tr>
+                        <th>Arapça</th>
+                        <th>Adı</th>
+                        <th>Ebced</th>
+                        <th>Hakikati & Manevi Boyutu</th>
+                      </tr>
+                    </thead>
+                    <tbody id="tbody-asma-nabi">
+                      <!-- Populated dynamically -->
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- SUBVIEW: 11 NAQSHBANDI PRINCIPLES & MURAQABA (NURMUHAMMAD.COM / MUHAMMADANREALITY.COM) -->
+        <div class="nm-subview hidden" id="nmsub-principles">
+          <div class="nm-card">
+            <div class="subview-header-row">
+              <div>
+                <span class="badge-gold">NAQSHBANDI REALITIES</span>
+                <h3>Nakşibendî Yolunun 11 Kutsal İlkesi & Kalp Murakabesi</h3>
+                <p>Hâce Abdülhâlık-ı Gucdüvânî ve Şâh-ı Nakşibend (k.s.) hazretlerinin sistemleştirdiği 11 manevi şuur disiplini.</p>
+              </div>
+            </div>
+
+            <div class="principles-11-grid" id="principles-11-grid">
+              <!-- Dynamically populated or rendered -->
+            </div>
+          </div>
+        </div>
+
+        <!-- SUBVIEW: ANGELIC HEALING & 4 ARCHANGELS (ANGELICHEALING.NET) -->
+        <div class="nm-subview hidden" id="nmsub-angelic">
+          <div class="nm-card">
+            <div class="subview-header-row">
+              <div>
+                <span class="badge-emerald">ANGELICHEALING.NET & MALAKUT</span>
+                <h3>Melekî Şifa Boyutları & 4 Büyük Melek Frekansı</h3>
+                <p>Seyyidinâ Cebrâil, Mikâil, İsrâfil ve Azrâil (a.s.) letâif bağlantıları, hücresel şifa ve zikir terkipleri.</p>
+              </div>
+            </div>
+
+            <div class="angelic-healing-grid" id="angelic-healing-grid">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========== TAB 6: DETAYLI ARAMA ========== -->
+    <section class="tab-pane" id="pane-search">
+      <div class="search-page-container">
+        
+        <div class="search-box-card">
+          <h2>Kur'an-ı Kerim Arama Motoru</h2>
+          <p>Diyanet ve Elmalılı meallerinde, İngilizce mealde veya orijinal Arapça metinde anında arama.</p>
+          
+          <div class="search-input-wrapper">
+            <svg class="search-input-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            <input type="text" id="global-search-input" placeholder="Kelime veya cümle arayın (örn: adalet, merhamet, gökler, صبر)..." autofocus>
+            <button class="btn-primary" id="btn-exec-search">Ara</button>
+          </div>
+
+          <div class="search-filters-row">
+            <div class="filter-group">
+              <label>Arama Alanı:</label>
+              <select id="search-field-select">
+                <option value="all">Tüm Mealler & Metinler</option>
+                <option value="diyanet" selected>Diyanet Meali</option>
+                <option value="yazir">Elmalılı Hamdi Yazır Meali</option>
+                <option value="en">İngilizce (Sahih International)</option>
+                <option value="arabic">Yalın Arapça Metin</option>
+                <option value="transliteration">Türkçe Okunuş</option>
+              </select>
+            </div>
+
+            <div class="filter-group">
+              <label>Sure Filtresi:</label>
+              <select id="search-surah-select">
+                <option value="">Tüm Kur'an (114 Sure)</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="search-results-wrapper">
+          <div class="results-meta-header hidden" id="search-meta-header">
+            <span id="search-count-label">0 ayet bulundu</span>
+          </div>
+          <div class="search-results-list" id="search-results-list"></div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= STICKY AUDIO PLAYER BAR ================= -->
+  <footer class="audio-master-bar" id="audio-master-bar">
+    <div class="audio-bar-inner">
+      
+      <!-- Track Meta -->
+      <div class="audio-meta">
+        <button class="audio-btn-circle" id="player-btn-toggle" title="Oynat / Duraklat">
+          <svg class="icon-play" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          <svg class="icon-pause hidden" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+        </button>
+        <div class="audio-track-info">
+          <div class="audio-track-title">
+            <span class="playing-live-indicator hidden" id="player-indicator-dot"></span>
+            <span id="player-surah-name">Fâtiha Suresi</span>
+            <span class="badge-verse-no" id="player-verse-badge">1:1</span>
+          </div>
+          <div class="audio-reciter-name">Kâri: Mişârî Râşid el-Afâsî</div>
+        </div>
+      </div>
+
+      <!-- Playback Controls -->
+      <div class="audio-controls">
+        <button class="player-ctrl-btn" id="player-btn-prev" title="Önceki Ayet">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><polygon points="19 20 9 12 19 4 19 20"/><line x1="5" y1="19" x2="5" y2="5" stroke="currentColor" stroke-width="2"/></svg>
+        </button>
+        
+        <div class="audio-waveform-visualizer" id="audio-visualizer">
+          <span class="wave-bar"></span>
+          <span class="wave-bar"></span>
+          <span class="wave-bar"></span>
+          <span class="wave-bar"></span>
+          <span class="wave-bar"></span>
+          <span class="wave-bar"></span>
+          <span class="wave-bar"></span>
+          <span class="wave-bar"></span>
+        </div>
+
+        <button class="player-ctrl-btn" id="player-btn-next" title="Sonraki Ayet">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><polygon points="5 4 15 12 5 20 5 4"/><line x1="19" y1="5" x2="19" y2="19" stroke="currentColor" stroke-width="2"/></svg>
+        </button>
+      </div>
+
+      <!-- Extra Options -->
+      <div class="audio-extras">
+        <label class="auto-advance-toggle" title="Ayet bittiğinde otomatik sonraki ayete geçer">
+          <input type="checkbox" id="player-chk-autoadvance" checked>
+          <span>Sıradaki Ayete Geç</span>
+        </label>
+        
+        <div class="volume-slider-wrap">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+          <input type="range" id="player-volume" min="0" max="1" step="0.05" value="0.9">
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <audio id="global-audio-element" preload="none"></audio>
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Miracles Detail Modal -->
+  <div class="modal-overlay hidden" id="miracle-modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="modal-badge-row">
+          <span class="modal-badge-gold" id="modal-miracle-badge">Matematiksel Kod</span>
+        </div>
+        <h3 id="modal-miracle-title">365 Gün & 12 Ay</h3>
+        <button class="modal-close-btn" id="btn-close-modal">&times;</button>
+      </div>
+      <div class="modal-body" id="modal-miracle-body"></div>
+    </div>
+  </div>
+
+  <!-- Comprehensive Root Dossier Modal -->
+  <div class="modal-overlay hidden" id="root-dossier-modal">
+    <div class="modal-content root-dossier-modal-content">
+      <div class="modal-header">
+        <div class="modal-badge-row">
+          <span class="modal-badge-gold">SÜLÂSÎ KÖK & MORFOLOJİ DOSYASI</span>
+          <span class="modal-badge-emerald" id="root-modal-freq-badge">339 Geçiş</span>
+        </div>
+        <div class="root-modal-hero">
+          <div class="root-modal-arabic" id="root-modal-arabic">ر - ح - م</div>
+          <div class="root-modal-sub">
+            <h3 id="root-modal-reading">Ra-Ha-Mim</h3>
+            <p id="root-modal-meaning">Merhamet etmek, şefkat, acımak</p>
+          </div>
+        </div>
+        <div class="root-modal-header-actions">
+          <button class="btn-root-return-reader" id="btn-root-return-reader" onclick="returnToLastReadingPosition()" title="Mushaf Okuma Kısmına Geri Dön">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m15 18-6-6 6-6"/></svg>
+            <span>Okuduğum Kısıma Dön</span>
+          </button>
+          <button class="modal-close-btn" id="btn-close-root-modal" onclick="closeRootDossierModal()" title="Kapat ve Okuduğum Yere Dön">&times;</button>
+        </div>
+      </div>
+      <div class="modal-body root-dossier-modal-body" id="root-modal-body">
+        <!-- 9 Conjugation Form Table -->
+        <div class="root-forms-section">
+          <h4 class="section-title">9 Temel Bâb & Çekim Matrisi</h4>
+          <div class="root-forms-table-wrap">
+            <table class="root-forms-table">
+              <thead>
+                <tr>
+                  <th>Sarf / Bâb</th>
+                  <th>Arapça Biçim</th>
+                  <th>Türkçe Anlam</th>
+                </tr>
+              </thead>
+              <tbody id="root-modal-forms-tbody">
+                <!-- Dynamically populated -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Verses Occurrences Section -->
+        <div class="root-verses-section">
+          <div class="root-verses-header">
+            <h4 class="section-title">Kur'an'da Geçtiği Başlıca Ayetler</h4>
+            <span class="root-verses-count-tag" id="root-modal-verses-count">Ayetler yükleniyor...</span>
+          </div>
+          <div class="root-verses-list" id="root-modal-verses-list">
+            <!-- Dynamically populated verse items with jump to reader -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Floating Mouse-Selection Ebced & Morphology Badge -->
+  <div class="selection-ebced-pill hidden" id="selection-ebced-pill">
+    <div class="pill-top-row">
+      <div class="pill-badge-gold">
+        <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v8"/><path d="M8 12h8"/></svg>
+        <span id="pill-title-text">Seçili Metin Ebced & Sarf Tahlili</span>
+      </div>
+      <button class="pill-btn-close" id="pill-btn-close" title="Kapat">&times;</button>
+    </div>
+    
+    <div class="pill-arabic" id="pill-text-ar">...</div>
+
+    <!-- Kelime / Cümle Öbeği Meali -->
+    <div class="pill-meaning-card" id="pill-meaning-card">
+      <div class="pmc-label-row">
+        <span class="pmc-badge" id="pill-meaning-badge">📖 AYET İÇİ MANASI</span>
+        <span class="pmc-translit" id="pill-translit"></span>
+      </div>
+      <div class="pmc-meaning-text" id="pill-meaning-text">...</div>
+    </div>
+
+    <!-- Kök ve Kök Anlamı Kartı -->
+    <div class="pill-root-card" id="pill-root-card">
+      <div class="prc-header">
+        <span class="prc-badge">🌱 SÜLÂSÎ KÖK</span>
+        <span class="prc-root-val" id="pill-root-val">-</span>
+      </div>
+      <div class="prc-meaning" id="pill-root-meaning"></div>
+    </div>
+
+    <!-- Hareke & Morfoloji (Esre, Ötre, Fetha, Cezim, Şedde) Tahlili -->
+    <div class="pill-hareke-card" id="pill-hareke-card">
+      <div class="phc-header">
+        <span class="phc-badge">🎼 HAREKE & SARF YAPISI</span>
+        <span class="phc-type" id="pill-gram-type"></span>
+      </div>
+      <div class="phc-chips-grid" id="pill-hareke-chips">
+        <!-- Fetha, Esre, Ötre, Cezim, Şedde rozetleri -->
+      </div>
+    </div>
+
+    <!-- Cümle Öbeği Kelimeleri Listesi (Birden fazla kelime seçildiğinde) -->
+    <div class="pill-phrase-words-box hidden" id="pill-phrase-words-box">
+      <div class="ppw-header">Öbekteki Kelimeler:</div>
+      <div class="ppw-list" id="pill-phrase-words-list"></div>
+    </div>
+
+    <!-- Sayısal Metrikler -->
+    <div class="pill-metrics-grid">
+      <div class="pill-metric">
+        <span class="pm-lbl">Büyük Ebced:</span>
+        <strong class="pm-val gold" id="pill-ebced-kebir">0</strong>
+      </div>
+      <div class="pill-metric">
+        <span class="pm-lbl">Küçük:</span>
+        <strong class="pm-val emerald" id="pill-ebced-sagir">0</strong>
+      </div>
+      <div class="pill-metric">
+        <span class="pm-lbl">Harf:</span>
+        <strong class="pm-val" id="pill-letter-count">0</strong>
+      </div>
+    </div>
+
+    <div class="pill-tags-row" id="pill-tags-row">
+      <!-- Injected: Prime, multiple of 19, multiple of 7 -->
+    </div>
+
+    <div class="pill-actions-row">
+      <button class="pill-btn-action" id="pill-btn-send-inspector">Müfettişe Aktar</button>
+      <button class="pill-btn-action secondary" id="pill-btn-copy-stats">Kopyala</button>
+    </div>
+  </div>
+
+  <!-- Calculation & Probability Preferences Modal -->
+  <div class="calc-pref-modal-overlay" id="calc-pref-modal">
+    <div class="calc-pref-modal-card">
+      <div class="cpm-header">
+        <div class="cpm-title-group">
+          <h3>Hesaplama ve Olasılık Tercihleri</h3>
+          <p>Müfettiş panelinde ve analizlerde görmek istediğiniz metrikleri seçin.</p>
+        </div>
+        <button class="cpm-close-btn" id="btn-close-calc-pref">&times;</button>
+      </div>
+
+      <div class="cpm-list">
+        <!-- Kebir -->
+        <label class="cpm-item" for="pref-ebced-kebir">
+          <div class="cpm-item-info">
+            <span class="cpm-item-title">Büyük Ebced (Ebced-i Kebîr)</span>
+            <span class="cpm-item-desc">Klasik 28 harfli geleneksel ebced sayısal değeri ve asallık durumu</span>
+          </div>
+          <div class="cpm-switch">
+            <input type="checkbox" id="pref-ebced-kebir" data-pref="ebcedKebir" checked>
+            <span class="cpm-slider"></span>
+          </div>
+        </label>
+
+        <!-- Sagir -->
+        <label class="cpm-item" for="pref-ebced-sagir">
+          <div class="cpm-item-info">
+            <span class="cpm-item-title">Küçük Ebced (Ebced-i Sagîr)</span>
+            <span class="cpm-item-desc">Sıfırları atılmış/mod 9 esasına göre indirgenmiş basamak değeri</span>
+          </div>
+          <div class="cpm-switch">
+            <input type="checkbox" id="pref-ebced-sagir" data-pref="ebcedSagir" checked>
+            <span class="cpm-slider"></span>
+          </div>
+        </label>
+
+        <!-- Harf Sayısı -->
+        <label class="cpm-item" for="pref-letter-count">
+          <div class="cpm-item-info">
+            <span class="cpm-item-title">Harf Sayısı & Çift/Tek/Asallık</span>
+            <span class="cpm-item-desc">Kelimenin veya seçilen metnin harf adedi ve aritmetik özellikleri</span>
+          </div>
+          <div class="cpm-switch">
+            <input type="checkbox" id="pref-letter-count" data-pref="letterCount" checked>
+            <span class="cpm-slider"></span>
+          </div>
+        </label>
+
+        <!-- 19 ve 7 Kodları -->
+        <label class="cpm-item" for="pref-code197">
+          <div class="cpm-item-info">
+            <span class="cpm-item-title">19 ve 7 Sayısal Kodları</span>
+            <span class="cpm-item-desc">19 ve 7'nin tam katları, modüler aritmetik katsayı analizleri</span>
+          </div>
+          <div class="cpm-switch">
+            <input type="checkbox" id="pref-code197" data-pref="code197" checked>
+            <span class="cpm-slider"></span>
+          </div>
+        </label>
+
+        <!-- Asal Çarpanlar -->
+        <label class="cpm-item" for="pref-prime-factors">
+          <div class="cpm-item-info">
+            <span class="cpm-item-title">Asal Çarpanlarına Ayrılış</span>
+            <span class="cpm-item-desc">Ebced değerinin asal çarpanlar çarpımı olarak tam formülasyonu</span>
+          </div>
+          <div class="cpm-switch">
+            <input type="checkbox" id="pref-prime-factors" data-pref="primeFactors" checked>
+            <span class="cpm-slider"></span>
+          </div>
+        </label>
+
+        <!-- Kombinatorik Olasılık -->
+        <label class="cpm-item" for="pref-probability">
+          <div class="cpm-item-info">
+            <span class="cpm-item-title">Kombinatorik Olasılık Analizi P(X)</span>
+            <span class="cpm-item-desc">Sure ve Kur'an genelinde frekans yoğunluğu ve hipergeometrik olasılık</span>
+          </div>
+          <div class="cpm-switch">
+            <input type="checkbox" id="pref-probability" data-pref="probability" checked>
+            <span class="cpm-slider"></span>
+          </div>
+        </label>
+
+        <!-- Harf Harf Döküm -->
+        <label class="cpm-item" for="pref-letter-table">
+          <div class="cpm-item-info">
+            <span class="cpm-item-title">Harf Harf Döküm Tablosu</span>
+            <span class="cpm-item-desc">Her harfin tek tek izole hali, adı, ebced değeri ve asallık tablosu</span>
+          </div>
+          <div class="cpm-switch">
+            <input type="checkbox" id="pref-letter-table" data-pref="letterTable" checked>
+            <span class="cpm-slider"></span>
+          </div>
+        </label>
+
+        <!-- Ayet Matrisi & Merkez -->
+        <label class="cpm-item" for="pref-ayah-matrix">
+          <div class="cpm-item-info">
+            <span class="cpm-item-title">Bağlı Olduğu Ayet Matrisi & Merkez</span>
+            <span class="cpm-item-desc">Ayet toplam ebcedi, toplam kelime ve vasat (merkez) kelimesi</span>
+          </div>
+          <div class="cpm-switch">
+            <input type="checkbox" id="pref-ayah-matrix" data-pref="ayahMatrix" checked>
+            <span class="cpm-slider"></span>
+          </div>
+        </label>
+      </div>
+
+      <div class="cpm-footer">
+        <button class="btn-cpm-apply" id="btn-apply-calc-pref">Kaydet ve Uygula</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Focus Exit Badge -->
+  <div class="focus-exit-badge" id="focus-exit-badge" title="Odak Modundan Çık (Esc veya F)">
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    <span>Odak Modundan Çık</span>
+    <span style="font-size:0.7rem; opacity:0.8; font-family:monospace;">[ESC]</span>
+  </div>
+
+  <!-- Quick Verse Outreach Modal -->
+  <div class="verse-jump-modal-overlay" id="verse-jump-modal">
+    <div class="verse-jump-dialog">
+      <div class="vj-header">
+        <div class="vj-title-wrap">
+          <span class="vj-badge">HIZLI İNTİKAL</span>
+          <h4>Ayet Hızlı Erişim & Outreach</h4>
+        </div>
+        <button class="vj-close" id="btn-close-vj-modal">&times;</button>
+      </div>
+      <div class="vj-body">
+        <p class="vj-desc">Sure ve ayet numarasını girin (Örn: <code>2:255</code> veya mevcut surede doğrudan ayet no: <code>255</code>):</p>
+        <div class="vj-input-row">
+          <input type="text" id="vj-input" placeholder="Sure : Ayet (Örn: 2:255 veya 36:1)" autofocus autocomplete="off" />
+          <button id="btn-vj-submit" class="btn-vj-go">Ayet'e Git</button>
+        </div>
+        <div class="vj-presets-title">Sık İncelenen & Seçkin Ayetler:</div>
+        <div class="vj-presets-grid">
+          <button class="vj-preset-btn" data-surah="1" data-ayah="1">1:1 Fâtiha</button>
+          <button class="vj-preset-btn" data-surah="2" data-ayah="1">2:1 Elif-Lâm-Mîm</button>
+          <button class="vj-preset-btn" data-surah="2" data-ayah="255">2:255 Âyetü'l-Kürsî</button>
+          <button class="vj-preset-btn" data-surah="2" data-ayah="285">2:285 Âmenerresûlü</button>
+          <button class="vj-preset-btn" data-surah="36" data-ayah="1">36:1 Yâsîn-i Şerîf</button>
+          <button class="vj-preset-btn" data-surah="55" data-ayah="1">55:1 Rahmân</button>
+          <button class="vj-preset-btn" data-surah="67" data-ayah="1">67:1 Mülk (Tebâreke)</button>
+          <button class="vj-preset-btn" data-surah="112" data-ayah="1">112:1 İhlâs</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Semantic Sign Explorer Drawer (Keşif & İşaretler - Siyaq & Sibak) -->
+  <div class="explorer-drawer-backdrop" id="explorer-backdrop"></div>
+  <aside class="explorer-drawer" id="explorer-drawer" aria-hidden="true">
+    <div class="exp-header">
+      <div class="exp-title-wrap">
+        <span class="exp-badge" data-i18n="inspector_subtitle">BAĞLAMSAL KEŞİF & SİYAQ-SİBAK</span>
+        <h3 class="exp-title" data-i18n="tabExplorer">Keşif & İşaretler Motoru</h3>
+      </div>
+      <button class="exp-close" id="btn-close-explorer" aria-label="Kapat">&times;</button>
+    </div>
+
+    <div class="exp-body">
+      <!-- Search Box -->
+      <div class="exp-search-box">
+        <input type="text" id="exp-query-input" placeholder="Bir işaret, kavram veya teolojik soru sorun (Örn: 88 melek şeytan dengesi, kevser ve kurban)..." data-i18n-placeholder="explore_placeholder" autocomplete="off" />
+        <button id="btn-exp-search" class="btn-exp-submit" data-i18n="explore_btn">Keşfet</button>
+      </div>
+
+      <!-- Quick Concept Suggestion Chips -->
+      <div class="exp-chips-row">
+        <span class="exp-chips-label">Örnek İşaretler:</span>
+        <button class="exp-chip" data-concept="melek ve şeytan dengesi">Melek & Şeytan (88-88)</button>
+        <button class="exp-chip" data-concept="kevser ve ebter hikmeti">Kevser & Ebter & Kurban</button>
+        <button class="exp-chip" data-concept="ayetel kürsi bağlamı">Âyetü'l-Kürsî Siyaq-Sibak</button>
+        <button class="exp-chip" data-concept="nur ve zulümat hikmeti">Nûr & Zulümât</button>
+        <button class="exp-chip" data-concept="deniz ve kara oranı">Deniz & Kara (%71.1 / %28.9)</button>
+      </div>
+
+      <!-- Result Stage -->
+      <div class="exp-results-stage" id="exp-results-stage">
+        <div class="exp-empty-placeholder">
+          <div class="exp-placeholder-icon">✨</div>
+          <h4 data-i18n="inspector_empty_title">Kavram veya İşaret Arayın</h4>
+          <p data-i18n="inspector_empty_desc">Yukarıdaki arama çubuğuna dilediğiniz bir kavramı, kelime kökünü veya tematik soruyu yazın; ayetlerin Siyaq (giriş) ve Sibak (sonuç) bağlamları ile morfolojik kök analizi anında çözümlensin.</p>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Dynamic Library & Comparative Source Modal -->
+  <div class="library-modal-overlay" id="library-modal">
+    <div class="library-modal-dialog">
+      <div class="lib-header">
+        <div class="lib-title-wrap">
+          <span class="lib-badge">DİNAMİK KÜTÜPHANE</span>
+          <h4 data-i18n="library_sources_title">Dinamik Kütüphane & Kaynaklar</h4>
+        </div>
+        <button class="lib-close" id="btn-close-library-modal">&times;</button>
+      </div>
+      <div class="lib-body">
+        <p class="lib-desc">Karşılaştırmalı okuma ve inceleme için etkinleştirmek istediğiniz meal, tefsir, lügat ve hadis kaynaklarını seçin:</p>
+        
+        <!-- Source Types Tabs: All, Mealler, Tefsirler, Lügatlar, Hadisler -->
+        <div class="lib-type-filter" id="lib-type-filter">
+          <button class="lib-filter-btn active" data-type="all">Tümü</button>
+          <button class="lib-filter-btn" data-type="meal" data-i18n="library_type_meal">Mealler</button>
+          <button class="lib-filter-btn" data-type="tefsir" data-i18n="library_type_tefsir">Tefsirler</button>
+          <button class="lib-filter-btn" data-type="lugat" data-i18n="library_type_lugat">Lügatlar</button>
+          <button class="lib-filter-btn" data-type="hadis" data-i18n="library_type_hadis">Hadisler</button>
+        </div>
+
+        <!-- Sources Grid List -->
+        <div class="lib-sources-grid" id="lib-sources-grid">
+          <div class="loader-spinner"></div>
+        </div>
+
+        <!-- Live Verse Comparative Preview -->
+        <div class="lib-preview-section">
+          <div class="lib-preview-header">
+            <span class="lib-preview-title">Seçili Kaynaklarla Anlık Karşılaştırma:</span>
+            <span class="lib-preview-target" id="lib-preview-verse-target">Fâtiha 1:1</span>
+          </div>
+          <div class="lib-comparisons-stream" id="lib-comparisons-stream"></div>
+        </div>
+      </div>
+      <div class="lib-footer">
+        <button class="btn-lib-apply" id="btn-apply-library-sources">Seçimleri Kaydet ve Uygula</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sunnah.com API & Collection Modal -->
+  <div class="modal-overlay hidden" id="sunnah-api-modal">
+    <div class="modal-content sunnah-modal-content">
+      <div class="modal-header">
+        <div class="modal-badge-row">
+          <span class="modal-badge-gold">SUNNAH.COM ENTEGRASYONU</span>
+          <span class="modal-badge-emerald" id="sunnah-modal-status-badge">Açık CDN & API Aktif</span>
+        </div>
+        <h3 id="sunnah-modal-title">Sunnah.com API & Külliyat Ayarları</h3>
+        <button class="modal-close-btn" id="btn-close-sunnah-modal" onclick="closeSunnahApiModal()">&times;</button>
+      </div>
+      <div class="modal-body sunnah-modal-body">
+        <div class="sunnah-info-box">
+          <p><strong>Sunnah.com Geliştirici Portalı:</strong> <a href="https://sunnah.com/developers" target="_blank" rel="noopener">https://sunnah.com/developers</a> üzerinden ücretsiz temin edebileceğiniz <code>X-API-KEY</code> anahtarınızı buraya kaydedebilirsiniz.</p>
+          <p class="sunnah-info-note">ℹ️ <em>API anahtarınız olmasa dahi, sistemimiz anında yedek <strong>Açık CDN Mirror</strong> altyapısını devreye sokar ve Buhârî, Müslim, Ebû Dâvûd, Tirmizî, Nesâî, İbn Mâce ve Nevevî Kırk Hadis külliyatlarını kesintisiz canlı çeker.</em></p>
+        </div>
+
+        <div class="sunnah-key-config-row">
+          <div class="sunnah-input-group">
+            <label for="sunnah-api-key-input">Sunnah.com X-API-KEY:</label>
+            <div class="sunnah-input-wrap">
+              <input type="password" id="sunnah-api-key-input" placeholder="Örn: your_sunnah_api_key_here..." autocomplete="off" />
+              <button class="btn-toggle-key-visibility" id="btn-toggle-key-visibility" onclick="toggleSunnahKeyVisibility()" type="button" title="Göster/Gizle">👁️</button>
+            </div>
+          </div>
+          <div class="sunnah-key-actions">
+            <button class="btn-save-sunnah-key" onclick="saveSunnahApiKey()" type="button">Kaydet</button>
+            <button class="btn-clear-sunnah-key" onclick="clearSunnahApiKey()" type="button">Temizle</button>
+          </div>
+        </div>
+        <div class="sunnah-key-status-msg" id="sunnah-key-status-msg"></div>
+
+        <hr class="sunnah-divider" />
+
+        <div class="sunnah-live-tester-head">
+          <h4>Canlı Külliyat & Hadis Getirici</h4>
+          <span class="badge-mini">Canlı Test & Önizleme</span>
+        </div>
+        <div class="sunnah-explorer-controls">
+          <div class="sunnah-field">
+            <label for="sunnah-exp-coll">Koleksiyon:</label>
+            <select id="sunnah-exp-coll" onchange="onSunnahCollectionChange()">
+              <option value="bukhari">Sahîh-i Buhârî (7,563 Hadis)</option>
+              <option value="muslim">Sahîh-i Müslim (7,500 Hadis)</option>
+              <option value="nasai">Sünen-i Nesâî (5,758 Hadis)</option>
+              <option value="abudawud">Sünen-i Ebû Dâvûd (5,274 Hadis)</option>
+              <option value="tirmidhi">Câmiu't-Tirmizî (3,956 Hadis)</option>
+              <option value="ibnmajah">Sünen-i İbn Mâce (4,341 Hadis)</option>
+              <option value="malik">Muvatta-ı Mâlik (1,858 Hadis)</option>
+              <option value="ahmad">Müsned-i Ahmed (27,647 Hadis)</option>
+              <option value="nawawi40">İmam Nevevî Kırk Hadis (42 Hadis)</option>
+              <option value="riyadussalihin">Riyâzü's-Sâlihîn (1,896 Hadis)</option>
+            </select>
+          </div>
+          <div class="sunnah-field">
+            <label for="sunnah-exp-book">Kitap / Bâb No:</label>
+            <input type="number" id="sunnah-exp-book" value="1" min="1" max="100" />
+          </div>
+          <div class="sunnah-field">
+            <label for="sunnah-exp-limit">Hadis Adedi:</label>
+            <select id="sunnah-exp-limit">
+              <option value="3">3 Hadis</option>
+              <option value="5" selected>5 Hadis</option>
+              <option value="10">10 Hadis</option>
+            </select>
+          </div>
+          <button class="btn-fetch-sunnah-live" onclick="fetchLiveSunnahHadiths()" type="button">Hadisleri Çek</button>
+        </div>
+
+        <div class="sunnah-live-results" id="sunnah-live-results">
+          <div class="sunnah-empty-callout">Yukarıdaki parametreleri seçip "Hadisleri Çek" butonuna tıklayarak Sunnah API veya CDN üzerinden anında hadis getirebilirsiniz.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Offline Quran Mathematical Processor Engine -->
+  <script src="math_processor.js"></script>
+  <!-- Multilingual Language Model Engine -->
+  <script src="language_model.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
+

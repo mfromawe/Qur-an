@@ -1,0 +1,35 @@
+{
+  "source_id": "lugat_mufradat_tr",
+  "name": "el-Müfredât (Ragıb el-İsfahânî)",
+  "author": "Râgıb el-İsfahânî (v. 502/1108)",
+  "type": "lugat",
+  "lang_code": "tr",
+  "description": "Kur'an kelimelerinin iştikak (kök morfolojisi), semantik nüansları ve hakiki mecazi kullanımları.",
+  "entries": [
+    {
+      "surah_id": 1,
+      "verse_id": 1,
+      "content": "Kök: (ر ح م) R-H-M. 'Rahmet', muhtaç ve şefkate lâyık olana ihsanda bulunmayı gerektiren rikkat (yufka yüreklilik) mânasından istiare edilmiştir. Allah'a nispet edildiğinde sadece lütuf ve ihsandır. 'Rahmân', zatında rahmeti sonsuz olan; 'Rahîm' ise rahmetini yarattıklarına ulaştıran demektir."
+    },
+    {
+      "surah_id": 1,
+      "verse_id": 2,
+      "content": "Kök: (ح م د) H-M-D. 'Hamd', isteğe bağlı olarak yapılan bir iyiliğe karşı dil ile medh ü senâ etmektir. Şükürden daha genel, medih kelimesinden daha özeldir."
+    },
+    {
+      "surah_id": 108,
+      "verse_id": 1,
+      "content": "Kök: (ك ث ر) K-S-R. 'Kevser', son derece çokluk (mübâlağa) ifade eden fev'al veznindedir. Sayılamayacak derecede hayır, şeref ve Cennet'teki hususi nehir/havuz anlamına gelir."
+    },
+    {
+      "surah_id": 108,
+      "verse_id": 2,
+      "content": "Kök: (ن ح ر) N-H-R. 'Nahr', göğsün boğazla birleştiği yer demektir. Kurbanlık hayvanın göğsünden kesilmesine nahr denir. Namazda elleri göğse bağlamak mânasına da işaret edilmiştir."
+    },
+    {
+      "surah_id": 108,
+      "verse_id": 3,
+      "content": "Kök: (ب ت ر) B-T-R. 'Ebter', kuyruğu veya sonu kesik demektir. Mecazen nesli devam etmeyen, arkasından hayırla yad edilmeyen, bereketsiz kimse için kullanılır."
+    }
+  ]
+}

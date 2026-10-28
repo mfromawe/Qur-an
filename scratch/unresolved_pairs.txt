@@ -1,0 +1,469 @@
+10	النعيم	ٱلنَّعِيمِ	(of) Delight
+9	للملائكه	لِلْمَلَـٰٓئِكَةِ	to the angels
+8	طين	طِينٍۢ	clay
+6	وكاين	وَكَأَيِّن	And how many
+5	لادم	لِـَٔادَمَ	to Adam
+5	وكلوا	وَكُلُوا۟	And eat
+5	بيده	بِيَدِهِۦ	in whose hands
+5	للعبيد	لِّلْعَبِيدِ	to (His) slaves
+4	ثمره	ثَمَرَةٍۢ	fruit
+4	الغيوب	ٱلْغُيُوبِ	(of) the unseen
+4	صلصال	صَلْصَـٰلٍۢ	sounding clay
+4	الكهف	ٱلْكَهْفِ	(of) the cave
+4	وتواصوا	وَتَوَاصَوْا۟	and enjoin (each other)
+3	الخنزير	ٱلْخِنزِيرِ	(of) swine
+3	نسائهم	نِّسَآئِهِمْ	their wives
+3	ارضكم	أَرْضِكُمْ ۖ	your land
+3	بالغدو	بِٱلْغُدُوِّ	in the mornings
+3	شركائكم	شُرَكَآئِكُم	your partners
+3	للدين	لِلدِّينِ	to the religion
+3	تصيبهم	تُصِيبُهُم	to strike them
+3	ليظلمهم	لِيَظْلِمَهُمْ	to wrong them
+3	واهلك	وَأَهْلَكَ	and your family
+3	فطرني	فَطَرَنِىٓ ۚ	created me
+3	سجيل	سِجِّيلٍۢ	baked clay
+3	ارضنا	أَرْضِنَآ	our land
+3	المتكبرين	ٱلْمُتَكَبِّرِينَ	(of) the arrogant
+3	دوني	دُونِى	other than Me
+3	السفينه	ٱلسَّفِينَةِ	the ship
+3	وسلام	وَسَلَـٰمٌ	And peace be
+3	لاهله	لِأَهْلِهِ	to his family
+3	البعث	ٱلْبَعْثِ	the Resurrection
+3	ونجني	وَنَجِّنِى	and save me
+3	المشامه	ٱلْمَشْـَٔمَةِ	(of) the left
+3	وفاكهه	وَفَـٰكِهَةٍۢ	And fruits
+3	القدر	ٱلْقَدْرِ	(of) Power
+2	حذر	حَذَرَ	(in) fear (of)
+2	وايدناه	وَأَيَّدْنَـٰهُ	and We supported him
+2	برحمته	بِرَحْمَتِهِۦ	for His Mercy
+2	وقنا	وَقِنَا	and save us
+2	دينه	دِينِهِۦ	his religion
+2	تاخذوا	تَأْخُذُوا۟	you take (back)
+2	ياب	يَأْبَ	(should) refuse
+2	رجالكم	رِّجَالِكُمْ ۖ	your men
+2	نخل	نَخْلٍ	(of) date-palms
+2	لهذا	لِهَـٰذَا	to this
+2	الاعراف	ٱلْأَعْرَافِ	the heights
+2	قريتكم	قَرْيَتِكُمْ ۖ	your town
+2	ملتنا	مِلَّتِنَا ۚ	our religion
+2	الغاوين	ٱلْغَاوِينَ	those gone astray
+2	الجب	ٱلْجُبِّ	(of) the well
+2	ديني	دِينِى	my religion
+2	بيدك	بِيَدِكَ	In Your hand
+2	وجنه	وَجَنَّةٍ	and a Garden 
+2	للكذب	لِلْكَذِبِ	to falsehood
+2	ونور	وَنُورٌۭ ۚ	and light
+2	بالغداه	بِٱلْغَدَوٰةِ	in the morning
+2	النخل	ٱلنَّخْلِ	the date-palm
+2	شركائهم	شُرَكَآئِهِمْ ۗ	their partners
+2	واياته	وَءَايَـٰتِهِۦ	and His Verses
+2	عاهد	عَـٰهَدَ	made a covenant
+2	اهلي	أَهْلِى	my family
+2	روحي	رُّوحِى	My spirit
+2	الوقت	ٱلْوَقْتِ	(of) the time
+2	تقيكم	تَقِيكُمُ	to protect you
+2	لوليه	لِوَلِيِّهِۦ	for his heir
+2	كهفهم	كَهْفِهِمْ	their cave
+2	النخله	ٱلنَّخْلَةِ	(of) the date-palm
+2	البشر	ٱلْبَشَرِ	human being
+2	بلسانك	بِلِسَانِكَ	in your tongue
+2	نتخذ	نَّتَّخِذَ	We take
+2	ير	يَرَ	see
+2	الرس	ٱلرَّسِّ	(of) Ar-rass
+2	لفرعون	لِفِرْعَوْنَ	to Firaun
+2	جيبك	جَيْبِكَ	your bosom
+2	نعمتك	نِعْمَتَكَ	(for) Your Favor
+2	وجنودهما	وَجُنُودَهُمَا	and their hosts
+2	يسمعها	يَسْمَعْهَا	he (had) heard them
+2	باي	بِأَىِّ	in what
+2	بيوتكن	بُيُوتِكُنَّ	your houses
+2	الزقوم	ٱلزَّقُّومِ	(of) Zaqqum
+2	يتماسا	يَتَمَآسَّا ۚ	they touch each other
+2	لربها	لِرَبِّهَا	to its Lord
+1	الوسواس	ٱلْوَسْوَاسِ	(of) the whisperer
+1	واركعوا	وَٱرْكَعُوا۟	and bow down
+1	الناظرين	ٱلنَّـٰظِرِينَ	(to) those who see (it).'
+1	لجبريل	لِّجِبْرِيلَ	to Jibreel 
+1	اوكلما	أَوَكُلَّمَا	And is (it not that) whenever
+1	ببابل	بِبَابِلَ	in Babylon
+1	والعاكفين	وَٱلْعَـٰكِفِينَ	and those who seclude themselves for devotion and prayer
+1	بيناه	بَيَّنَّـٰهُ	We made clear
+1	والسائلين	وَٱلسَّآئِلِينَ	and those who ask
+1	والموفون	وَٱلْمُوفُونَ	and those who fulfill
+1	للوالدين	لِلْوَٰلِدَيْنِ	for the parents
+1	رمضان	رَمَضَانَ	(of) Ramadhaan
+1	تاتوا	تَأْتُوا۟	you come
+1	صيام	صِيَامٍ	fasting
+1	لايمانكم	لِّأَيْمَـٰنِكُمْ	in your oaths
+1	يتراجعا	يَتَرَاجَعَآ	they return to each other
+1	الصلوات	ٱلصَّلَوَٰتِ	the prayers
+1	وقوموا	وَقُومُوا۟	and stand up
+1	بجالوت	بِجَالُوتَ	against Jalut
+1	لجالوت	لِجَالُوتَ	to (face) Jalut
+1	واتاه	وَءَاتَىٰهُ	and gave him
+1	اقتتل	ٱقْتَتَلَ	(would have) fought each other
+1	تاخذه	تَأْخُذُهُۥ	overtakes Him
+1	يئوده	يَـُٔودُهُۥ	tires Him
+1	طعامك	طَعَامِكَ	your food
+1	حمارك	حِمَارِكَ	your donkey
+1	يقومون	يَقُومُونَ	they can stand
+1	يمل	يُمِلَّ	(can) dictate
+1	كاهن	كَاهِنٍۢ ۚ	(of) a soothsayer
+1	الوتين	ٱلْوَتِينَ	the aorta
+1	لاخراهم	لِأُخْرَىٰهُمْ	to (the) last of them
+1	وقطعنا	وَقَطَعْنَا	And We cut off
+1	ملتكم	مِلَّتِكُم	your religion
+1	بموسي	بِمُوسَىٰ	to Musa
+1	يصنع	يَصْنَعُ	make
+1	ياخذوا	يَأْخُذُوا۟	(to) take
+1	وكادوا	وَكَادُوا۟	and were about to
+1	يجدونه	يَجِدُونَهُۥ	they find him
+1	واتبعوه	وَٱتَّبِعُوهُ	and follow him
+1	سبتهم	سَبْتِهِمْ	(of) their Sabbath
+1	يسبتون	يَسْبِتُونَ ۙ	they had Sabbath
+1	ويسبحونه	وَيُسَبِّحُونَهُۥ	And they glorify Him
+1	اخوتك	إِخْوَتِكَ	your brothers
+1	ارضا	أَرْضًۭا	(to) a land
+1	يرتع	يَرْتَعْ	(to) enjoy
+1	تذهبوا	تَذْهَبُوا۟	you should take him
+1	يجعلوه	يَجْعَلُوهُ	they put him
+1	الزاهدين	ٱلزَّٰهِدِينَ	those keen to give up
+1	وغلقت	وَغَلَّقَتِ	And she closed
+1	واتت	وَءَاتَتْ	and she gave
+1	فاساله	فَسْـَٔلْهُ	and ask him
+1	ناخذ	نَّأْخُذَ	we take
+1	الهالكين	ٱلْهَـٰلِكِينَ	those who perish
+1	ادراكم	أَدْرَىٰكُم	He (would) have made it known to you
+1	عبادتكم	عِبَادَتِكُمْ	your worship
+1	يحيطوا	يُحِيطُوا۟	they could encompass
+1	وبرحمته	وَبِرَحْمَتِهِۦ	and in His Mercy
+1	ونجنا	وَنَجِّنَا	And save us
+1	واجعلوا	وَٱجْعَلُوا۟	and make
+1	ببدنك	بِبَدَنِكَ	in your body
+1	مبوا	مُبَوَّأَ	(in) a settlement
+1	الاكل	ٱلْأُكُلِ ۚ	the fruit
+1	وينشئ	وَيُنشِئُ	and brings up
+1	ليبلغ	لِيَبْلُغَ	to reach
+1	والحرث	وَٱلْحَرْثِ ۗ	and [the] tilled land
+1	والمنفقين	وَٱلْمُنفِقِينَ	and those who spend
+1	بطني	بَطْنِى	my womb
+1	ونبيا	وَنَبِيًّۭا	and a Prophet
+1	وتنهون	وَتَنْهَوْنَ	and forbidding
+1	دونكم	دُونِكُمْ	other than yourselves
+1	تفشلا	تَفْشَلَا	they lost heart
+1	ببدر	بِبَدْرٍۢ	in Badr
+1	والكاظمين	وَٱلْكَـٰظِمِينَ	and those who restrain
+1	والعافين	وَٱلْعَافِينَ	and those who pardon
+1	وهنوا	وَهَنُوا۟	they lost heart
+1	مضاجعهم	مَضَاجِعِهِمْ ۖ	their places of death
+1	تحسبنهم	تَحْسَبَنَّهُم	think (that) they
+1	سيئاتنا	سَيِّـَٔاتِنَا	our evil deeds
+1	رسلك	رُسُلِكَ	Your Messengers
+1	محلي	مُحِلِّى	being permitted
+1	تستقسموا	تَسْتَقْسِمُوا۟	you seek division
+1	الجوارح	ٱلْجَوَارِحِ	(your) hunting animals
+1	فتره	فَتْرَةٍۢ	(after) an interval (of cessation)
+1	ادباركم	أَدْبَارِكُمْ	your backs
+1	ليفتدوا	لِيَفْتَدُوا۟	to ransom themselves
+1	بالانف	بِٱلْأَنفِ	for the nose
+1	بالاذن	بِٱلْأُذُنِ	for the ear
+1	ومنهاجا	وَمِنْهَاجًۭا ۚ	and a clear way
+1	ويحبونه	وَيُحِبُّونَهُۥٓ	and they love Him
+1	يتناهون	يَتَنَاهَوْنَ	forbidding each other
+1	والنبي	وَٱلنَّبِىِّ	and the Prophet
+1	اتخذوهم	ٱتَّخَذُوهُمْ	they (would have) taken them
+1	تحرموا	تُحَرِّمُوا۟	make unlawful
+1	وامي	وَأُمِّىَ	and my mother
+1	وبكم	وَبُكْمٌۭ	and dumb
+1	حسابك	حِسَابِكَ	your account
+1	يهدني	يَهْدِنِى	guide me
+1	بكافرين	بِكَـٰفِرِينَ	disbelievers
+1	الحب	ٱلْحَبِّ	(of) the grain
+1	تدركه	تُدْرِكُهُ	grasp Him
+1	لذكورنا	لِّذُكُورِنَا	for our males
+1	وصفهم	وَصْفَهُمْ ۚ	(for) their attribution
+1	سفها	سَفَهًۢا	(in) foolishness
+1	حصاده	حَصَادِهِۦ ۖ	(of) its harvest
+1	خنزير	خِنزِيرٍۢ	(of) swine 
+1	اشركنا	أَشْرَكْنَا	we (would) have associated partners (with Allah)
+1	وبعهد	وَبِعَهْدِ	And (the) Covenant
+1	الطائفتين	ٱلطَّآئِفَتَيْنِ	(of) the two groups 
+1	ويقطع	وَيَقْطَعَ	and cut off
+1	تصيبن	تُصِيبَنَّ	which will afflict
+1	منامك	مَنَامِكَ	your dream
+1	ترهبون	تُرْهِبُونَ	(to) terrify
+1	خيانتك	خِيَانَتَكَ	(to) betray you
+1	حنين	حُنَيْنٍ ۙ	(of) Hunain
+1	ليواطئوا	لِّيُوَاطِـُٔوا۟	to adjust
+1	تضروه	تَضُرُّوهُ	you can harm Him
+1	الغار	ٱلْغَارِ	the cave
+1	وايده	وَأَيَّدَهُۥ	and supported him
+1	الحسنيين	ٱلْحُسْنَيَيْنِ ۖ	(of) the two best (things)
+1	يرضوه	يُرْضُوهُ	they should please Him
+1	احملكم	أَحْمِلُكُمْ	to mount you
+1	لامر	لِأَمْرِ	for the Command of Allah 
+1	والناهون	وَٱلنَّاهُونَ	and those who forbid
+1	والحافظون	وَٱلْحَـٰفِظُونَ	and those who observe
+1	رجسا	رِجْسًا	(in) evil
+1	رجسهم	رِجْسِهِمْ	their evil
+1	نعماء	نَعْمَآءَ	(of) favor
+1	يغويكم	يُغْوِيَكُمْ ۚ	let you go astray
+1	اهبط	ٱهْبِطْ	Go down
+1	قوتكم	قُوَّتِكُمْ	your strength
+1	قولك	قَوْلِكَ	your saying
+1	داركم	دَارِكُمْ	your home(s)
+1	مكذوب	مَكْذُوبٍۢ	(to) be belied
+1	وجاءته	وَجَآءَتْهُ	and had reached him
+1	بناتك	بَنَاتِكَ	your daughters
+1	للذاكرين	لِلذَّٰكِرِينَ	for those who remember
+1	مختلفين	مُخْتَلِفِينَ	to differ
+1	نتوكل	نَتَوَكَّلَ	we put our trust
+1	البوار	ٱلْبَوَارِ	(of) destruction
+1	وينفقوا	وَيُنفِقُوا۟	and (to) spend
+1	بواد	بِوَادٍ	in a valley
+1	وليعلموا	وَلِيَعْلَمُوٓا۟	and that they may know
+1	ياكلوا	يَأْكُلُوا۟	(to) eat
+1	توجل	تَوْجَلْ	be afraid
+1	وانهما	وَإِنَّهُمَا	and indeed, they both
+1	المقتسمين	ٱلْمُقْتَسِمِينَ	those who divided
+1	واعبد	وَٱعْبُدْ	And worship
+1	التراب	ٱلتُّرَابِ ۗ	the dust
+1	اقامتكم	إِقَامَتِكُمْ ۙ	(of) your encampment
+1	اربي	أَرْبَىٰ	more numerous
+1	لانعمه	لِّأَنْعُمِهِ ۚ	for His favors
+1	اولاهما	أُولَىٰهُمَا	(for) the first of the two
+1	الديار	ٱلدِّيَارِ ۚ	(of) the homes
+1	للتي	لِلَّتِى	to that
+1	وهؤلاء	وَهَـٰٓؤُلَآءِ	and (to) these
+1	ربياني	رَبَّيَانِى	they brought me up
+1	للاوابين	لِلْأَوَّٰبِينَ	to those who often turn (to Him)
+1	عنقك	عُنُقِكَ	your neck
+1	فطركم	فَطَرَكُمْ	created you
+1	ليستفزونك	لَيَسْتَفِزُّونَكَ	(to) scare you
+1	يئوسا	يَـُٔوسًۭا	(in) despair
+1	وبكما	وَبُكْمًۭا	and dumb
+1	الانفاق	ٱلْإِنفَاقِ ۚ	(of) spending
+1	لاحدهما	لِأَحَدِهِمَا	for one of them
+1	طلبا	طَلَبًۭا	to find it
+1	اتيا	أَتَيَآ	they came
+1	رحما	رُحْمًۭا	(in) affection
+1	تتخذ	تَتَّخِذَ	you take
+1	دونها	دُونِهَا	against it
+1	بدعائك	بِدُعَآئِكَ	in (my) supplication (to) You
+1	واجعله	وَٱجْعَلْهُ	And make him
+1	قومها	قَوْمَهَا	(to) her people
+1	بوالدتي	بِوَٰلِدَتِى	to my mother
+1	الحسره	ٱلْحَسْرَةِ	(of) the Regret
+1	الهتي	ءَالِهَتِى	my gods
+1	بدعاء	بِدُعَآءِ	in invocation
+1	لعبادته	لِعِبَـٰدَتِهِۦ ۚ	in His worship
+1	نديا	نَدِيًّۭا	(in) assembly
+1	واخفي	وَأَخْفَى	and the more hidden
+1	واهش	وَأَهُشُّ	and I bring down leaves
+1	سيرتها	سِيرَتَهَا	(to) its state
+1	واشركه	وَأَشْرِكْهُ	And make him share
+1	وواعدناكم	وَوَٰعَدْنَـٰكُمْ	and We made a covenant with you
+1	يبلي	يَبْلَىٰ	(that will) deteriorate
+1	يسبقونه	يَسْبِقُونَهُۥ	they (can) precede Him
+1	ردها	رَدَّهَا	to repel it
+1	القسط	ٱلْقِسْطَ	(of) the justice
+1	اللاعبين	ٱللَّـٰعِبِينَ	those who play
+1	وادخلناه	وَأَدْخَلْنَـٰهُ	And We admitted him
+1	ونصرناه	وَنَصَرْنَـٰهُ	And We helped him
+1	رغبا	رَغَبًۭا	(in) hope
+1	ارضعت	أَرْضَعَتْ	she was nursing
+1	يضره	يَضُرُّهُۥ	harms him
+1	ينفعه	يَنفَعُهُۥ ۚ	benefits him
+1	وامروا	وَأَمَرُوا۟	and they enjoin
+1	للاكلين	لِّلْـَٔاكِلِينَ	for those who eat
+1	المهلكين	ٱلْمُهْلَكِينَ	those who were destroyed
+1	ومعين	وَمَعِينٍۢ	and water springs
+1	تشيع	تَشِيعَ	(should) spread
+1	يؤتوا	يُؤْتُوٓا۟	they give
+1	وايديهم	وَأَيْدِيهِمْ	and their hands
+1	والطيبون	وَٱلطَّيِّبُونَ	and good men
+1	ويحفظوا	وَيَحْفَظُوا۟	and they should guard
+1	ويحفظن	وَيَحْفَظْنَ	and they should guard
+1	عبادكم	عِبَادِكُمْ	your male slaves
+1	وامائكم	وَإِمَآئِكُمْ ۚ	and your female slaves
+1	لنوره	لِنُورِهِۦ	to His Light
+1	جبال	جِبَالٍۢ	mountains
+1	وبالرسول	وَبِٱلرَّسُولِ	and in the Messenger
+1	يعبدونني	يَعْبُدُونَنِى	(for) they worship Me
+1	خالاتكم	خَـٰلَـٰتِكُمْ	(of) your maternal aunts
+1	وجاهدهم	وَجَـٰهِدْهُم	and strive (against) them
+1	وقمرا	وَقَمَرًۭا	and a moon
+1	نربك	نُرَبِّكَ	we bring you up
+1	عمرك	عُمُرِكَ	your life
+1	تستمعون	تَسْتَمِعُونَ	you hear
+1	للملا	لِلْمَلَإِ	to the chiefs
+1	لميقات	لِمِيقَـٰتِ	for (the) appointment
+1	يسمعونكم	يَسْمَعُونَكُمْ	they hear you
+1	الاقدمون	ٱلْأَقْدَمُونَ	and your forefathers
+1	خلقني	خَلَقَنِى	created me
+1	وجنود	وَجُنُودُ	And (the) hosts
+1	المرجومين	ٱلْمَرْجُومِينَ	those who are stoned
+1	القالين	ٱلْقَالِينَ	those who detest
+1	واهلي	وَأَهْلِى	and my family
+1	المخسرين	ٱلْمُخْسِرِينَ	those who cause loss
+1	بهديتكم	بِهَدِيَّتِكُمْ	in your gift
+1	مقامك	مَّقَامِكَ ۖ	your place
+1	تقاسموا	تَقَاسَمُوا۟	Swear to each other
+1	ويجعلكم	وَيَجْعَلُكُمْ	and makes you
+1	تقتلوه	تَقْتُلُوهُ	kill him
+1	كادت	كَادَتْ	she was near
+1	نسقي	نَسْقِى	We cannot water
+1	استاجرت	ٱسْتَـْٔجَرْتَ	you (can) hire
+1	تاجرني	تَأْجُرَنِى	you serve me
+1	الواد	ٱلْوَادِ	(of) the valley 
+1	اليكما	إِلَيْكُمَا ۚ	to both of you
+1	نبتغي	نَبْتَغِى	we seek
+1	المنتصرين	ٱلْمُنتَصِرِينَ	those who (could) defend themselves
+1	يسبقونا	يَسْبِقُونَا ۚ	they can outrun Us
+1	رحمتي	رَّحْمَتِى	My Mercy
+1	وتقطعون	وَتَقْطَعُونَ	and you cut off
+1	ناديكم	نَادِيكُمُ	your meetings
+1	والوانكم	وَأَلْوَٰنِكُمْ ۚ	and your colors
+1	فيحيي	فَيُحْىِۦ	and gives life
+1	ويجعله	وَيَجْعَلُهُۥ	and He makes them
+1	اذنيه	أُذُنَيْهِ	his ears
+1	مشيك	مَشْيِكَ	your pace
+1	صوتك	صَوْتِكَ ۚ	your voice
+1	قلبين	قَلْبَيْنِ	two hearts
+1	اوليائكم	أَوْلِيَآئِكُم	your friends
+1	وجنودا	وَجُنُودًۭا	and hosts
+1	يثرب	يَثْرِبَ	(of) Yathrib
+1	اقطارها	أَقْطَارِهَا	all its sides
+1	والقائلين	وَٱلْقَآئِلِينَ	and those who say
+1	انبائكم	أَنۢبَآئِكُمْ ۖ	your news
+1	تطئوها	تَطَـُٔوهَا ۚ	you (had) trodden
+1	ليذهب	لِيُذْهِبَ	to remove
+1	والمتصدقين	وَٱلْمُتَصَدِّقِينَ	and the men who give charity
+1	وسبحوه	وَسَبِّحُوهُ	And glorify Him
+1	خالاتك	خَـٰلَـٰتِكَ	(of) your maternal aunts
+1	عزلت	عَزَلْتَ	you (had) set aside 
+1	وسلموا	وَسَلِّمُوا۟	and greet him
+1	يعرفن	يُعْرَفْنَ	they should be known
+1	ظلوما	ظَلُومًۭا	unjust
+1	القطر	ٱلْقِطْرِ ۖ	(of) molten copper
+1	العرم	ٱلْعَرِمِ	(of) the dam
+1	نجازي	نُجَـٰزِىٓ	We recompense
+1	تستاخرون	تَسْتَـْٔخِرُونَ	you can postpone
+1	عمره	عُمُرِهِۦٓ	his life
+1	المقامه	ٱلْمُقَامَةِ	(of) Eternity
+1	الامم	ٱلْأُمَمِ ۖ	(of) the nations
+1	وسواء	وَسَوَآءٌ	And it (is) same
+1	توصيه	تَوْصِيَةًۭ	(to) make a will
+1	اعهد	أَعْهَدْ	I enjoin
+1	مضيا	مُضِيًّۭا	to proceed
+1	فالتاليات	فَٱلتَّـٰلِيَـٰتِ	And those who recite
+1	لمثل	لِمِثْلِ	For (the) like
+1	وفديناه	وَفَدَيْنَـٰهُ	And We ransomed him
+1	وظالم	وَظَالِمٌۭ	and unjust
+1	المسبحين	ٱلْمُسَبِّحِينَ	those who glorify
+1	الخلطاء	ٱلْخُلَطَآءِ	the partners
+1	فتناه	فَتَنَّـٰهُ	We (had) tried him
+1	لداوود	لِدَاوُۥدَ	to Dawood
+1	بالحجاب	بِٱلْحِجَابِ	in the veil
+1	الايدي	ٱلْأَيْدِى	(of) strength
+1	بالملا	بِٱلْمَلَإِ	(of) the chiefs
+1	العالين	ٱلْعَالِينَ	the exalted ones
+1	فبعزتك	فَبِعِزَّتِكَ	Then by Your might
+1	نعبدهم	نَعْبُدُهُمْ	we worship them
+1	يعبدوها	يَعْبُدُوهَا	they worship them
+1	يحتسبون	يَحْتَسِبُونَ	taken into account
+1	التوب	ٱلتَّوْبِ	(of) [the] repentance
+1	مقتكم	مَّقْتِكُمْ	your hatred
+1	واحييتنا	وَأَحْيَيْتَنَا	and You gave us life
+1	خروج	خُرُوجٍۢ	get out
+1	عبادتي	عِبَادَتِى	worship Me
+1	لجلودهم	لِجُلُودِهِمْ	to their skins
+1	انطق	أَنطَقَ	makes speak
+1	المعتبين	ٱلْمُعْتَبِينَ	those who receive favor
+1	للقمر	لِلْقَمَرِ	to the moon
+1	فوقهن	فَوْقِهِنَّ ۚ	above them
+1	الجنات	ٱلْجَنَّاتِ ۖ	(of) the Gardens
+1	لربكم	لِرَبِّكُم	to your Lord
+1	لبيوتهم	لِبُيُوتِهِمْ	for their houses
+1	للاخرين	لِّلْـَٔاخِرِينَ	for the later (generations)
+1	وقيله	وَقِيلِهِۦ	And his saying
+1	خلقناهما	خَلَقْنَـٰهُمَآ	We created both of them
+1	يغفروا	يَغْفِرُوا۟	(to) forgive
+1	وليوفيهم	وَلِيُوَفِّيَهُمْ	and that He may fully compensate them
+1	حياتكم	حَيَاتِكُمُ	your life
+1	بالاحقاف	بِٱلْأَحْقَافِ	in the Al-Ahqaf 
+1	وياكلون	وَيَأْكُلُونَ	and eat
+1	قريتك	قَرْيَتِكَ	your town
+1	توفتهم	تَوَفَّتْهُمُ	take them in death
+1	لتنفقوا	لِتُنفِقُوا۟	to spend
+1	ذنبك	ذَنۢبِكَ	your sins
+1	وتعزروه	وَتُعَزِّرُوهُ	and (may) honor him
+1	وتسبحوه	وَتُسَبِّحُوهُ	and glorify Him
+1	نتبعكم	نَتَّبِعْكُمْ ۖ	(to) follow you
+1	للمخلفين	لِّلْمُخَلَّفِينَ	to those who remained behind
+1	تعلموهم	تَعْلَمُوهُمْ	you knew them
+1	رحماء	رُحَمَآءُ	and merciful
+1	واحيينا	وَأَحْيَيْنَا	and We give life
+1	وبالاسحار	وَبِٱلْأَسْحَارِ	And in the hours before dawn
+1	يطعمون	يُطْعِمُونِ	they (should) feed Me
+1	تنفذون	تَنفُذُونَ	you (can) pass
+1	وماء	وَمَآءٍۢ	And water
+1	وحميم	وَحَمِيمٍۢ	and scalding water
+1	الهيم	ٱلْهِيمِ	(of) the thirsty camels
+1	مدينين	مَدِينِينَ	to be recompensed
+1	نوركم	نُّورِكُمْ	your light
+1	نبراها	نَّبْرَأَهَآ ۚ	We bring it into existence
+1	قطعتم	قَطَعْتُم	you cut down
+1	لينه	لِّينَةٍ	(the) palm-trees
+1	اوجفتم	أَوْجَفْتُمْ	you made expedition
+1	رهبه	رَهْبَةًۭ	(in) fear
+1	لقومهم	لِقَوْمِهِمْ	to their people
+1	اخراجكم	إِخْرَاجِكُمْ	your expulsion
+1	بعصم	بِعِصَمِ	to marriage bonds
+1	للحواريين	لِلْحَوَارِيِّـۧنَ	to the disciples
+1	الجمعه	ٱلْجُمُعَةِ	(of) Friday
+1	التغابن	ٱلتَّغَابُنِ ۗ	(of) mutual loss and gain
+1	وجدكم	وُجْدِكُمْ	your means
+1	واهليكم	وَأَهْلِيكُمْ	and your families
+1	صارمين	صَـٰرِمِينَ	pluck (the) fruit
+1	تداركه	تَدَٰرَكَهُۥ	overtook him
+1	تؤويه	تُـْٔوِيهِ	sheltered him
+1	غفارا	غَفَّارًۭا	Oft-Forgiving
+1	يزده	يَزِدْهُ	increase him
+1	تبارا	تَبَارًۢا	(in) destruction
+1	بربه	بِرَبِّهِۦ	in his Lord
+1	غدقا	غَدَقًۭا	(in) abundance
+1	يجيرني	يُجِيرَنِى	can protect me
+1	غيبه	غَيْبِهِۦٓ	His unseen
+1	وطئا	وَطْـًۭٔا	and most potent
+1	النعمه	ٱلنَّعْمَةِ	(of) the ease
+1	وجحيما	وَجَحِيمًۭا	and burning fire
+1	وثيابك	وَثِيَابَكَ	And your clothing
+1	ازيد	أَزِيدَ	I (should) add more
+1	نسوي	نُّسَوِّىَ	We can restore
+1	ليفجر	لِيَفْجُرَ	to give (the) lie
+1	قواريرا	قَوَارِيرَا۠	(of) crystal
+1	زنجبيلا	زَنجَبِيلًا	(of) Zanjabil
+1	وسبحه	وَسَبِّحْهُ	and glorify Him
+1	فالعاصفات	فَٱلْعَـٰصِفَـٰتِ	And the winds that blow
+1	والناشرات	وَٱلنَّـٰشِرَٰتِ	And the ones that scatter
+1	ذكراها	ذِكْرَىٰهَآ	(to) mention it
+1	بايدي	بِأَيْدِى	In (the) hands
+1	يستقيم	يَسْتَقِيمَ	take a straight way
+1	ثوب	ثُوِّبَ	been rewarded
+1	طبقا	طَبَقًا	(to) stage
+1	رجعه	رَجْعِهِۦ	return him
+1	جابوا	جَابُوا۟	carved out
+1	بالمرحمه	بِٱلْمَرْحَمَةِ	to compassion
+1	ونفس	وَنَفْسٍۢ	And (the) soul
+1	سجي	سَجَىٰ	it covers with darkness
+1	عائلا	عَآئِلًۭا	in need
+1	تطعه	تُطِعْهُ	obey him
+1	ويؤتوا	وَيُؤْتُوا۟	and to give
+1	لحب	لِحُبِّ	in (the) love
+1	الافئده	ٱلْأَفْـِٔدَةِ	the hearts
+1	تضليل	تَضْلِيلٍۢ	astray
+1	الحطب	ٱلْحَطَبِ	(of) firewood
+1	غاسق	غَاسِقٍ	(of) darkness
+1	حاسد	حَاسِدٍ	(of) an envier
+1	تبغوا	تَبْغُوا۟	tabghū

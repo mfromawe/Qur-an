@@ -1,0 +1,42 @@
+{
+  "title": "Tasavvufî Tefekkür & Murakabe Esasları",
+  "description": "Ayeti kerimelerin derûnî boyutlarına nüfuz etmek için geliştirilen klasik murakabe mertebeleri ve letâif rabıtaları.",
+  "principles": [
+    {
+      "id": "murakabe_ehadiyyet",
+      "name": "Murâkabe-i Ehadiyyet",
+      "related_verse": "İhlâs Suresi (112:1-4)",
+      "theme": "Zât-ı İlâhînin Mutlak Vahdeti",
+      "desc": "Kulun zihnini bütün mahlukattan, şekillerden ve hayallerden tamamen soyutlayarak (tecrîd), Allah Teâlâ'nın zâtında, sıfatlarında ve ef'âlinde tek ve benzersiz olduğunu kalben müşahede etmesidir.",
+      "zikr": "Lâ ilâhe illallâh / Kul hüvallâhü ehad",
+      "state": "Hayret ve Fenâ fillâh"
+    },
+    {
+      "id": "murakabe_maiyyet",
+      "name": "Murâkabe-i Ma'iyyet",
+      "related_verse": "el-Hadîd 4 ('Ve Hüve me'aküm eyne mâ küntüm')",
+      "theme": "İlâhî Beraberlik ve Yakınlık",
+      "desc": "'Nerede olursanız olun O sizinle beraberdir' âyetinin tefekkürüdür. Allah'ın kula şah damarından daha yakın olduğunu, her nefesi, her fısıltıyı ve kalpteki en ince havâtırı bildiğini anbean idrak etmektir.",
+      "zikr": "Yâ Karîb, Yâ Semî', Yâ Habîr",
+      "state": "Huzur-ı Dâimî ve Murâkabe şuuru"
+    },
+    {
+      "id": "murakabe_muhabbet",
+      "name": "Murâkabe-i Muhabbet",
+      "related_verse": "el-Mâide 54 ('Yühibbühüm ve yühibbûneh')",
+      "theme": "İlâhî Sevgi ve Cezbe",
+      "desc": "'Allah onları sever, onlar da Allah'ı sever' sırrınca kalbi masivadan arındırıp yalnız Vedûd olan Rabb'e tahsis etme halidir. Bütün mahlukata muhabbet nazarıyla bakış bu kaynaktan fışkırır.",
+      "zikr": "Yâ Vedûd, Yâ Habîb",
+      "state": "Şevk, Aşk-ı İlâhî ve İtmi'nân"
+    },
+    {
+      "id": "murakabe_kurbiyyet",
+      "name": "Murâkabe-i Kurbiyyet",
+      "related_verse": "el-Kâf 16 ('Ve nahnü akrabu ileyhi min habli'l-verîd')",
+      "theme": "Şah Damarından Yakın Oluş",
+      "desc": "Kendi varlığından geçerek Hakk'ın kurbiyetine (yakınlığına) erişme; kulun kendi aczini bilip Rabbinin sınırsız kudretine sığınmasıdır.",
+      "zikr": "Yâ Zü'l-Celâli ve'l-İkrâm",
+      "state": "Tevazu ve Mahviyet"
+    }
+  ]
+}

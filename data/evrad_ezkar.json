@@ -1,0 +1,62 @@
+{
+  "title": "Evrâd & Ezkâr Kütüphanesi",
+  "description": "Klasik İslami virdler, me'sûrât, Cevşen-i Kebîr, Hizbü'l-Bahr ve sabah-akşam duaları.",
+  "categories": [
+    {
+      "id": "sabah_aksam",
+      "name_tr": "Sabah ve Akşam Ezkârı (el-Me'sûrât)",
+      "name_ar": "أذكار الصباح والمساء",
+      "source": "Hisnü'l-Müslim & Riyâzü's-Sâlihîn",
+      "items": [
+        {
+          "id": "seyyidul_istigfar",
+          "title_tr": "Seyyidü'l-İstiğfâr (Tövbelerin Efendisi)",
+          "ar": "اللَّهُمَّ أَنْتَ رَبِّي لَا إِلَهَ إِلَّا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ بِذَنْبِي فَاغْفِرْ لِي فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ.",
+          "translit": "Allâhümme Ente Rabbî lâ ilâhe illâ Ente halaktenî ve ene 'abdüke ve ene 'alâ 'ahdike ve va'dike mesteta'tü, e'ûzü bike min şerri mâ sana'tü, ebû'ü leke bi-ni'metike 'aleyye ve ebû'ü bi-zenbî fağfirlî fe-innehû lâ yağfiru'z-zünûbe illâ Ente.",
+          "tr": "Allah'ım! Sen benim Rabbimsin. Senden başka hiçbir ilah yoktur. Beni Sen yarattın, ben Senin kulunum; gücüm yettiğince Sana verdiğim ahit ve vaat üzereyim. Yaptıklarımın şerrinden Sana sığınırım. Üzerimdeki nimetini itiraf eder, günahımı da ikrar ederim. Beni bağışla; zira günahları ancak Sen bağışlarsın.",
+          "virtue": "Kim bunu inanarak gündüz söyler de o gün akşam olmadan ölürse cennetliklerdendir. Kim de gece inanarak söyler de sabah olmadan ölürse yine cennetliklerdendir. (Buhârî)"
+        },
+        {
+          "id": "bismillahillezi",
+          "title_tr": "Her Türlü Zarardan Korunma Duası",
+          "ar": "بِسْمِ اللَّهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ.",
+          "translit": "Bismillâhillezî lâ yedurru me'asmihî şey'ün fi'l-ardı ve lâ fi's-semâ'i ve hüve's-Semî'u'l-'Alîm.",
+          "tr": "İsmiyle yerde ve gökte hiçbir şeyin zarar veremeyeceği Allah'ın adıyla. O, her şeyi hakkıyla işitendir, eksiksiz bilendir.",
+          "virtue": "Sabah ve akşam üçer defa okuyana hiçbir şey zarar veremez. (Ebû Dâvûd, Tirmizî)"
+        }
+      ]
+    },
+    {
+      "id": "cevsen",
+      "name_tr": "el-Cevşenü'l-Kebîr (Münâcât)",
+      "name_ar": "الجوشن الكبير",
+      "source": "Zeynelâbidîn (r.a.) rivayeti, Mecmûatü'l-Ahzâb",
+      "items": [
+        {
+          "id": "cevsen_bab_1",
+          "title_tr": "1. Bâb (İlahi İsimlerle Tevessül)",
+          "ar": "اللَّهُمَّ إِنِّي أَسْأَلُكَ بِاسْمِكَ: يَا اللَّهُ، يَا رَحْمَنُ، يَا رَحِيمُ، يَا كَرِيمُ، يَا مُقِيمُ، يَا عَظِيمُ، يَا قَدِيمُ، يَا عَلِيمُ، يَا حَلِيمُ، يَا حَكِيمُ، سُبْحَانَكَ يَا لَا إِلَهَ إِلَّا أَنْتَ الْغَوْثَ الْغَوْثَ خَلِّصْنَا مِنَ النَّارِ.",
+          "translit": "Allâhümme innî es'elüke bi-esmike: Yâ Allâh, yâ Rahmân, yâ Rahîm, yâ Kerîm, yâ Mukîm, yâ 'Azîm, yâ Kadîm, yâ 'Alîm, yâ Halîm, yâ Hakîm. Sübhâneke yâ lâ ilâhe illâ ente'l-gavse'l-gavse hallisnâ mine'n-nâr.",
+          "tr": "Allah'ım! Şu mübarek isimlerin hakkı için Senden niyaz ediyorum: Ey Allah, ey Rahmân, ey Rahîm, ey Kerîm, ey her şeyi ayakta tutan Mukîm, ey Azîm, ey Kadîm, ey Alîm, ey Halîm, ey Hakîm! Sen her noksandan münezzehsin; Senden başka ilah yoktur! İmdat, imdat! Bizi cehennem ateşinden kurtar!",
+          "virtue": "Zırh manasına gelen Cevşen, Resûlullah'a Uhud harbinde Cebrail (a.s.) tarafından vahyedilen emsalsiz bir münâcâttır."
+        }
+      ]
+    },
+    {
+      "id": "hizbul_bahr",
+      "name_tr": "Hizbü'l-Bahr (Deniz Virdi)",
+      "name_ar": "حزب البحر",
+      "source": "Kutup Ebü'l-Hasan eş-Şâzelî (k.s.)",
+      "items": [
+        {
+          "id": "hizb_bahr_opening",
+          "title_tr": "Hizbü'l-Bahr Mukaddimesi",
+          "ar": "يَا عَلِيُّ يَا عَظِيمُ يَا حَلِيمُ يَا عَلِيمُ، أَنْتَ رَبِّي وَعِلْمُكَ حَسْبِي، فَنِعْمَ الرَّبُّ رَبِّي، وَنِعْمَ الْحَسْبُ حَسْبِي، تَنْصُرُ مَنْ تَشَاءُ وَأَنْتَ الْعَزِيزُ الرَّحِيمُ.",
+          "translit": "Yâ 'Aliyyu yâ 'Azîmu yâ Halîmu yâ 'Alîm, Ente Rabbî ve 'ılmüke hasbî, fe-ni'me'r-Rabbu Rabbî, ve ni'me'l-hasbu hasbî, tensuru men teşâ'u ve Ente'l-'Azîzü'r-Rahîm.",
+          "tr": "Ey Aliyy, ey Azîm, ey Halîm, ey Alîm! Sen benim Rabbimsin, Senin ilmin bana kâfidir. Ne güzel Rabdir benim Rabbim; ve ne güzel kâfidir bana kifayet eden! Dilediğine yardım edersin ve Sen Azîz ve Rahîm'sin.",
+          "virtue": "Manevi emniyet, kalbi sekînet ve her türlü karasal ve denizel fırtınaya karşı okunagelen emsalsiz bir şâzelî virdidir."
+        }
+      ]
+    }
+  ]
+}

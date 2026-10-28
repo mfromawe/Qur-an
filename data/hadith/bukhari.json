@@ -1,0 +1,101 @@
+{
+  "collection": "bukhari",
+  "name": "Sahîh-i Buhârî (الجامع المسند الصحيح)",
+  "author": "Ebû Abdillâh Muhammed b. İsmâîl el-Buhârî (r.a.)",
+  "hadiths": [
+    {
+      "collection": "bukhari",
+      "book_number": 1,
+      "book_name_tr": "Bed'ü'l-Vahy (Vahyin Başlangıcı)",
+      "book_name_ar": "بدء الوحي",
+      "hadith_number": 1,
+      "narrator": "Hz. Ömer b. el-Hattâb (r.a.)",
+      "arabic_text": "إِنَّمَا الْأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى، فَمَنْ كَانَتْ هِجْرَتُهُ إِلَى دُنْيَا يُصِيبُهَا أَوْ إِلَى امْرَأَةٍ يَنْكِحُهَا فَهِجْرَتُهُ إِلَى مَا هَاجَرَ إِلَيْهِ.",
+      "translation_tr": "Ameller ancak niyetlere göredir ve her fert için niyet ettiği ne ise ancak o vardır. Artık kimin hicreti elde edeceği bir dünyalık veya evleneceği bir kadından ötürü ise, onun hicreti hicret ettiği şeye aittir.",
+      "translation_en": "Actions are judged by motives, so each man will have what he intended. Thus, he whose migration was for the world he must reach, or a woman he must marry, his migration is to what he migrated to.",
+      "related_surahs": [1, 2, 9],
+      "related_verses": ["1:5", "2:207", "9:100"],
+      "keywords": ["niyet", "hicret", "ihlas", "amel", "kulluk"]
+    },
+    {
+      "collection": "bukhari",
+      "book_number": 1,
+      "book_name_tr": "Bed'ü'l-Vahy (Vahyin Başlangıcı)",
+      "book_name_ar": "بدء الوحي",
+      "hadith_number": 3,
+      "narrator": "Hz. Âişe (r. anhâ)",
+      "arabic_text": "فَرَجَعَ بِهَا رَسُولُ اللَّهِ صلى الله عليه وسلم يَرْجُفُ فُؤَادُهُ فَدَخَلَ عَلَى خَدِيجَةَ فَقَالَ: زَمِّلُونِي زَمِّلُونِي! فَزَمَّلُوهُ حَتَّى ذَهَبَ عَنْهُ الرَّوْعُ، ثُمَّ قَالَ: يَا خَدِيجَةُ مَا لِي؟ وَأَخْبَرَهَا الْخَبَرَ.",
+      "translation_tr": "Resûlullah (s.a.v.) Hira mağarasındaki ilk vahyin ardından yüreği titreyerek Hz. Hatice'nin yanına döndü ve 'Beni örtün, beni örtün!' buyurdu. Korkusu geçinceye kadar örttüler. Sonra olup biteni Hatice'ye anlattı.",
+      "translation_en": "Allah's Messenger returned with the Revelation, his heart beating severely. Then he came to Khadija bint Khuwailid and said: Cover me! Cover me! They covered him until his fear was over.",
+      "related_surahs": [96, 73, 74],
+      "related_verses": ["96:1", "96:2", "73:1", "74:1"],
+      "keywords": ["ilk vahiy", "hira", "ikra", "hatice", "korku", "örtü"]
+    },
+    {
+      "collection": "bukhari",
+      "book_number": 2,
+      "book_name_tr": "Kitâbü'l-Îmân (İman Kitabı)",
+      "book_name_ar": "كتاب الإيمان",
+      "hadith_number": 8,
+      "narrator": "Abdullah b. Ömer (r.a.)",
+      "arabic_text": "بُنِيَ الإِسْلاَمُ عَلَى خَمْسٍ: شَهَادَةِ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَنَّ مُحَمَّدًا رَسُولُ اللَّهِ، وَإِقَامِ الصَّلاَةِ، وَإِيتَاءِ الزَّكَاةِ، وَالحَجِّ، وَصَوْمِ رَمَضَانَ.",
+      "translation_tr": "İslâm beş temel esas üzerine bina kılınmıştır: Allah'tan başka ilah olmadığına ve Muhammed'in O'nun kulu ve elçisi olduğuna şehadet etmek, namazı dosdoğru kılmak, zekâtı vermek, Beytullah'ı haccetmek ve Ramazan orucunu tutmak.",
+      "translation_en": "Islam is based on five principles: To testify that none has the right to be worshipped but Allah and Muhammad is Allah's Messenger, to offer prayers, to pay Zakat, to perform Hajj, and to observe fast during Ramadan.",
+      "related_surahs": [2, 3, 22],
+      "related_verses": ["2:3", "2:43", "2:183", "3:97"],
+      "keywords": ["islamın şartları", "şehadet", "namaz", "zekat", "hac", "oruç"]
+    },
+    {
+      "collection": "bukhari",
+      "book_number": 65,
+      "book_name_tr": "Kitâbü't-Tefsîr (Kur'an Tefsiri)",
+      "book_name_ar": "كتاب التفسير",
+      "hadith_number": 4474,
+      "narrator": "Ebû Saîd b. el-Muallâ (r.a.)",
+      "arabic_text": "قَالَ لِي رَسُولُ اللَّهِ صلى الله عليه وسلم: لَأُعَلِّمَنَّكَ أَعْظَمَ سُورَةٍ فِي الْقُرْآنِ قَبْلَ أَنْ تَخْرُجَ مِنَ الْمَسْجِدِ... قَالَ: الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ، هِيَ السَّبْعُ الْمَثَانِي وَالْقُرْآنُ الْعَظِيمُ الَّذِي أُوتِيتُهُ.",
+      "translation_tr": "Resûlullah (s.a.v.) bana buyurdu ki: Mescitten çıkmadan önce sana Kur'an'daki en büyük sureyi öğreteceğim... Buyurdu ki: 'O, el-Hamdü lillâhi Rabbi'l-âlemîn'dir (Fâtiha). O, bana verilen Seb'u'l-Mesânî (tekrarlanan yedi ayet) ve yüce Kur'an'dır.",
+      "related_surahs": [1, 15],
+      "related_verses": ["1:1", "1:2", "15:87"],
+      "keywords": ["fatiha", "seb'ul mesani", "kuranın en büyük suresi", "hamd"]
+    },
+    {
+      "collection": "bukhari",
+      "book_number": 65,
+      "book_name_tr": "Kitâbü't-Tefsîr (Âyetü'l-Kürsî)",
+      "book_name_ar": "كتاب التفسير",
+      "hadith_number": 5010,
+      "narrator": "Ebû Hüreyre (r.a.)",
+      "arabic_text": "إِذَا أَوَيْتَ إِلَى فِرَاشِكَ فَاقْرَأْ آيَةَ الْكُرْسِيِّ: {اللَّهُ لاَ إِلَهَ إِلاَّ هُوَ الْحَيُّ الْقَيُّومُ} حَتَّى تَخْتِمَ الآيَةَ، فَإِنَّكَ لَنْ يَزَالَ عَلَيْكَ مِنَ اللَّهِ حَافِظٌ، وَلاَ يَقْرَبَنَّكَ شَيْطَانٌ حَتَّى تُصْبِحَ.",
+      "translation_tr": "Yatağına yattığın vakit Âyetü'l-Kürsî'yi sonuna kadar oku. Şüphesiz Allah tarafından senin üzerine sürekli koruyucu bir muhafız verilir ve sabaha kadar şeytan sana asla yaklaşamaz.",
+      "related_surahs": [2],
+      "related_verses": ["2:255"],
+      "keywords": ["ayetel kursi", "koruma", "şeytandan sığınma", "muhafız", "hayy kayyum"]
+    },
+    {
+      "collection": "bukhari",
+      "book_number": 66,
+      "book_name_tr": "Fedâilü'l-Kur'ân (İhlâs Suresi Fazileti)",
+      "book_name_ar": "فضائل القرآن",
+      "hadith_number": 5013,
+      "narrator": "Ebû Saîd el-Hudrî (r.a.)",
+      "arabic_text": "أَنَّ رَجُلاً سَمِعَ رَجُلاً يَقْرَأُ: {قُلْ هُوَ اللَّهُ أَحَدٌ} يُرَدِّدُهَا... فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم: وَالَّذِي نَفْسِي بِيَدِهِ إِنَّهَا لَتَعْدِلُ ثُلُثَ الْقُرْآنِ.",
+      "translation_tr": "Bir kimse bir başkasının sürekli 'Kul hüvallâhü ehad' (İhlâs) suresini tekrar ettiğini duydu... Resûlullah (s.a.v.) buyurdu ki: Nefsim kudret elinde olan Allah'a yemin ederim ki, o sure muhakkak Kur'an'ın üçte birine denktir.",
+      "related_surahs": [112],
+      "related_verses": ["112:1", "112:2", "112:3", "112:4"],
+      "keywords": ["ihlas", "kuranın üçte biri", "tevhid", "ahad", "samed"]
+    },
+    {
+      "collection": "bukhari",
+      "book_number": 66,
+      "book_name_tr": "Fedâilü'l-Kur'ân (Muavvizeteyn)",
+      "book_name_ar": "فضائل القرآن",
+      "hadith_number": 5017,
+      "narrator": "Hz. Âişe (r. anhâ)",
+      "arabic_text": "كَانَ إِذَا اشْتَكَى يَقْرَأُ عَلَى نَفْسِهِ بِالْمُعَوِّذَاتِ وَيَنْفُثُ، فَلَمَّا اشْتَدَّ وَجَعُهُ كُنْتُ أَقْرَأُ عَلَيْهِ وَأَمْسَحُ بِيَدِهِ رَجَاءَ بَرَكَتِهَا.",
+      "translation_tr": "Resûlullah (s.a.v.) bir rahatsızlığı olduğunda Muavvizât'ı (İhlâs, Felak ve Nâs) okur ve kendi üzerine üflerdi. Hastalığı ağırlaştığında ise ben o sureleri okur, bereketi ümidiyle kendi mübarek eliyle vücudunu meshederdim.",
+      "related_surahs": [112, 113, 114],
+      "related_verses": ["113:1", "114:1"],
+      "keywords": ["felak", "nas", "şifa", "muavvizeteyn", "nefes", "üfleme"]
+    }
+  ]
+}
